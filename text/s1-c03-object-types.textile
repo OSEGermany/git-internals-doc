@@ -34,7 +34,7 @@ Directories in Git basically correspond to *trees*.
 
 !vector/Trees.eps(Trees are pointers to blobs and other trees)!
 
-A tree is a simple list of trees and blobs that the tree contains, along with the names and modes of those trees and blobs.  The contents section of a tree object consists of a very simple text file that lists the _mode_, _type_, _name_ and _sha_ of each entry.
+A tree is a simple list of trees and blobs that the tree contains, along with the names and modes of those trees and blobs.  The contents of a tree object file is a list of entries in a compact, binary format (@git cat-file tree <sha>@), which simply consists of _mode_, _type_, _name_ and _sha_ for each entry. You can see it in a clear-text, human-readable form with @git cat-file -p <sha>@, which shows _mode_, _type_, _sha_ and _name_ for each entry (same fields, different order).
 
 !vector/Tree_Expand.eps(An uncompressed tree)!
 
