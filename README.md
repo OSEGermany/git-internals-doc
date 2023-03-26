@@ -8,7 +8,7 @@ and published at PeepCode (now a part of Pluralsight).
 
 Scott and [Pluralsight](http://pluralsight.com/training)
 have generously open sourced it
-under the Creative Commons Attribution-ShareAlike license.
+under the Creative Commons Attribution-ShareAlike 3.0 license.
 
 [![Pluralsight](
     http://s.pluralsight.com/mn/img/sh/logo-v2.png)](
@@ -18,7 +18,7 @@ under the Creative Commons Attribution-ShareAlike license.
 - Fork, submit pull requests, etc.
 
 LICENSE:
-Creative Commons [Attribution-ShareAlike](
+Creative Commons [Attribution-ShareAlike 3.0](
     http://creativecommons.org/licenses/by-sa/3.0/).
 
 [Download the rendered PDF]:
