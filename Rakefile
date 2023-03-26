@@ -3,7 +3,7 @@ $: << 'vendor/isolate-3.2.2/lib/'
 
 require 'rubygems'
 require 'isolate/now'
-require 'RedCloth'
+require 'redcloth'
 require 'erb'
 
 ##
