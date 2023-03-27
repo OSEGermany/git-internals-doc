@@ -1,3 +1,13 @@
+<!--
+SPDX-FileCopyrightText: 2008 Geoffrey Grosenbach <boss@topfunky.com>
+SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+SPDX-FileCopyrightText: 2023 Ezra Citron <93603564+ezra-oodle@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+SPDX-FileCopyrightText: 2023 gilch <gilch@users.noreply.github.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h2. Branching and Merging
 
 Here we come to one of the real strengths of Git, cheap inline branching.  This is a feature that truly sets it apart and will likely change the way you think about developing code once you get used to it.

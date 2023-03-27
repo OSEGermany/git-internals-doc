@@ -1,3 +1,11 @@
+<!--
+SPDX-FileCopyrightText: 2008 Geoffrey Grosenbach <boss@topfunky.com>
+SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+SPDX-FileCopyrightText: 2008 Scotty <schacony@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h2. Tagging
 
 As we previously covered, creating a tag in Git is much like making a branch.  A tag in Git serves is basically a signed branch that never moves - it is simply an arbitrary string that points to a specific commit.

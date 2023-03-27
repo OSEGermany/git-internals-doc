@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h2. Searching Git
 
 Git has an easy way for searching through trees in your repository without having to check them out into your working directory to do it manually.  It is called 'git-grep' and works very much like the traditional UNIX 'grep' command, with the difference that instead of listing the files you want to search as an argument, you list the trees you want to search.  

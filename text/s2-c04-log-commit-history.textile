@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2008 Geoffrey Grosenbach <boss@topfunky.com>
+SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h2. Log - the Commit History
 
 So, now we have all this history in our Git repository.  So what?  What can we do with it?  How can we see this history?

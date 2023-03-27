@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2008 Geoffrey Grosenbach <boss@topfunky.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 !http://peepcode.com/system/previews/git-pdf/gitbook-cover.png!
 
 Many have learned the basics of using Git from the PeepCode "Git screencast":http://peepcode.com/products/git. In this PDF, Scott Chacon goes even further to explain the distributed filesystem behind the popular source code management system. 

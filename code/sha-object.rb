@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+#
+# SPDX-License-Identifier: CC-BY-SA-3.0
+
 def put_raw_object(content, type, git_obj_dir = nil)
   git_obj_dir = (ENV['GIT_DIR'], 'objects') if !git_obj_dir
   

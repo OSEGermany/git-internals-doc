@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h2. About this book
 
 It took me a pretty long time to really get Git. As I've continued to use Git more and more where I work, I've found myself trying to teach people what it is and why we use it over and over again, and the reality is that Git generally has a pretty steep learning curve compared to many other systems. I've seen case after case of developers who love Git after they finally understand it, but getting to that point is often somewhat painstaking.

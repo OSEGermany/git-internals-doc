@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+SPDX-FileCopyrightText: 2023 Richard Soderberg <rsoderberg@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h2. Stashing
 
 Stashing is a pretty simple concept that is incredibly useful and very easy to use.  If you are working on your code and you need to switch to another branch for some reason and don't want to commit your current state because it is only partially completed, you can run @git stash@, which will basically take the changes from your last commit to the current state of your working directory and store it temporarily.

@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2008 Geoffrey Grosenbach <boss@topfunky.com>
+SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h2. Normal Workflow Examples
 
 Now that we have our repository, let's go through some normal workflow examples of a single person developing.

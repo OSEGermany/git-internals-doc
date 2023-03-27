@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2008 Geoffrey Grosenbach <boss@topfunky.com>
+#
+# SPDX-License-Identifier: CC-BY-SA-3.0
+
 *.indd -crlf -diff -merge
 *.graffle -crlf -diff -merge
 *.eps -crlf -diff -merge

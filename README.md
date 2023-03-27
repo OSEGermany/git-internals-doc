@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2013 Geoffrey Grosenbach <boss@topfunky.com>
+SPDX-FileCopyrightText: 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 # Git Internals PDF
 
 This PDF explains the internal workings of the Git source code control system.

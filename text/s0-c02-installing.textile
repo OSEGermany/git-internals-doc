@@ -1,3 +1,11 @@
+<!--
+SPDX-FileCopyrightText: 2008 Geoffrey Grosenbach <boss@topfunky.com>
+SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+SPDX-FileCopyrightText: 2013 Doğan Aydın <dogan1aydin@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h1. Installing Git
 
 Before we can start playing with Git, we'll have to install it. I'll quickly cover installing Git on Linux, Mac and Windows.  I will not get into really fine detail, because others have done that much better, but I will give you an overview and links as to where to find more detailed instructions on each platform.

@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+SPDX-FileCopyrightText: 2023 Richard Soderberg <rsoderberg@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h2. The Care and Feeding of Git
 
 Git requires a bit of tender loving care from time to time.  It may seem a bit odd, but occasionally you should run a few commands on your repositories to make sure they're healthy and running as quickly as possible.

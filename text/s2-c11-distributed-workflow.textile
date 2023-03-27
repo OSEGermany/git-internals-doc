@@ -1,3 +1,12 @@
+<!--
+SPDX-FileCopyrightText: 2008 Geoffrey Grosenbach <boss@topfunky.com>
+SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+SPDX-FileCopyrightText: 2008 Scotty <schacony@gmail.com>
+SPDX-FileCopyrightText: 2023 Richard Soderberg <rsoderberg@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h2. Distributed Workflow Examples
 
 Now we've gone over most of the basic commands that you'll use on a day to day basis as a single developer.  This chapter covers some examples of what you will use in order to collaborate with other developers on a code base.

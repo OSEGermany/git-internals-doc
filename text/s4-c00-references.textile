@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+SPDX-FileCopyrightText: 2008 Scotty <schacony@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h1. References and Endnotes
 
 Here are some references that I used or that you may use to find out more about Git.

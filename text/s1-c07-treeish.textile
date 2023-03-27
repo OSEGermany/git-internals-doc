@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2008 Geoffrey Grosenbach <boss@topfunky.com>
+SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h2. The Treeish
 
 Besides branch heads, there are a number of shorthand ways to refer to particular objects in the Git data store.  These are often referred to as a _treeish_.  Any Git command that takes an object - be it a commit, tree or blob - as an argument can take one of these shorthand versions as well.

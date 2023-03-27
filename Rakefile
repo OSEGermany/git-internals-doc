@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2008 - 2013 Geoffrey Grosenbach <boss@topfunky.com>
+#
+# SPDX-License-Identifier: CC-BY-SA-3.0
 
 $: << 'vendor/isolate-3.2.2/lib/'
 

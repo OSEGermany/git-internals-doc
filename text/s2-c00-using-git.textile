@@ -1,3 +1,11 @@
+<!--
+SPDX-FileCopyrightText: 2008 Geoffrey Grosenbach <boss@topfunky.com>
+SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+SPDX-FileCopyrightText: 2008 Scotty <schacony@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h1. Using Git
 
 Now that you _hopefully_ understand what Git is designed to do at a fundamental level - how it tracks and stores content, how it stores branches and merges and tracks remote copies of the repository, let's see how to actually use it.  This next section presents some of the basic commands that you will need to know in order to use Git effectively.  

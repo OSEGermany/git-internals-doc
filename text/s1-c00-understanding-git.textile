@@ -1,3 +1,12 @@
+<!--
+SPDX-FileCopyrightText: 2008 Geoffrey Grosenbach <boss@topfunky.com>
+SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+SPDX-FileCopyrightText: 2008 Scotty <schacony@gmail.com>
+SPDX-FileCopyrightText: 2023 Richard Soderberg <rsoderberg@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h1. Understanding Git
 
 In this section, we will go over what Git was built for and how it works, hopefully laying the groundwork to properly understand what it is doing when we run the commands.

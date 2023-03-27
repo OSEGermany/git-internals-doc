@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+SPDX-FileCopyrightText: 2023 Richard Soderberg <rsoderberg@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h2. Git Diff
 
 Git has a great diff utility built in that can give you statistics or a patch file given any combination of tree objects, working directory and index.

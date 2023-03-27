@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+#
+# SPDX-License-Identifier: CC-BY-SA-3.0
+
 def write_tree(dir)
   Dir.chdir(dir) do
     tree_contents = ''

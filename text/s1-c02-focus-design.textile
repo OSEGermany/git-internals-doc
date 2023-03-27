@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2008 Geoffrey Grosenbach <boss@topfunky.com>
+SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h2. Focus and Design
 
 There are a number of areas that the developers of Git, including and especially Linus, have focused on in conceiving and building Git.  There may be a lot of things that Git is not good at, but these things are what Git is _very_ good at.

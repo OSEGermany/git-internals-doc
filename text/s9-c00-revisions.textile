@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2008 Geoffrey Grosenbach <boss@topfunky.com>
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 h1. Revisions
 
 h4. June 23, 2008

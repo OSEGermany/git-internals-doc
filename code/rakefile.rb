@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
+#
+# SPDX-License-Identifier: CC-BY-SA-3.0
+
 spec = Gem::Specification.new do |s|
     s.platform  =   Gem::Platform::RUBY
     s.name      =   "simplegit"
