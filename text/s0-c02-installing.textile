@@ -32,19 +32,17 @@ or on yum based systems, you can often run:
 
 shell. $ yum install git-core
 
-
 h2. Installing on Mac
 
-You are likely going to want to install Git without the asciidoc dependency because it is a pain to install.   Other than that, what you basically need is Curl and Expat.  With the exception of the Leopard binary OS X installer, you will also need the Developer Tools installed.  If you don't have the OS X install discs anymore, you can get the tools from the 
+You are likely going to want to install Git without the asciidoc dependency because it is a pain to install.   Other than that, what you basically need is Curl and Expat.  With the exception of the Leopard binary OS X installer, you will also need the Developer Tools installed.  If you don't have the OS X install discs anymore, you can get the tools from the
 "Apple Website":http://developer.apple.com/tools/
-
 
 h3. Mac 10.4 - Tiger
 
 There are some requirements you'll have to install before you can compile Git.  Expat can be installed roughly like this:
 
 shell. curl -O http://surfnet.dl.sourceforge.net/sourceforge/expat/expat-2.0.1.tar.gz
-tar zxvf expat-2.0.1.tar.gz 
+tar zxvf expat-2.0.1.tar.gz
 cd expat-2.0.1
 ./configure --prefix=/usr/local
 make
@@ -54,12 +52,12 @@ cd ..
 
 Then download and compile Git as per the Linux instructions.
 
-However, if you want an easier path, you can use the excellent MacPorts software.  To install MacPorts, simply follow the instructions on the 
+However, if you want an easier path, you can use the excellent MacPorts software.  To install MacPorts, simply follow the instructions on the
 "MacPorts Homepage":http://www.macports.org/, and then just run :
 
 shell. $ sudo port install git-core
 
-For an in depth tutorial on installing on 10.4, see 
+For an in depth tutorial on installing on 10.4, see
 "this article":http://blog.kineticweb.com/articles/2007/08/26/compiling-git-for-mac-os-x-10-4-10-intel
 
 note. If you hope to use Git with an existing Subversion repository, pass the @+svn@ flag to @port@. This will build Subversion and the necessary Perl interfaces for Subversion as well.
@@ -77,6 +75,4 @@ For an in-depth tutorial on installations under Leopard, see "this article":http
 h2. Windows
 
 There are two options on Windows currently, but the popular one is "MSysGit":http://code.google.com/p/msysgit/, which installs easily and can be run on the Windows command line.  Simply download the exe file from the "downloads list":http://code.google.com/p/msysgit/downloads/list, execute it and follow the on-screen instructions.
-
-
 

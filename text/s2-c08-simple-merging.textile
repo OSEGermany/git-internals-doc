@@ -38,7 +38,7 @@ ruby. rakefile-post.rb
 
 Now we add and commit that file, and we're good.
 
-shell. $ git add Rakefile 
+shell. $ git add Rakefile
 $ git commit -m 'fixed conflict'
 Created commit 47c668a: fixed conflict
 

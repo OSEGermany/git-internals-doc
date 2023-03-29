@@ -23,12 +23,12 @@ git commit -m 'my first commit'
 This will add all of your current files into your new repository and index and then create your first commit object, pointing your new @master@ branch to it.  Congratulations, you have now added your source code to Git.
 
 * "git init":http://www.kernel.org/pub/software/scm/git/docs/git-init.html
-* "git commit":http://www.kernel.org/pub/software/scm/git/docs/git-commit.html 
+* "git commit":http://www.kernel.org/pub/software/scm/git/docs/git-commit.html
 * "git add":http://www.kernel.org/pub/software/scm/git/docs/git-add.html
 
 h3. Cloning a Repository
 
-Many times you will be _cloning_ a repository, however.  This means that you are creating a complete copy of another repo, including all of its history and published branches. 
+Many times you will be _cloning_ a repository, however.  This means that you are creating a complete copy of another repo, including all of its history and published branches.
 
 note.  A clone is, for all intents and purposes, a full backup.  If the server that you cloned from has a hard disk failure or something equally catastrophic, you can basically take any of the clones and stick it back up there when the server is restored without anyone really the worse for wear.
 

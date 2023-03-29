@@ -26,7 +26,7 @@ This is the main Git configuration file.  It keeps your project specific Git opt
 Here is an example of what a config file might look like:
 
 code. config-example.txt
-       
+
 See the "git-config":http://www.kernel.org/pub/software/scm/git/docs/git-config.html docs for more information on available configuration options.
 
 h3. .git/index
@@ -47,7 +47,7 @@ code. [GIT_DIR]/objects/a5/76fac355dd17e39fd2671b010e36299f713b4d
 
 h3. .git/refs/
 
-This directory normally has three subdirectories in it - _heads_, _remotes_ and _tags_.  Each of these directories will hold files that correspond to your local branches, remote branches and tags, respectively. 
+This directory normally has three subdirectories in it - _heads_, _remotes_ and _tags_.  Each of these directories will hold files that correspond to your local branches, remote branches and tags, respectively.
 
 For example, if you create a @development@ branch, the file @.git/refs/heads/development@ will be created and will contain the SHA-1 of the commit that is the latest commit of that branch.
 

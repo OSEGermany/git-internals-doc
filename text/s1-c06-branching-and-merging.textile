@@ -12,7 +12,7 @@ h2. Branching and Merging
 
 Here we come to one of the real strengths of Git, cheap inline branching.  This is a feature that truly sets it apart and will likely change the way you think about developing code once you get used to it.
 
-When you are working on code in Git, storing trees in any state and keeping pointers to them is very simple, as we've seen.  In fact, in Git the act of creating a new branch is simply writing a file in the @.git/refs/heads@ directory that has the SHA-1 of the last commit for that branch.  
+When you are working on code in Git, storing trees in any state and keeping pointers to them is very simple, as we've seen.  In fact, in Git the act of creating a new branch is simply writing a file in the @.git/refs/heads@ directory that has the SHA-1 of the last commit for that branch.
 
 note. Creating a branch is nothing more than just writing 40 characters to a file.
 
@@ -22,7 +22,7 @@ break. x
 
 h3. Simple Case
 
-!<vector/Branches1.eps! Now, let's see how Git handles branching, fetching and merging operations abstractly. For the following illustrations, we will represent the entire tree and the commit it points to as a single object. 
+!<vector/Branches1.eps! Now, let's see how Git handles branching, fetching and merging operations abstractly. For the following illustrations, we will represent the entire tree and the commit it points to as a single object.
 
 Suppose that we work on a project for a while, then we get an idea for something that may not work out, but we want to do a quick proof-of-concept.  We create a new branch called @experiment@ off of our main branch, which is by convention called @master@.  We then switch to the new branch and create a few commits.
 
@@ -32,7 +32,7 @@ Then, our boss comes in and says we need a hot fix to production.  So we switch 
 
 !vector/Branch_Story2.eps!
 
-At this point, we show the new branch code to our co-workers and everyone likes the new changes. We decide we want to merge them back into our main branch, so we merge the changes and delete our @experiment@ branch.  
+At this point, we show the new branch code to our co-workers and everyone likes the new changes. We decide we want to merge them back into our main branch, so we merge the changes and delete our @experiment@ branch.
 
 Our history of commit objects now looks like this:
 
@@ -44,7 +44,7 @@ Now lets take a look at remotes.  Remotes are basically pointers to branches in 
 
 Lets say you clone someone's repository and make a few changes.  You would have two references, one to @origin/master@ which points to where the master branch was on the person's repository you cloned from when you did so, and a @master@ branch that points to the most recent local commit.
 
-!vector/Remote_Story1.eps! 
+!vector/Remote_Story1.eps!
 
 Now let's say you run a @fetch@. A fetch pulls all the refs and objects that you don't already have from the remote repository you specify.  By default, it is origin, but you can name your remotes anything, and you can have more than one.  Suppose we fetch from the repository that we originally cloned from and they had been doing some work.  They have now committed a few times on their master branch, but they also branched off at one point to try an idea, and they named the branch @idea@ locally, then pushed that branch.  We now have access to those changes as @origin/idea@.
 
@@ -88,18 +88,17 @@ And finally, we are left with a commit history that looks like Figure 1, rather 
 
 !vector/Rebase7_Final.eps!
 
-
 note. You should remember to only do this on local branches before you push or on repositories that nobody has fetch access to - if anyone pulls down the objects that will become abandoned during a rebase, it gets a bit frustrating.
 
 h3. Use Cases
 
-So why is this helpful, exactly?  It means that you can keep your development cycles loosely coupled.  Here is an example of a common workflow with cheap branches.  
+So why is this helpful, exactly?  It means that you can keep your development cycles loosely coupled.  Here is an example of a common workflow with cheap branches.
 
-You have a @master@ branch that is _always_ stable - you never merge anything into it that you wouldn't put into production. Then you have a @development@ branch that you merge any experimental code into before you imagine pulling it into the @master@ branch. 
+You have a @master@ branch that is _always_ stable - you never merge anything into it that you wouldn't put into production. Then you have a @development@ branch that you merge any experimental code into before you imagine pulling it into the @master@ branch.
 
 note. It's a common error to think of the @master@ branch as being equivalent to Subversion's @trunk@. However, a custom @development@ branch is much closer in practice to the Subversion @trunk@, where experimental work is done.
 
-You create a new branch each time you begin to work on a story or feature, branching it off your current @development@ branch each time, so if you get blocked and need to put it on hold, it doesn't affect anything else.  When you do get back to them, you rebase them to the current @development@ and it is just like you started from there.  Often times you merge the branch back into @development@ and delete it the same day that you created it.  
+You create a new branch each time you begin to work on a story or feature, branching it off your current @development@ branch each time, so if you get blocked and need to put it on hold, it doesn't affect anything else.  When you do get back to them, you rebase them to the current @development@ and it is just like you started from there.  Often times you merge the branch back into @development@ and delete it the same day that you created it.
 
 If you get a huge project or idea - say refactoring the entire code base to the newest version of your framework or switching database vendors or something, you create a long-term branch, continuously rebase it to keep it in line with other development, and once everything is tested and ready, merge it in with your master.
 

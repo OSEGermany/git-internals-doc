@@ -21,7 +21,7 @@ This will show you the SHA-1 of each commit, the committer and date of the commi
 
 h3. Formatting Log Output
 
-The default format takes up a lot of space though, so there are ways to limit and format this output differently.  @--pretty@ is a useful option for formatting the output in different ways. 
+The default format takes up a lot of space though, so there are ways to limit and format this output differently.  @--pretty@ is a useful option for formatting the output in different ways.
 
 For example, we can list the commit SHA-1s and the first line of the message with @--pretty=oneline@:
 

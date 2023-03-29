@@ -15,11 +15,11 @@ sidebar. c8-dist-workflow.textile
 
 h3. Cloning
 
-If you want to begin working on an existing project, you will need to get an initial version of it - copy its repository of objects and references to your machine. This is done with a clone.  Git can clone a repository over several transports, including local, HTTP, HTTPS, SSH, its own @git@ protocol, and @rsync@.  The @git@ protocol and SSH are preferred because they are more efficient and not difficult to set up.  
+If you want to begin working on an existing project, you will need to get an initial version of it - copy its repository of objects and references to your machine. This is done with a clone.  Git can clone a repository over several transports, including local, HTTP, HTTPS, SSH, its own @git@ protocol, and @rsync@.  The @git@ protocol and SSH are preferred because they are more efficient and not difficult to set up.
 
 When you clone a repository, it in essence copies all the git objects to a new directory, checks you out a single local branch named the same as the HEAD branch on the cloned repo (normally 'master'), and stores all the other branches under a remote reference by default named 'origin'.
 
-That means that if we cloned the repo in the previous examples, instead of 'story84' being a local branch you can switch to, it becomes 'origin/story84' that you have to create a local branch to pull into in order to work on (eg: @git checkout --track story84 origin/story84@)  
+That means that if we cloned the repo in the previous examples, instead of 'story84' being a local branch you can switch to, it becomes 'origin/story84' that you have to create a local branch to pull into in order to work on (eg: @git checkout --track story84 origin/story84@)
 The '--track' indicates that you may want to pull from or push to the origin of this branch later, so remember where it came from.
 
 h4. Local Clones
@@ -44,18 +44,17 @@ Once you have run one of these commands, you will have a copy of the git reposit
 
 * "git clone":http://www.kernel.org/pub/software/scm/git/docs/git-clone.html
 
-
 h3. Fetching and Pulling
 
 So let's say that we're going to hack on TicGit, our git based ticket tracking system project.  After we clone it, we look through the source code but don't do anything right away. After some time passes we come back to the project but it may not still be up to date - changes may have occurred in the meantime.  So we fetch an update.
 
 shell. $ git fetch origin
 
-This will contact the server over the same protocol we used to clone it and grab all of the objects and references that have been added since our clone and update our 'origin/[branch]' branches to point to what the server is pointing at now.  
+This will contact the server over the same protocol we used to clone it and grab all of the objects and references that have been added since our clone and update our 'origin/[branch]' branches to point to what the server is pointing at now.
 
-So, if we did create a tracking branch on 'story84' and it was changed on the server (someone pushed an update), before we fetch, our local 'story84' branch and our remote 'origin/story84' branch will be the same.  After we fetch, they will be different.  'origin/story84' will now point to one of the new commit objects we downloaded during the fetch.  
+So, if we did create a tracking branch on 'story84' and it was changed on the server (someone pushed an update), before we fetch, our local 'story84' branch and our remote 'origin/story84' branch will be the same.  After we fetch, they will be different.  'origin/story84' will now point to one of the new commit objects we downloaded during the fetch.
 
-At this point, we may want to merge 'origin/story84' into our local 'story84' branch.  That's easy enough, but if we want to do it automatically every time we fetch, we can use @git pull@, which is just a 'fetch' and then a 'merge' command.  
+At this point, we may want to merge 'origin/story84' into our local 'story84' branch.  That's easy enough, but if we want to do it automatically every time we fetch, we can use @git pull@, which is just a 'fetch' and then a 'merge' command.
 
 So, these commands are functionally equivalent:
 
@@ -65,7 +64,6 @@ shell. $ git fetch origin/story84; git merge origin/story84
 
 * "git fetch":http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html
 * "git pull":http://www.kernel.org/pub/software/scm/git/docs/git-pull.html
-
 
 h3. Pushing
 
@@ -118,7 +116,7 @@ shell. git-remote-show.txt
 
 h3. Possible Workflows
 
-The idea of having multiple remote repositories that you can push to and/or pull from is probably new to you, and many people have a hard time figuring out what their workflow should look like, especially if they are moving from a centralized SCM system.  I will present a couple of possible workflows that I have seen, so you can determine what will work best for you and your team.  
+The idea of having multiple remote repositories that you can push to and/or pull from is probably new to you, and many people have a hard time figuring out what their workflow should look like, especially if they are moving from a centralized SCM system.  I will present a couple of possible workflows that I have seen, so you can determine what will work best for you and your team.
 
 Most of these are simply a matter of convention, not even configuration.  Each of the models can pretty easily change to another with minimal configuration changes - maybe some permissions tweaked here or there.
 
@@ -128,7 +126,7 @@ There is a single repository that all developers push to and pull from.
 
 !vector/workflow-star.eps(All developers push to a single server)!
 
-This model works just like a centralized SCM and Git can work that way just fine. If you setup a repository for your team on a server that everyone has SSH or NFS access to, Git can very easily function as a centralized repository.  This may be common on small teams with non-public projects where you don't want to worry about a hierarchy - the strength of this model is that it forces everyone to stay up to date with each other and it doesn't depend on a single role. 
+This model works just like a centralized SCM and Git can work that way just fine. If you setup a repository for your team on a server that everyone has SSH or NFS access to, Git can very easily function as a centralized repository.  This may be common on small teams with non-public projects where you don't want to worry about a hierarchy - the strength of this model is that it forces everyone to stay up to date with each other and it doesn't depend on a single role.
 
 Even large teams could use this, but in general there are a lot of gains to be made in larger teams with a different or hybrid model.
 

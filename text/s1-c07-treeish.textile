@@ -9,7 +9,7 @@ h2. The Treeish
 
 Besides branch heads, there are a number of shorthand ways to refer to particular objects in the Git data store.  These are often referred to as a _treeish_.  Any Git command that takes an object - be it a commit, tree or blob - as an argument can take one of these shorthand versions as well.
 
-I will list here the most common, but please read the 
+I will list here the most common, but please read the
 "rev-parse command":http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html
 for full descriptions of all the available syntaxes.
 
@@ -21,7 +21,7 @@ You can always list out the entire SHA-1 value of the object to reference it.  T
 
 h4. Partial SHA-1
 
-code. dae86e 
+code. dae86e
 
 Just about anything you can reference with the full SHA-1 can be referenced fine with the first 6 or 7 characters.  Even though the SHA-1 is always 40 characters long, it's very uncommon for more than the first few to actually be the same.  Git is smart enough to figure out a partial SHA-1 as long as it's unique.
 
@@ -31,7 +31,7 @@ code. master
 
 Anything in _.git/refs/heads_ or _.git/refs/tags_ can be used to refer to the commit it points to.
 
-h4. Date Spec 
+h4. Date Spec
 
 code. master@{yesterday}
 master@{1 month ago}
@@ -53,7 +53,7 @@ This refers to the Nth parent of that commit.  This is only really helpful for c
 
 h4. Tilde Spec
 
-code. e65s46~5 
+code. e65s46~5
 
 The tilde character, followed by a number, refers to the Nth generation grandparent of that commit.  To clarify from the carrot, this is the equivalent commit in caret syntax:
 

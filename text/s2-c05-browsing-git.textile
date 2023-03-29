@@ -27,7 +27,7 @@ Instead of the @git show@ command, it's generally more useful to use the lower l
 
 shell. git-lstree1.txt
 
-You can also run this command recursively, so you can see all the subtrees as well.  This is a great way to get the SHA-1 of any blob anywhere in the tree without having to walk it one node at a time.  
+You can also run this command recursively, so you can see all the subtrees as well.  This is a great way to get the SHA-1 of any blob anywhere in the tree without having to walk it one node at a time.
 
 shell. git-lstree2.txt
 
@@ -67,7 +67,7 @@ When you are done, you can run the following to shut down the server:
 
 shell. $ git instaweb --stop
 
-This is a quick way to throw up a web interface on your git repository for sharing with others or simply browsing it in a different way.  
+This is a quick way to throw up a web interface on your git repository for sharing with others or simply browsing it in a different way.
 
 For a more long term web interface to your repository, you can put the gitweb Perl files that come with Git into your @cgi-bin@ directory.
 

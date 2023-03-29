@@ -14,7 +14,7 @@ h3. Over Git
 Git provides its own special protocol, which is basically just a really thin wrapper over the 'git-upload-pack' command that will tell you what is available, then you tell it what you have and it gives you a packfile of the difference.  To start it up manually, run something like the following command:
 
 shell. $ git-daemon --detach --export-all --base-path=/opt/git /opt/git/ambition
- 
+
 Though for long term running, you'll likely want to add this to your inet.d configuration.  See the "git-daemon":http://www.kernel.org/pub/software/scm/git/docs/git-daemon.html docs for specific information on how to set that up.
 
 The git protocol has no built in authentication, so generally you cannot push over it (although some people have open push policies and so allow that - I would not recommend setting that up, so you'll have to look up how to do that).  If you want your users to have push access, it's recommended to use the SSH protocol.  Many repositories, like GitHub, have SSH enabled for account owners to push over, and git-daemon enabled for the public to pull over - which is often the most efficient combination.

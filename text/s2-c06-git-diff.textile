@@ -13,7 +13,7 @@ Two common uses of this include seeing what you've worked on but not committed y
 
 h3. What has changed?
 
-If you simply run @git diff@ with no arguments, it will show you the differences between your current working directory and your index, that is, the last time you ran @git add@ on your files. 
+If you simply run @git diff@ with no arguments, it will show you the differences between your current working directory and your index, that is, the last time you ran @git add@ on your files.
 
 For example, if I add my email to the README file and run it, I will see this:
 
@@ -37,7 +37,7 @@ shell. $ git diff master..experiment > experiment.patch
 
 You can then email that file to anyone, who could apply it with the '-p1' argument:
 
-shell. $ patch -p1 < ~/experiment.patch 
+shell. $ patch -p1 < ~/experiment.patch
 patching file lib/simplegit.rb
 
 * "git diff":http://www.kernel.org/pub/software/scm/git/docs/git-diff.html

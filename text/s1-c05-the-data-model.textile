@@ -9,7 +9,7 @@ break. x
 
 h2. The Git Data Model
 
-In computer science speak, the Git object data is a _directed acyclic graph_. That is, starting at any commit you can traverse its parents in one direction and there is no chain that begins and ends with the same object. 
+In computer science speak, the Git object data is a _directed acyclic graph_. That is, starting at any commit you can traverse its parents in one direction and there is no chain that begins and ends with the same object.
 
 All commit objects point to a tree and optionally to previous commits.  All trees point to one or many blobs and/or trees.  Given this simple model, we can store and retrieve vast histories of complex trees of arbitrarily changing content quickly and efficiently.
 
@@ -45,7 +45,7 @@ When we first commit this tree, our Git model may look something like this:
 
 Now let's assume that we change the @lib/base/base_include.rb@ file and commit again.  At this point, a new blob is added, which changes the tree that points to it, which changes the tree that points to that tree and so on to the top of the entire directory.  Then a new commit object is added which points to its parent and the new tree, then the branch reference is moved forward.
 
-Let's also say at this point we tag this commit as a release, which adds a new tag object.  
+Let's also say at this point we tag this commit as a release, which adds a new tag object.
 
 At this point, we'll have the following in Git:
 

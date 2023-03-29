@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-3.0
 
 h2. A Short History of Git
 
-The Git project started with Linus Torvalds scratching the very serious itch of needing a fast, efficient and massively distributed source code management system for Linux kernel development. 
+The Git project started with Linus Torvalds scratching the very serious itch of needing a fast, efficient and massively distributed source code management system for Linux kernel development.
 
 The kernel team had moved from a patch emailing system to the proprietary BitKeeper SCM in 2002.  That ended in April 2005 when BitMover stopped providing a free version of its tool to the open source community because they felt some developers had reverse engineered it in violation of the license.
 

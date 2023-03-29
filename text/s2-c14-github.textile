@@ -7,7 +7,7 @@ SPDX-License-Identifier: CC-BY-SA-3.0
 
 h2. Hosted Repositories
 
-If you don't want to deal with setting up and maintaining your own server for your git repository, you can use one of the growing number of public Git hosted servers.  
+If you don't want to deal with setting up and maintaining your own server for your git repository, you can use one of the growing number of public Git hosted servers.
 
 I will focus on some interesting features of a commercial service called "GitHub":http://github.com here, but there is also an open source project called "Gitorious":http://gitorious.com that has many of the same features.
 
@@ -23,7 +23,7 @@ You can follow friends, other developers, or just individual projects.  You then
 
 !bitmap/github1.png(Custom GitHub home page with your projects)!
 
-More interestingly, you can publicly fork a project to get your own copy of it.  GitHub is unique in concept in that it is really centered around individuals rather than projects.  For instance, if you want to follow or work on Merb, you would follow or fork wycats's Merb. There is really no _official_ Merb page in GitHub.  It's simply that wycats is known to be the blessed repository by the Merb project.  
+More interestingly, you can publicly fork a project to get your own copy of it.  GitHub is unique in concept in that it is really centered around individuals rather than projects.  For instance, if you want to follow or work on Merb, you would follow or fork wycats's Merb. There is really no _official_ Merb page in GitHub.  It's simply that wycats is known to be the blessed repository by the Merb project.
 
 note. In fact, Rails itself has recently been "forked":http://github.com/ezmobius/rails/tree/master and significantly enhanced by Ezra Zygmuntowicz. In other contexts this would be a bold divisive gesture, but with Git it's common practice.
 

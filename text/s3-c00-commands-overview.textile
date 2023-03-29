@@ -33,7 +33,7 @@ h3. "git rm":http://www.kernel.org/pub/software/scm/git/docs/git-rm.html
 
 Removes files from your index and your working directory so they will stopped being tracked.
 
-h3. "git commit":http://www.kernel.org/pub/software/scm/git/docs/git-commit.html 
+h3. "git commit":http://www.kernel.org/pub/software/scm/git/docs/git-commit.html
 
 Takes all of the changes staged in the index (that have been @git add@ed),  creates a new commit object pointing to it, and advances the branch to point to that new commit.
 
@@ -85,7 +85,6 @@ h3. "git remote":http://www.kernel.org/pub/software/scm/git/docs/git-remote.html
 
 Lists all the remote versions of your repository, or can be used to add and delete them.
 
-
 h2. Inspecting Repositories
 
 h3. "git log":http://www.kernel.org/pub/software/scm/git/docs/git-log.html
@@ -119,7 +118,6 @@ Graphical Tcl/Tk based interface to a local Git repository.
 h3. "git instaweb":http://www.kernel.org/pub/software/scm/git/docs/git-instaweb.html
 
 Wrapper script to quickly run a web server with an interface into your repository and automatically directs a web browser to it.
-
 
 h2. Extra Tools
 

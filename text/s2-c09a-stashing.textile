@@ -29,7 +29,7 @@ And finally, I can apply it:
 
 shell. stash-apply.txt
 
-Now we can see that our working directory is back to where it was, with one file in an unstaged state.  Now I would have to @git add@ and @git commit@ it if I wanted to keep the change. 
+Now we can see that our working directory is back to where it was, with one file in an unstaged state.  Now I would have to @git add@ and @git commit@ it if I wanted to keep the change.
 
 Normally it's not even this complicated.  If you run @git stash apply@ without the actual stash reference, it will just apply the last stash you saved on that branch.  Normally I will just use @git stash@ to save something, go work elsewhere, then come back and run @git stash apply@ to get back to where I was.
 
