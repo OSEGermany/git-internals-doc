@@ -6,7 +6,7 @@ Update>> 1
            staged     unstaged path
 * 1:    unchanged        +5/-0 Rakefile
   2:    unchanged        +4/-0 lib/simplegit.rb
-Update>> 
+Update>>
 updated one path
 
 *** Commands ***

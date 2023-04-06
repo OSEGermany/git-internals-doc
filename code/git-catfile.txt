@@ -4,7 +4,7 @@ $ git cat-file -p ae850bd698b2b5dfbac
 100644 blob 7e92ed361869246dc76    simplegit.rb
 $ git cat-file -t 569b350811
 blob
-$ git cat-file -p 569b350811 
+$ git cat-file -p 569b350811
 SimpleGit Ruby Library
 ======================
 

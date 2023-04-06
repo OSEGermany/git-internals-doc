@@ -2,7 +2,7 @@ What now> 4
   1: TODO
 Add untracked>> 1
 * 1: TODO
-Add untracked>> 
+Add untracked>>
 added one path
 
 *** Commands ***
