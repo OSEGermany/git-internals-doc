@@ -1,5 +1,0 @@
-# SPDX-FileCopyrightText: 2013 Geoffrey Grosenbach <boss@topfunky.com>
-#
-# SPDX-License-Identifier: CC-BY-SA-3.0
-
-gem "RedCloth", "3.0.4"

@@ -35,9 +35,3 @@ License: CC-BY-SA-3.0
 Files: movies/**.txt
 Copyright: 2008 Scott Chacon <schacon@gmail.com>
 License: CC-BY-SA-3.0
-
-Files: vendor/isolate-3.2.2/**
-Copyright:
-    2009-2010 John Barnette <john@jbarnette.com>
-    2011-2010 Ryan Davis <ryand-ruby@zenspider.com>
-License: MIT
