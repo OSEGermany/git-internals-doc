@@ -21,6 +21,10 @@ Files: artwork/vector/**.eps
 Copyright: 2008 Geoffrey Grosenbach <boss@topfunky.com>
 License: CC-BY-SA-3.0
 
+Files: artwork/vector/**.svg
+Copyright: 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+License: CC-BY-SA-3.0
+
 Files: artwork/**.graffle
 Copyright:
     2008 Geoffrey Grosenbach <boss@topfunky.com>
