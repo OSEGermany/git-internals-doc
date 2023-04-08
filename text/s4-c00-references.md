@@ -5,40 +5,39 @@ SPDX-FileCopyrightText: 2008 Scotty <schacony@gmail.com>
 SPDX-License-Identifier: CC-BY-SA-3.0
 -->
 
-h1. References and Endnotes
+# References and Endnotes
 
 Here are some references that I used or that you may use to find out more about Git.
 
-The example git repository that I was working with throughout this book can be cloned from its
-"GitHub repository":http://github.com/schacon/simplegit
+The example git repository that I was working with throughout this book can be cloned from its\
+[GitHub repository](http://github.com/schacon/simplegit)
 
-For anything you cannot find in this book or these references, be sure to ask the fantastic people hanging out at the
+For anything you cannot find in this book or these references, be sure to ask the fantastic people hanging out at the\
 '#git' channel on irc.freenode.net
 
-h2. Web Documentation
+## Web Documentation
 
-"Main Git Documentation":http://www.kernel.org/pub/software/scm/git/docs/
+[Main Git Documentation](http://www.kernel.org/pub/software/scm/git/docs/)\
 - fantastic reference for all the command line programs
 
-"Git User's Manual":http://www.kernel.org/pub/software/scm/git/docs/user-manual.html
+[Git User's Manual](http://www.kernel.org/pub/software/scm/git/docs/user-manual.html)
 
-"Git for Computer Scientists":http://eagain.net/articles/git-for-computer-scientists/
+[Git for Computer Scientists](http://eagain.net/articles/git-for-computer-scientists/)\
 - good detail about the DAG object model
 
-"A Tutorial Introduction to Git":http://www.kernel.org/pub/software/scm/git/docs/tutorial.html
+[A Tutorial Introduction to Git](http://www.kernel.org/pub/software/scm/git/docs/tutorial.html)
 
-"Git Rebase Explained":http://wincent.com/knowledge-base/Git_rebase_explained
+[Git Rebase Explained](http://wincent.com/knowledge-base/Git_rebase_explained)
 
-"A Tour of Git, the Basics":http://cworth.org/hgbook-git/tour/
+[A Tour of Git, the Basics](http://cworth.org/hgbook-git/tour/)
 
-"Junio Hamano New Git Maintainer":http://kerneltrap.org/node/5496
+[Junio Hamano New Git Maintainer](http://kerneltrap.org/node/5496)\
 - some history on git and Junio becoming the new maintainer
 
-h2. Screencasts
+## Screencasts
 
-"Git Peepcode Screencast":http://peepcode.com/products/git
+[Git Peepcode Screencast](http://peepcode.com/products/git)
 
-"RailsCasts Git Screencast":http://railscasts.com/episodes/96
+[RailsCasts Git Screencast](http://railscasts.com/episodes/96)
 
-"Using Git to Manage and Deploy Rails Apps":http://www.jointheconversation.org/railsgit
-
+[Using Git to Manage and Deploy Rails Apps](http://www.jointheconversation.org/railsgit)

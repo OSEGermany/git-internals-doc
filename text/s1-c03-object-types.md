@@ -6,72 +6,66 @@ SPDX-FileCopyrightText: 2023 Robin Vobruba <hoijui.quaero@gmail.com>
 SPDX-License-Identifier: CC-BY-SA-3.0
 -->
 
-h2. Git Object Types
+## Git Object Types
 
-Git _objects_ are the actual data of Git, the main thing that the repository is made up of.  There are four main object types in Git, the first three being the most important to really understand the main functions of Git.
+Git *objects* are the actual data of Git, the main thing that the repository is made up of. There are four main object types in Git, the first three being the most important to really understand the main functions of Git.
 
-All of these types of objects are stored in the Git *Object Database*, which is kept in the *Git Directory*.  Each object is compressed (with Zlib) and referenced by the SHA-1 value of its contents plus a small header.  In the examples, I will use the first 6 characters of the SHA-1 for simplicity, but the actual value is 40 characters long.
+All of these types of objects are stored in the Git **Object Database**, which is kept in the **Git Directory**. Each object is compressed (with Zlib) and referenced by the SHA-1 value of its contents plus a small header. In the examples, I will use the first 6 characters of the SHA-1 for simplicity, but the actual value is 40 characters long.
 
-note. SHA stands for Secure Hash Algorithm. A SHA creates an identifier of fixed length that uniquely identifies a specific piece of content. SHA-1 succeeded SHA-0 and is the most commonly used algorithm. "Wikipedia":http://en.wikipedia.org/wiki/SHA1 has more on the topic.
+> **NOTE** \
+SHA stands for Secure Hash Algorithm. A SHA creates an identifier of fixed length that uniquely identifies a specific piece of content. SHA-1 succeeded SHA-0 and is the most commonly used algorithm. [Wikipedia](http://en.wikipedia.org/wiki/SHA1) has more on the topic.
 
-To demonstrate these examples, we will develop a small ruby library that provides very simple bindings to Git, keeping the project in a Git repository.  The basic layout of the project is this:
+To demonstrate these examples, we will develop a small ruby library that provides very simple bindings to Git, keeping the project in a Git repository. The basic layout of the project is this:
 
-!vector/Layout.eps(Sample project with files and directories)!
+![Sample project with files and directories](../artwork/vector/Layout.eps)
 
 Let's take a look at what Git does when this is committed to a repository.
 
-break. x
+### The Blob
 
-h3. The Blob
+In Git, the contents of files are stored as **blobs**.
 
-In Git, the contents of files are stored as *blobs*.
+![Files are stored as blobs](../artwork/vector/Blobs.eps)
 
-!vector/Blobs.eps(Files are stored as blobs)!
+It is important to note that it is the *contents* that are stored, not the files. The names and modes of the files are not stored with the blob, just the contents.
 
-It is important to note that it is the _contents_ that are stored, not the files.  The names and modes of the files are not stored with the blob, just the contents.
+This means that if you have two files anywhere in your project that are exactly the same, even if they have different names, Git will only store the blob once. This also means that during repository transfers, such as clones or fetches, Git will only transfer the blob once, then expand it out into multiple files upon checkout.
 
-This means that if you have two files anywhere in your project that are exactly the same, even if they have different names, Git will only store the blob once.  This also means that during repository transfers, such as clones or fetches, Git will only transfer the blob once, then expand it out into multiple files upon checkout.
+![The contents of a blob, uncompressed](../artwork/vector/Blob_Expand.eps)
 
-!vector/Blob_Expand.eps(The contents of a blob, uncompressed)!
+### The Tree
 
-break. x
+Directories in Git basically correspond to **trees**.
 
-h3. The Tree
+![Trees are pointers to blobs and other trees](../artwork/vector/Trees.eps)
 
-Directories in Git basically correspond to *trees*.
+A tree is a simple list of trees and blobs that the tree contains, along with the names and modes of those trees and blobs. The contents of a tree object file is a list of entries in a compact, binary format (`git cat-file tree <sha>`), which simply consists of *mode*, *type*, *name* and *sha* for each entry. You can see it in a clear-text, human-readable form with `git cat-file -p <sha>`, which shows *mode*, *type*, *sha* and *name* for each entry (same fields, different order).
 
-!vector/Trees.eps(Trees are pointers to blobs and other trees)!
+![An uncompressed tree](../artwork/vector/Tree_Expand.eps)
 
-A tree is a simple list of trees and blobs that the tree contains, along with the names and modes of those trees and blobs.  The contents of a tree object file is a list of entries in a compact, binary format (@git cat-file tree <sha>@), which simply consists of _mode_, _type_, _name_ and _sha_ for each entry. You can see it in a clear-text, human-readable form with @git cat-file -p <sha>@, which shows _mode_, _type_, _sha_ and _name_ for each entry (same fields, different order).
+### The Commit
 
-!vector/Tree_Expand.eps(An uncompressed tree)!
+So, now that we can store arbitrary trees of content in Git, where does the 'history' part of 'tree history storage system' come in? The answer is the **commit** object.
 
-break. x
+![A commit references a tree](../artwork/vector/Commit.eps)
 
-h3. The Commit
+The commit is very simple, much like the tree. It simply points to a tree and keeps an *author*, *committer*, *message* and any *parent* commits that directly preceded it.
 
-So, now that we can store arbitrary trees of content in Git, where does the 'history' part of 'tree history storage system' come in?  The answer is the *commit* object.
+![Uncompressed initial commit](../artwork/vector/Commit_Expand.eps)
 
-!vector/Commit.eps(A commit references a tree)!
+Since this was my first commit, there are no parents. If I commit a second time, the commit object will look more like this:
 
-The commit is very simple, much like the tree.  It simply points to a tree and keeps an _author_, _committer_, _message_ and any _parent_ commits that directly preceded it.
+![A commit with a parent](../artwork/vector/Commit_Expand2.eps)
 
-!vector/Commit_Expand.eps(Uncompressed initial commit)!
+Notice how the *parent* in that commit is the same SHA-1 value of the last commit we did? Most times a commit will only have a single parent like that, but if you merge two branches, the next commit will point to both of them.
 
-Since this was my first commit, there are no parents.  If I commit a second time, the commit object will look more like this:
+> **NOTE** \
+The current record for number of commit parents in the Linux kernel is 12 branches merged in a single commit!
 
-!vector/Commit_Expand2.eps(A commit with a parent)!
+### The Tag
 
-Notice how the _parent_ in that commit is the same SHA-1 value of the last commit we did?  Most times a commit will only have a single parent like that, but if you merge two branches, the next commit will point to both of them.
+The final type of object you will find in a Git database is the **tag**. This is an object that provides a permanent shorthand name for a particular commit. It contains an *object*, *type*, *tag*, *tagger* and a *message*. Normally the *type* is `commit` and the *object* is the SHA-1 of the commit you're tagging. The tag can also be GPG signed, providing cryptographic integrity to a release or version.
 
-note. The current record for number of commit parents in the Linux kernel is 12 branches merged in a single commit!
+![Uncompressed tag](../artwork/vector/Tag_Expand.eps)
 
-break. x
-
-h3. The Tag
-
-The final type of object you will find in a Git database is the *tag*.  This is an object that provides a permanent shorthand name for a particular commit.  It contains an _object_, _type_, _tag_, _tagger_ and a _message_. Normally the _type_ is @commit@ and the _object_ is the SHA-1 of the commit you're tagging.  The tag can also be GPG signed, providing cryptographic integrity to a release or version.
-
-!vector/Tag_Expand.eps(Uncompressed tag)!
-
-We'll talk a little bit more about tags and how they differ from _branches_ (which also point to commits, but are not stored as objects) in the next section, where we'll pull all of this together into how all these objects relate to each other conceptually.
+We'll talk a little bit more about tags and how they differ from *branches* (which also point to commits, but are not stored as objects) in the next section, where we'll pull all of this together into how all these objects relate to each other conceptually.
