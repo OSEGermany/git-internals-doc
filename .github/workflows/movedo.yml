@@ -1,0 +1,73 @@
+# SPDX-FileCopyrightText: 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: Unlicense
+
+name: movedo
+
+on:
+  push:
+    branches: [ master, main, develop, markdown ]
+    # Allows you to run this workflow manually from the Actions tab
+    workflow_dispatch:
+  release:
+    types: [ published ]
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Compile
+    runs-on: ubuntu-latest
+    container: hoijui/movedo:latest
+    steps:
+      - name: "Check out the repo"
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+          # This makes sure we also get tags,
+          # so we get the correct version; see bug:
+          # https://github.com/actions/checkout/issues/701
+          fetch-depth: 0
+
+      - name: "Fix git repo rights"
+        run: git config --global --add safe.directory /__w/git-internals-doc/git-internals-doc
+
+      - name: Fix checkout ownership
+        run: |
+          # HACK Workaround for bug:
+          # https://github.com/actions/runner/issues/2033
+          mkdir -p /home/runner/work/_temp/_github_home
+          printf "[safe]\n\tdirectory = /github/workspace" \
+            > /home/runner/work/_temp/_github_home/.gitconfig
+
+      - name: "Build with MoVeDo"
+        run: |
+          mvd install_pdsite
+          export PATH="$PATH:$HOME/.pdsite/bin"
+          mvd build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: "build/"
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
