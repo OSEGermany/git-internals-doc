@@ -1,0 +1,288 @@
+#!/usr/bin/env bash
+# SPDX-FileCopyrightText: 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+# SPDX-License-Identifier: AGPL-3.0-only
+#
+# See the output of "$0 -h" for details.
+
+# Exit immediately on each error and unset variable;
+# see: https://vaneyckt.io/posts/safer_bash_scripts_with_set_euxo_pipefail/
+set -Eeuo pipefail
+#set -Eeu
+
+script_path="$(readlink -f "${BASH_SOURCE[0]}")"
+#script_dir="$(dirname "$script_path")"
+script_name="$(basename "$script_path")"
+
+remove_and_commit=false
+
+function print_help() {
+
+	echo -e "$script_name -"
+	echo "Converts the *.textile files in this repo to *.md (Markdown) ones."
+	echo
+	echo "Usage:"
+	echo "  $script_name [OPTION...]"
+	echo "Options:"
+	echo "  -h, --help              Print this usage help and exits."
+	echo "  --remove-and-commit     Additionally cleans up and creates a commit in the end."
+	echo "Examples:"
+	echo "  $script_name --help"
+	echo "  $script_name"
+}
+
+function exit_if_git_unclean() {
+    if [ -z "$(git status --porcelain)" ]
+    then
+        echo "INFO: Git working directory is clean, continuing ..."
+    else
+        >&2 echo "ERROR: Git working directory is *NOT* clean, aborting."
+        >&2 echo "ERROR: Please check the output of 'git status'."
+        exit 1
+    fi
+}
+
+# read command-line args
+POSITIONAL=()
+while [[ $# -gt 0 ]]
+do
+	arg="$1"
+	shift # $2 -> $1, $3 -> $2, ...
+
+	case "$arg" in
+		-h|--help)
+			print_help
+			exit 0
+			;;
+		--remove-and-commit)
+			remove_and_commit=true
+			;;
+		*) # non-/unknown option
+			POSITIONAL+=("$arg") # save it in an array for later
+			;;
+	esac
+done
+set -- "${POSITIONAL[@]}" # restore positional parameters
+
+if [ "$(find . -name "*.textile" | wc -l)" -eq 0 ]
+then
+        >&2 echo "WARNING: There are no '*.textile' left -> Nothing left to do; exiting!"
+        exit 2
+fi
+
+exit_if_git_unclean
+
+# while read -r movie
+# do
+#     md="${movie%.txt}.md"
+#     tmp="${movie%.txt}.tmp.md"
+#     sed \
+#         -e 's|\[[^]]\+\]||g' \
+#         -e 's|{[^}]\+}||g' \
+#         < "$movie" \
+#         > "$tmp"
+#         # -e '/^$/d' \
+
+#     {
+#         echo "<!--"
+# REUSE-IgnoreStart
+#         echo "SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>"
+#         echo "SPDX-FileCopyrightText: 2023 Robin Vobruba <hoijui.quaero@gmail.com>"
+#         echo
+#         echo "SPDX-License-Identifier: CC-BY-SA-3.0"
+# REUSE-IgnoreEnd
+#         echo "-->"
+#         cat -s "$tmp"
+#     } > "$md"
+#     rm "$tmp"
+#     echo meld "$movie" "$md"
+# done < <(find movies -name "*.txt")
+
+# exit 0
+
+while read -r txtl
+do
+    txtl_tmp="${txtl%.textile}.tmp.textile"
+    md="${txtl%.textile}.md"
+    md_tmp="${txtl%.textile}.tmp.md"
+
+    # For debugging
+    #echo meld "$txtl" "$md"
+
+    sed \
+        -e 's@^\(shell\|ruby\|code\)\. \([^ ]\+\.\(txt\|rb\)\)$@<!--CODE_INCLUDE \1 \2 CODE_INCLUDE-->@' \
+        < "$txtl" \
+        | tr '\n' '\f' \
+        | sed \
+            -e 's|\f\f|\r|g' \
+            -e 's@\r\(shell\|ruby\|code\)\. \([^\r]\+\)@\r<!--CODE \1\f\2\fCODE-->@g' \
+            -e 's|\rnote\.\( \)\([^\r]*\)|\rNOTE \2\f|g' \
+            -e 's|\rbreak\. x||g' \
+            -e 's|\r|\f\f|g' \
+        | tr '\f' '\n' \
+        > "$txtl_tmp"
+
+    pandoc \
+        --wrap=preserve \
+        -o "$md_tmp" \
+        "$txtl_tmp"
+    rm "$txtl_tmp"
+
+    sed \
+        -i \
+        -z \
+        -e 's/```{=html}\n<!--/<!--/g' \
+        -e 's/-->\n```/-->\n/g' \
+        -e 's/--CODE code/--CODE /g' \
+        -e 's/<!--CODE /```/g' \
+        -e 's/CODE-->/```/g' \
+        -e 's/NOTE /> **NOTE** \\\n/g' \
+        -e 's/-   \(.\)/- \1/g' \
+        -e 's@\](\(bitmap\|vector\|s1\|s2\)/@](../artwork/\1/@g' \
+        -e 's@\(../artwork/[^ ]\+\) [^)]\+)@\1)@g' \
+        "$md_tmp"
+
+    awk '
+            /^<!--CODE_INCLUDE [^ ]* [^ ]+ CODE_INCLUDE-->$/ {
+                lang = $2
+                sub(/code/, "", lang)
+                incl_file = "code/" $3
+                print("```" lang)
+                while (getline < incl_file) {
+                    print
+                }
+                print("```")
+                next
+            }
+            /^sidebar\. [^ ]+\.textile$/ {
+                incl_file = "sidebars/" $2
+                sub(/\.textile$/, ".md", incl_file)
+                print("<!-- SIDEBAR")
+                print("---")
+                sb_line = 0
+                while (getline < incl_file) {
+                    sb_line = sb_line + 1
+                    if (sb_line > 6) {
+                        print
+                    }
+                }
+                print("\n---")
+                print("SIDEBAR -->")
+                next
+            }
+            {
+                print
+            }
+        ' \
+        < "$md_tmp" \
+        > "$md"
+    rm "$md_tmp"
+
+    echo "done. (with '$md')"
+done < <(find sidebars/ -name "*.textile" && find text/ -name "*.textile")
+
+# Writes the global Markdown meta-data file for MoVeDo
+# REUSE-IgnoreStart
+cat <<EOF > "doc.yml"
+# SPDX-FileCopyrightText: 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: CC-BY-SA-3.0
+
+---
+# See `man pandoc | grep "Metadata variables"`
+title: |
+  ![](artwork/vector/title.svg){width=16cm}
+#
+#  Git Internals
+# The \`\${KEY}\` placeholders are supplied their final value by MoVeDo
+subtitle: |
+  *version:* [\${PROJECT_VERSION}](\${PROJECT_VERSION_URL})
+#  **Source code control and beyond**
+#
+version: "\${PROJECT_VERSION}"
+date: "\${PROJECT_VERSION_DATE}"
+#author: Scott Chacon & **the community**
+lang: en-US
+charset: UTF-8
+abstract: |
+  This document explains the internal workings
+  of the Git source code control system.
+
+  It was originally written by [Scott Chacon](https://github.com/schacon)
+  and published at PeepCode (now a part of Pluralsight).
+
+  Scott and [Pluralsight](http://pluralsight.com/training)
+  have generously open sourced it.
+  It is now maintained by the community - including you!
+license: CC-BY-SA-3.0
+keywords:
+  - git
+  - version control
+subject: Learning about Git
+category: User-Guide
+papersize: a4
+geometry: "top=2cm,bottom=2cm,left=3cm,right=3cm"
+description: >
+  This document explains the internal workings
+  of the Git source code control system.
+---
+
+EOF
+# REUSE-IgnoreEnd
+
+# Writes the PD-Site config file,
+# which allows MoVeDo to use 'pdsite'
+# to generate the HTML output
+# REUSE-IgnoreStart
+cat <<EOF > ".pdsite.yml"
+# SPDX-FileCopyrightText: 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: CC-BY-SA-3.0
+
+# pdsite configuration
+
+theme: default
+inputextension: .md
+outputfolder: build/html
+
+# Site-wide template variables
+
+sitename: "Git Internals"
+site-url: "https://hoijui.github.io"
+site-base-path: /git-internals-doc
+pagetitle-suffix: ""
+footer: ""
+
+EOF
+# REUSE-IgnoreEnd
+
+if $remove_and_commit
+then
+    # NOTE We will actually do mutiple commits,
+    #      to ensure that git will be able to track renamed files correctly:
+    # 1. Rename the '*.textile' files to '*.md', without any content changes
+    # 2. change content from Textile to Markdown
+    # 3. Remove Markdown & code files that are integrated into other files already
+    # 4. Add additonal, freshly generated files
+
+    # 1. commmit
+    for md in sidebars/*.md text/*.md
+    do
+        txtl="${md%.md}.textile"
+        mv "$md" "$txtl"
+        git mv "$txtl" "$md"
+    done
+    git commit --message "Convert to Markdown 1/4 - only rename files\n\nUsing script '$script_path'."
+
+    # 2. commmit
+    git add sidebars/*.md text/*.md
+    git commit --message "Convert to Markdown 2/4 - convert content\n\nUsing script '$script_path'."
+
+    # 3. commmit
+    git rm -rf sidebars
+    git rm -rf code
+    git commit --message "Convert to Markdown 3/4 - cleanup\n\nUsing script '$script_path'."
+
+    # 4. commmit
+    git add --all
+    git commit --message "Convert to Markdown 4/4 - additions\n\nUsing script '$script_path'."
+fi
