@@ -1,0 +1,43 @@
+# SPDX-FileCopyrightText: 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: CC-BY-SA-3.0
+
+---
+# See    Metadata variables
+title: |
+  ![](artwork/vector/title.svg){width=16cm}
+#
+#  Git Internals
+# The `${KEY}` placeholders are supplied their final value by MoVeDo
+subtitle: |
+  *version:* [${PROJECT_VERSION}](${PROJECT_VERSION_URL})
+#  **Source code control and beyond**
+#
+version: "${PROJECT_VERSION}"
+date: "${PROJECT_VERSION_DATE}"
+#author: Scott Chacon & **the community**
+lang: en-US
+charset: UTF-8
+abstract: |
+  This document explains the internal workings
+  of the Git source code control system.
+
+  It was originally written by [Scott Chacon](https://github.com/schacon)
+  and published at PeepCode (now a part of Pluralsight).
+
+  Scott and [Pluralsight](http://pluralsight.com/training)
+  have generously open sourced it.
+  It is now maintained by the community - including you!
+license: CC-BY-SA-3.0
+keywords:
+  - git
+  - version control
+subject: Learning about Git
+category: User-Guide
+papersize: a4
+geometry: "top=2cm,bottom=2cm,left=3cm,right=3cm"
+description: >
+  This document explains the internal workings
+  of the Git source code control system.
+---
+
