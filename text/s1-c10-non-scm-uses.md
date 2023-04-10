@@ -117,7 +117,7 @@ Examples of projects trying to do this are
 [git-bug](https://github.com/MichaelMure/git-bug)
 (which is the most advanced as of 2023),
 [Ditz](https://github.com/jashmenn/ditz) and my own
-[TicGit](https://github.com/schacon/ticgit/wikis).
+[TicGit](https://github.com/schacon/ticgit/wiki/).
 
 ### Backup Tool
 

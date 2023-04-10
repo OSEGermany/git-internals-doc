@@ -45,7 +45,8 @@ some history on git and Junio becoming the new maintainer
 
 [Git Peepcode Screencast](https://peepcode.com/products/git)
 
-[RailsCasts Git Screencast](http://railscasts.com/episodes/96)
+[RailsCasts Git Screencast](
+http://railscasts.com/episodes/96-git-on-rails)
 
 [Using Git to Manage and Deploy Rails Apps](
 http://www.jointheconversation.org/railsgit)
