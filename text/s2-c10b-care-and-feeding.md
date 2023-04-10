@@ -36,7 +36,7 @@ If can turn gc'ing automatically on and off
 by setting a configuration setting to '1' or '0':
 
 ```shell
-$ git config --global gc.auto 1
+git config --global gc.auto 1
 ```
 
 This will make git automatically gc itself occasionally.

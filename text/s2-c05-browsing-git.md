@@ -181,7 +181,7 @@ When you are done,
 you can run the following to shut down the server:
 
 ```shell
-$ git instaweb --stop
+git instaweb --stop
 ```
 
 This is a quick way to throw up a web interface on your git repository

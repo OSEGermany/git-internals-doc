@@ -20,7 +20,7 @@ or created a new binary to release,
 you would run something like this:
 
 ```shell
-$ git tag -a v0.1 -m 'this is my v0.1 tag'
+git tag -a v0.1 -m 'this is my v0.1 tag'
 ```
 
 As we recall from section one,
@@ -39,7 +39,7 @@ but just creates a reference to it in the '.git/refs/tags' directory.
 If you run the following command:
 
 ```shell
-$ git tag v0.1
+git tag v0.1
 ```
 
 Git will create the same file as before,
@@ -62,14 +62,14 @@ If you want to specify a key,
 you can run it with '-u' instead:
 
 ```shell
-$ git tag -u <key-id> v0.1 -m 'the 0.1 release'
+git tag -u <key-id> v0.1 -m 'the 0.1 release'
 ```
 
 Then,
 you or others can later verify that signed tag with a '-v'
 
 ```shell
-$ git tag -v v0.1
+git tag -v v0.1
 ```
 
 - [git tag](http://www.kernel.org/pub/software/scm/git/docs/git-tag.html)

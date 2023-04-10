@@ -52,8 +52,8 @@ You can set them as global configuration values
 with the `git config` command:
 
 ```shell
-$ git config --global user.name "Scott Chacon"
-$ git config --global user.email "schacon@gmail.com"
+git config --global user.name "Scott Chacon"
+git config --global user.email "schacon@gmail.com"
 ```
 
 This will create a new `~/.gitconfig` file that will look like this:

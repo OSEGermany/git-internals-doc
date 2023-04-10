@@ -35,7 +35,7 @@ Since we're already in our `master` branch,
 we'll merge in the `newfunc` branch like this:
 
 ```shell
-$ git merge newfunc
+git merge newfunc
 ```
 
 Easy peasy.
@@ -150,7 +150,7 @@ before you tried the merge,
 simply run:
 
 ```shell
-$ git reset --hard HEAD
+git reset --hard HEAD
 ```
 
 The `--hard` makes sure both your index file and working directory
@@ -163,7 +163,7 @@ because all of your tests break or something,
 you can still go back (and throw away that commit) by running:
 
 ```shell
-$ git reset --hard ORIG_HEAD
+git reset --hard ORIG_HEAD
 ```
 
 This is only helpful if you want to undo the latest change or changes.

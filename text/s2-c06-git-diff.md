@@ -99,7 +99,7 @@ If you've done some work off of a project in an 'experiment' branch,
 you could create a patch file this way:
 
 ```shell
-$ git diff master..experiment > experiment.patch
+git diff master..experiment > experiment.patch
 ```
 
 You can then email that file to anyone,

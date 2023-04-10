@@ -19,7 +19,7 @@ To start it up manually,
 run something like the following command:
 
 ```shell
-$ git-daemon --detach --export-all --base-path=/opt/git /opt/git/ambition
+git-daemon --detach --export-all --base-path=/opt/git /opt/git/ambition
 ```
 
 Though for long term running,
@@ -85,7 +85,7 @@ that you need to run `git update-server-info`
 each time you commit to the repository.
 
 ```shell
-$ git update-server-info
+git update-server-info
 ```
 
 It is generally a good idea

@@ -23,7 +23,7 @@ To create a gzipped tarball,
 you'll have to pipe the output through 'gzip' first.
 
 ```shell
-$ git-archive --prefix=simplegit/ v0.1 | gzip > simple-git-0.1.tgz
+git-archive --prefix=simplegit/ v0.1 | gzip > simple-git-0.1.tgz
 ```
 
 Then,
@@ -45,7 +45,7 @@ of the first parent of your master branch
 that will expand out into the current directory:
 
 ```shell
-$ git-archive --format=zip master^ lib/ > simple-git-lib.zip
+git-archive --format=zip master^ lib/ > simple-git-lib.zip
 ```
 
 Which will unzip like this:

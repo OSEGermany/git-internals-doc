@@ -85,7 +85,7 @@ or if you're working with people using a shared repository over NFS
 or something similar.
 
 ```shell
-$ git clone --bare simplegit/.git simplegit-bare.git
+git clone --bare simplegit/.git simplegit-bare.git
 ```
 
 #### SSH and Git Transports
@@ -96,7 +96,7 @@ The git transport does not have this authentication
 and so is normally used for fetching only.
 
 ```shell
-$ git clone git@github.com:schacon/ticgit.git ticgit_directory
+git clone git@github.com:schacon/ticgit.git ticgit_directory
 ```
 
 #### HTTP and HTTPS Transports
@@ -113,7 +113,7 @@ over a number of calls instead of packing them up,
 but it is simple.
 
 ```shell
-$ git clone http://git.gitorious.org/piston/mainline.git piston
+git clone http://git.gitorious.org/piston/mainline.git piston
 ```
 
 Once you have run one of these commands,
@@ -141,7 +141,7 @@ changes may have occurred in the meantime.
 So we fetch an update.
 
 ```shell
-$ git fetch origin
+git fetch origin
 ```
 
 This will contact the server over the same protocol we used to clone it
@@ -172,11 +172,11 @@ So,
 these commands are functionally equivalent:
 
 ```shell
-$ git pull origin/story84
+git pull origin/story84
 ```
 
 ```shell
-$ git fetch origin/story84; git merge origin/story84
+git fetch origin/story84; git merge origin/story84
 ```
 
 - [git fetch](http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html)
@@ -190,7 +190,7 @@ If we have commit rights on the repository (normally over SSH),
 we can simply run `git push`.
 
 ```shell
-$ git push origin master
+git push origin master
 ```
 
 The 'origin' in that case will be inferred if you leave it out,
@@ -200,7 +200,7 @@ you can do that,
 too.
 
 ```shell
-$ git push scott-public experimental
+git push scott-public experimental
 ```
 
 If you don't specify a branch,
@@ -213,13 +213,13 @@ running this will update the server
 to have the newest versions of **both** of them:
 
 ```shell
-$ git push scott-public
+git push scott-public
 ```
 
 Whereas this will only update the 'master' branch:
 
 ```shell
-$ git push scott-public master
+git push scott-public master
 ```
 
 > **NOTE** \
@@ -252,8 +252,8 @@ Pushing to and pulling from multiple sources is easy and straightforward.
 You simply add remotes :
 
 ```shell
-$ git remote add mycap git@github.com:schacon/capistrano.git
-$ git remote add official git://github.com/jamis/capistrano.git
+git remote add mycap git@github.com:schacon/capistrano.git
+git remote add official git://github.com/jamis/capistrano.git
 ```
 
 Then,
@@ -263,9 +263,9 @@ merge them locally,
 and then push to another remote.
 
 ```shell
-$ git fetch official
-$ git merge official/master
-$ git push mycap master
+git fetch official
+git merge official/master
+git push mycap master
 ```
 
 I can also add several remotes to pull and merge from,

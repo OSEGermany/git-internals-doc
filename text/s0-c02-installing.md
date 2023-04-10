@@ -30,25 +30,25 @@ If you are installing from source,
 it will go something like the standard:
 
 ```shell
-$ wget http://kernel.org/pub/software/scm/git/git-1.5.4.4.tar.bz2
-$ tar jxpvf git-1.5.4.4.tar.bz2
-$ cd git-1.5.4.4
-$ make prefix=/usr all doc info
-$ sudo make prefix=/usr install install-doc install-info
+wget http://kernel.org/pub/software/scm/git/git-1.5.4.4.tar.bz2
+tar jxpvf git-1.5.4.4.tar.bz2
+cd git-1.5.4.4
+make prefix=/usr all doc info
+sudo make prefix=/usr install install-doc install-info
 ```
 
 If you are running Ubuntu or another Debian based system,
 you can run
 
 ```shell
-$ apt-get install git-core
+apt-get install git-core
 ```
 
 or on yum based systems,
 you can often run:
 
 ```shell
-$ yum install git-core
+yum install git-core
 ```
 
 ## Installing on Mac
@@ -90,7 +90,7 @@ simply follow the instructions on the\
 and then just run :
 
 ```shell
-$ sudo port install git-core
+sudo port install git-core
 ```
 
 For an in depth tutorial on installing on 10.4,

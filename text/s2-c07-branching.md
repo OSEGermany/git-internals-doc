@@ -25,14 +25,14 @@ There are two ways we can do this,
 one is to create the branch and then switch to it:
 
 ```shell
-$ git branch newfunc; git checkout newfunc
+git branch newfunc; git checkout newfunc
 ```
 
 The other way is to checkout a branch that doesn't exist yet
 and tell git you want to create it by passing the '-b' flag:
 
 ```shell
-$ git checkout -b newfunc
+git checkout -b newfunc
 ```
 
 Now,

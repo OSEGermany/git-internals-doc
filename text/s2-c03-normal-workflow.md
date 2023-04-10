@@ -115,7 +115,7 @@ which will automatically run a `git add` on every modified file to our index,
 then commit the whole thing:
 
 ```shell
-$ git commit -a -m 'committing all changes'
+git commit -a -m 'committing all changes'
 ```
 
 ![](../artwork/vector/Git_Commit_A.eps)
