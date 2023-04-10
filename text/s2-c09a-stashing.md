@@ -124,4 +124,4 @@ Normally I will just use `git stash` to save something,
 go work elsewhere,
 then come back and run `git stash apply` to get back to where I was.
 
-- [git stash](https://www.kernel.org/pub/software/scm/git/docs/git-stash.html)
+- [git stash](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-stash.html)

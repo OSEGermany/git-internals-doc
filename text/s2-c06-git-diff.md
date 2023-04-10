@@ -110,4 +110,4 @@ $ patch -p1 < ~/experiment.patch
 patching file lib/simplegit.rb
 ```
 
-- [git diff](https://www.kernel.org/pub/software/scm/git/docs/git-diff.html)
+- [git diff](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-diff.html)

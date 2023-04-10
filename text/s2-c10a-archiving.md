@@ -58,4 +58,4 @@ ce9b0d5551762048735dd67917046b44176317e0
   inflating: lib/simplegit.rb
 ```
 
-- [git archive](https://www.kernel.org/pub/software/scm/git/docs/git-archive.html)
+- [git archive](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-archive.html)

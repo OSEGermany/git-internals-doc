@@ -86,5 +86,5 @@ $ git diff --stat master newfunc
 We could also get a patch file for one to apply to the other,
 but what we really want to do next is merge the two.
 
-- [git branch](https://www.kernel.org/pub/software/scm/git/docs/git-branch.html)
-- [git checkout](https://www.kernel.org/pub/software/scm/git/docs/git-checkout.html)
+- [git branch](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-branch.html)
+- [git checkout](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-checkout.html)

@@ -20,11 +20,11 @@ at the '#git' channel on `irc.freenode.net`.
 
 ## Web Documentation
 
-[Main Git Documentation](https://www.kernel.org/pub/software/scm/git/docs/) - \
+[Main Git Documentation](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/) - \
 fantastic reference for all the command line programs
 
 [Git User's Manual](
-https://www.kernel.org/pub/software/scm/git/docs/user-manual.html)
+https://mirrors.edge.kernel.org/pub/software/scm/git/docs/user-manual.html)
 
 [Git for Computer Scientists](
 https://eagain.net/articles/git-for-computer-scientists/) - \

@@ -127,7 +127,7 @@ that can replace it.
 With Git,
 there is really no single point of failure.
 
-- [git clone](https://www.kernel.org/pub/software/scm/git/docs/git-clone.html)
+- [git clone](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-clone.html)
 
 ### Fetching and Pulling
 
@@ -179,8 +179,8 @@ git pull origin/story84
 git fetch origin/story84; git merge origin/story84
 ```
 
-- [git fetch](https://www.kernel.org/pub/software/scm/git/docs/git-fetch.html)
-- [git pull](https://www.kernel.org/pub/software/scm/git/docs/git-pull.html)
+- [git fetch](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-fetch.html)
+- [git pull](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-pull.html)
 
 ### Pushing
 
@@ -228,7 +228,7 @@ the opposite of 'push' is not 'pull',
 but 'fetch'.
 A 'pull' is a 'fetch' and then a 'merge'.
 
-- [git push](https://www.kernel.org/pub/software/scm/git/docs/git-push.html)
+- [git push](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-push.html)
 
 ### Multiple Remotes
 
@@ -302,7 +302,7 @@ $ git remote show origin
     html maint man master next pu todo
 ```
 
-- [git remote](https://www.kernel.org/pub/software/scm/git/docs/git-remote.html)
+- [git remote](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-remote.html)
 
 ### Possible Workflows
 

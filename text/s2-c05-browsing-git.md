@@ -192,8 +192,8 @@ For a more long term web interface to your repository,
 you can put the gitweb Perl files that come with Git
 into your `cgi-bin` directory.
 
-- [git show](https://www.kernel.org/pub/software/scm/git/docs/git-show.html)
-- [git ls-tree](https://www.kernel.org/pub/software/scm/git/docs/git-ls-tree.html)
-- [git cat-file](https://www.kernel.org/pub/software/scm/git/docs/git-cat-file.html)
-- [gitk](https://www.kernel.org/pub/software/scm/git/docs/gitk.html)
-- [git instaweb](https://www.kernel.org/pub/software/scm/git/docs/git-instaweb.html)
+- [git show](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-show.html)
+- [git ls-tree](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-ls-tree.html)
+- [git cat-file](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-cat-file.html)
+- [gitk](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/gitk.html)
+- [git instaweb](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-instaweb.html)
