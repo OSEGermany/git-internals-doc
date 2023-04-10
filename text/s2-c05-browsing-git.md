@@ -147,7 +147,15 @@ If you want to see a simple visualization of your repository,
 
 ![](../artwork/bitmap/gitk.png)
 
-Gitk).
+Gitk will also take most of the same arguments that `git log` will take,
+including `--since`,
+`--until`,
+`--max-count`,
+revision ranges and path limiters.
+One of the most interesting visualizations that I regularly use
+is `gitk --all`,
+which will show all of your branches next to each other
+(rather than just the one you are currently on).
 
 #### Instaweb
 
@@ -169,7 +177,22 @@ $ git instaweb --httpd=webrick
 
 ![](../artwork/bitmap/instaweb.png)
 
-When)
+When you are done,
+you can run the following to shut down the server:
+
+```shell
+$ git instaweb --stop
+```
+
+This is a quick way to throw up a web interface on your git repository
+for sharing with others
+or simply browsing it in a different way.
+
+For a more long term web interface to your repository,
+you can put the gitweb Perl files that come with Git
+into your `cgi-bin` directory.
+
+- [git show](http://www.kernel.org/pub/software/scm/git/docs/git-show.html)
 - [git ls-tree](http://www.kernel.org/pub/software/scm/git/docs/git-ls-tree.html)
 - [git cat-file](http://www.kernel.org/pub/software/scm/git/docs/git-cat-fileß.html)
 - [gitk](http://www.kernel.org/pub/software/scm/git/docs/gitk.html)

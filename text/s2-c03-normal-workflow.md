@@ -61,8 +61,10 @@ or we can tell the *commit* command to automatically add all modified files
 in our working directory to the index,
 then commit it.
 
-A good way to find out what you're about to commit (that is,
-what is in your index) is to use the `status` command.
+A good way to find out what you're about to commit
+(that is,
+what is in your index)
+is to use the `status` command.
 
 ```shell
 $ git status
@@ -107,7 +109,16 @@ only the Rakefile will show up as changed in the commit.
 
 ![](../artwork/vector/Git_Add_Commit.eps)
 
-If)
+If we want to commit all our changes,
+we can use this shorthand,
+which will automatically run a `git add` on every modified file to our index,
+then commit the whole thing:
+
+```shell
+$ git commit -a -m 'committing all changes'
+```
+
+![](../artwork/vector/Git_Commit_A.eps)
 
 If you would like to give a more useful commit message,
 you can leave out the `-m` option.

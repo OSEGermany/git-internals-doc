@@ -43,7 +43,10 @@ and it's completed and we want to merge it into the master branch.
 
 ![](../artwork/bitmap/repo1.png)
 
-If)
+If we do a simple merge,
+our history will look like this:
+
+![](../artwork/bitmap/repo.png)
 
 But we don't want to mess up our history
 with a bunch of branches and merges when it can be clearer.
@@ -119,11 +122,34 @@ which then makes our history look like this:
 
 ![](../artwork/bitmap/repo3.png)
 
-Then) to get this:
+Then all we have to do is switch to the master branch
+and merge in 'story84'
+(which is called a 'fast-forward',
+since 'master' is now a direct ancestor of 'story84')
+to get this:
 
 ![](../artwork/bitmap/repo4.png)
 
-###)
+### Interactive Rebasing
+
+Much like Git provides a nicer way to work with your index
+before committing with `git add --interactive`,
+there is an interactive rebasing option
+that can only be fairly described as the "bee's knees".
+
+Assume we have started working on a story
+to add the `git add` functionality to our library
+and so we've started a new branch called 'story92' and done the work there.
+Then we decide that the 'ls-tree' function needs to be recursive
+and make that change,
+then we tweak the library again,
+committing each time.
+Meanwhile,
+we've pulled in a change
+that implements the same 'ls-tree' change differently
+into our 'master' branch.
+
+![](../artwork/bitmap/repo-rebasei1.png)
 
 We can see before we try the merge
 that the same change is in each branch,
@@ -211,5 +237,10 @@ we've just added a single commit with no resolving necessary:
 
 ![](../artwork/bitmap/repo-rebasei2.png)
 
-The)
+The rebase command is one of the most useful and unique
+in the git workflow.
+To learn more about some spiffy things you can do with it,
+check out the [History Manipulation] and [Advanced Merging] sections.
+
+- [git rebase](http://www.kernel.org/pub/software/scm/git/docs/git-rebase.html)
 - [git reset](http://www.kernel.org/pub/software/scm/git/docs/git-reset.html)

@@ -38,7 +38,23 @@ to be the SHA-1 of your last commit).
 
 ### Simple Case
 
-![](../artwork/vector/Branches1.eps))
+![](../artwork/vector/Branches1.eps)
+
+Now,
+let's see how Git handles branching,
+fetching and merging operations abstractly.
+For the following illustrations,
+we will represent the entire tree and the commit it points to
+as a single object.
+
+Suppose that we work on a project for a while,
+then we get an idea for something that may not work out,
+but we want to do a quick proof-of-concept.
+We create a new branch called `experiment` off of our main branch,
+which is by convention called `master`.
+We then switch to the new branch and create a few commits.
+
+![](../artwork/vector/Branch_Story1.eps)
 
 Then,
 our boss comes in and says we need a hot fix to production.
@@ -50,7 +66,15 @@ continue working and commit again.
 
 ![](../artwork/vector/Branch_Story2.eps)
 
-At)
+At this point,
+we show the new branch code to our co-workers
+and everyone likes the new changes.
+We decide we want to merge them back into our main branch,
+so we merge the changes and delete our `experiment` branch.
+
+Our history of commit objects now looks like this:
+
+![](../artwork/vector/Branch_Story3.eps)
 
 ### Remotes
 
@@ -74,7 +98,22 @@ and a `master` branch that points to the most recent local commit.
 
 ![](../artwork/vector/Remote_Story1.eps)
 
-Now)
+Now let's say you run a `fetch`.
+A fetch pulls all the refs and objects that you don't already have
+from the remote repository you specify.
+By default,
+it is origin,
+but you can name your remotes anything,
+and you can have more than one.
+Suppose we fetch from the repository that we originally cloned from
+and they had been doing some work.
+They have now committed a few times on their master branch,
+but they also branched off at one point to try an idea,
+and they named the branch `idea` locally,
+then pushed that branch.
+We now have access to those changes as `origin/idea`.
+
+![](../artwork/vector/Remote_Story2.eps)
 
 We look at the `idea` branch and like where they're going with it,
 but we also want the changes they've made on their `master` branch,
@@ -84,11 +123,38 @@ so we make a `tryidea` branch first and then do the merge there.
 
 ![](../artwork/vector/Remote_Story3.eps)
 
-Now)
+Now we can run our tests
+and merge everything back into our `master` branch if we want.
+Then we can tell our friend we cloned from
+to fetch from our repository,
+where we've merged their two branches for them
+and integrated some of our changes as well.
+They can choose to accept or reject that patch.
+
+### Rebasing
+
+Let's say you and another developer,
+Jen,
+are working on the same project simultaneously.
+She clones from you,
+and works for a while and commits.
+You have committed in the meantime and want to get your work in sync,
+so you add her repository as the remote `jen`,
+do a fetch and merge her changes in,
+creating a new merge commit.
+(All commits that are simply merges
+are given a darker color in this example)
 
 ![](../artwork/vector/Rebase1.eps)
 
-At)
+At this point,
+you both do work and commit changes
+and then you fetch and merge from her again.
+Then she does another commit and you fetch and merge once more.
+At this point,
+you'll have a commit history that looks something like this:
+
+![](../artwork/vector/Rebase2.eps)
 
 Perfectly fine,
 but it can get a little confusing
@@ -115,7 +181,24 @@ since nothing points to them,
 when you run the garbage collection tools
 (see "The Care and Feeding of Git" section).
 
-![](../artwork/vector/Rebase3.eps))
+![](../artwork/vector/Rebase3.eps)
+
+So let's see what happens
+if we rebase rather than merge in the same scenario.
+Here we have our first merge
+and we can see that it orphans _Commit 1_
+and applies the changes between _Commit 0_
+and _Commit 1_ to the files in _Remote Commit 1_,
+creating a new _Commit 2_.
+
+Then,
+as you'll remember,
+you and Jen both commit again.
+You'll notice that now it looks like she cloned you and committed
+and then you changed that code,
+rather than you both working at the same time and merging.
+
+![](../artwork/vector/Rebase4.eps)
 
 At this point,
 instead of merging two more times like we did originally,
@@ -125,7 +208,12 @@ we rebase the next two commits she makes.
 
 ![](../artwork/vector/Rebase6.eps)
 
-And)
+And finally,
+we are left with a commit history that looks like Figure 1,
+rather than Figure 2,
+which is what we would have if we had merged instead.
+
+![](../artwork/vector/Rebase7_Final.eps)
 
 > **NOTE** \
 You should remember to only do this on local branches before you push

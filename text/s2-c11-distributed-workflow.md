@@ -275,7 +275,34 @@ that might push changes I care to try.
 
 ![](../artwork/vector/Fetch_Pull.eps)
 
-You)
+You can also remove remotes at any time,
+which simply removes the lines
+that contain the URL in your `.git/config` file
+and the references to their remote branches
+in `.git/refs/[remote_name]` directory.
+It will not remove any of the git objects,
+so if you decide to add it again and fetch,
+very little will be transferred.
+
+You can also view useful information about a remote branch
+by using the @remote show@ command.
+For example,
+if I run this on a checkout of the Git source code itself,
+I will see this:
+
+```shell
+$ git remote show origin
+* remote origin
+  URL: git://git.kernel.org/pub/scm/git/git.git
+  Remote branch(es) merged with 'git pull' while on branch master
+    master
+  Stale tracking branches in remotes/origin (use 'git remote prune')
+    old-next
+  Tracked remote branches
+    html maint man master next pu todo
+```
+
+- [git remote](http://www.kernel.org/pub/software/scm/git/docs/git-remote.html)
 
 ### Possible Workflows
 

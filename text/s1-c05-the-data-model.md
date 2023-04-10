@@ -52,7 +52,33 @@ The basic data model I've been explaining looks something like this:
 
 ![](../artwork/vector/DAG_Model.eps)
 
-The) We have three trees,
+The cheap references I've represented as the grey boxes, the immutable objects are the colored round cornered boxes.
+
+### An Example
+
+Lets look at an example of simple usage of Git
+and which objects are stored in the Git object database as we go.
+
+To begin with,
+we commit an initial tree of three files and two subdirectories,
+each directory with one file in it.
+Possibly something like this:
+
+```
+.
+|-- init.rb
+`-- lib
+    |-- base
+    |   `-- base_include.rb
+    `-- my_plugin.rb
+```
+
+When we first commit this tree,
+our Git model may look something like this:
+
+![](../artwork/vector/Object_DAG_Tree1.eps)
+
+We have three trees,
 three blobs and a single commit that points to the top of the tree.
 The current branch points to our last commit
 and the `HEAD` file points to the branch we're currently on.
@@ -77,7 +103,20 @@ we'll have the following in Git:
 
 ![](../artwork/vector/Object_DAG_Tree2.eps)
 
-Notice)
+Notice how the other two blobs that were not changed were not added again.
+The new trees that were added point to the same blobs in the data store
+that the previous trees pointed to.
+
+Now let's say we modify the `init.rb` file at the base of the project.
+The new blob will have to be added,
+which will add a new top tree,
+but all the subtrees will not be modified,
+so Git will reuse those references.
+Again,
+the branch reference will move forward
+and the new commit will point to its parent.
+
+![](../artwork/vector/Object_DAG_Tree3.eps)
 
 At this point,
 let's stop to look at the objects we now have in our repository.
@@ -96,4 +135,22 @@ and so on.
 
 ![](../artwork/vector/Object_DAG.eps)
 
-So,)
+So,
+to keep all the information and history on the three versions of this tree,
+Git stores 16 immutable,
+signed,
+compressed objects.
+
+### Traversal
+
+So,
+what do all the arrows in these illustrations really mean?
+How does Git actually retrieve these objects in practice?
+Well,
+it gets the initial SHA-1 of the starting commit object
+by looking in the `.git/refs` directory for the branch,
+tag or remote you specify.
+Then it traverses the objects by walking the trees one by one,
+checking out the blobs under the names listed.
+
+![](../artwork/vector/Traversing_Git_Objects.eps)
