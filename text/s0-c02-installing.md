@@ -68,8 +68,8 @@ you can get the tools from **TODO**.
 ## Windows
 
 There are two options on Windows currently,
-but the popular one is [MSysGit](http://code.google.com/p/msysgit/),
+but the popular one is <https://gitforwindows.org/>
+(formerly MSysGit),
 which installs easily and can be run on the Windows command line.
-Simply download the exe file from the [downloads list](
-http://code.google.com/p/msysgit/downloads/list),
+Simply download the exe file from the website,
 execute it and follow the on-screen instructions.
