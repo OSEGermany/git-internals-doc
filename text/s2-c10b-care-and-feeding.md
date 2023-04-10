@@ -7,11 +7,16 @@ SPDX-License-Identifier: CC-BY-SA-3.0
 
 ## The Care and Feeding of Git
 
-Git requires a bit of tender loving care from time to time. It may seem a bit odd, but occasionally you should run a few commands on your repositories to make sure they're healthy and running as quickly as possible.
+Git requires a bit of tender loving care from time to time.
+It may seem a bit odd,
+but occasionally you should run a few commands on your repositories
+to make sure they're healthy and running as quickly as possible.
 
 ### garbage collection
 
-The `git gc` command is an important one to remember. It will pack up your objects into the delta-compressed format, saving you a lot of space and seriously speeding up several commands.
+The `git gc` command is an important one to remember.
+It will pack up your objects into the delta-compressed format,
+saving you a lot of space and seriously speeding up several commands.
 
 ```shell
 $ git gc
@@ -27,17 +32,25 @@ Removing unused objects 100%...
 Done.
 ```
 
-If can turn gc'ing automatically on and off by setting a configuration setting to '1' or '0':
+If can turn gc'ing automatically on and off
+by setting a configuration setting to '1' or '0':
 
 ```shell
 $ git config --global gc.auto 1
 ```
 
-This will make git automatically gc itself occasionally. You may want to setup a cron to do this at night, however, as it can take a while sometimes on really large repositories.
+This will make git automatically gc itself occasionally.
+You may want to setup a cron to do this at night,
+however,
+as it can take a while sometimes on really large repositories.
 
 ### fsck and prune
 
-If you want to check the health of your repository, you can run 'git-fsck', which will tell you if you have any unreachable or corrupted objects in your database and help you fix them.
+If you want to check the health of your repository,
+you can run 'git-fsck',
+which will tell you if you have any unreachable
+or corrupted objects in your database
+and help you fix them.
 
 ```shell
 $ git fsck
@@ -48,7 +61,8 @@ dangling tree 8e1088e1cc1bc67e0ef01e018707dcb07a2a562b
 dangling blob 5e069ed35afae29015b6622fe715c0aee10112ad
 ```
 
-Which you can then remove with 'git-prune' (you can run it with '-n' first to see what it will do)
+Which you can then remove with 'git-prune'
+(you can run it with '-n' first to see what it will do)
 
 ```shell
 $ git prune -n

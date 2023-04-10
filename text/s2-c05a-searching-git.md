@@ -6,9 +6,19 @@ SPDX-License-Identifier: CC-BY-SA-3.0
 
 ## Searching Git
 
-Git has an easy way for searching through trees in your repository without having to check them out into your working directory to do it manually. It is called 'git-grep' and works very much like the traditional UNIX 'grep' command, with the difference that instead of listing the files you want to search as an argument, you list the trees you want to search.
+Git has an easy way for searching through trees in your repository
+without having to check them out into your working directory
+to do it manually.
+It is called 'git-grep'
+and works very much like the traditional UNIX 'grep' command,
+with the difference
+that instead of listing the files you want to search as an argument,
+you list the trees you want to search.
 
-For example, if we wanted to search for the string 'log_syslog' in versions 1.0 and 1.5.3.8 of the Git source code in the C files only, we can find that very easily.
+For example,
+if we wanted to search for the string 'log_syslog'
+in versions 1.0 and 1.5.3.8 of the Git source code in the C files only,
+we can find that very easily.
 
 ```shell
 $ git grep -n 'log_syslog' v1.5.3.8 v1.0.0 -- *.c
@@ -31,9 +41,14 @@ v1.5.3.8:daemon.c:7
 v1.0.0:daemon.c:6
 ```
 
-You can see that you can view the number of lines that match, or the actual lines, and you can list as many trees (in this case, I used tags to reference them) as you want to search.
+You can see that you can view the number of lines that match,
+or the actual lines,
+and you can list as many trees (in this case,
+I used tags to reference them) as you want to search.
 
-Another interesting example is to see which files in these versions do not contain the string 'git' anywhere in them:
+Another interesting example
+is to see which files in these versions
+do not contain the string 'git' anywhere in them:
 
 ```shell
 $ git grep -L -v git v1.5.3.8 v1.0.0

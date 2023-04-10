@@ -7,12 +7,15 @@ SPDX-License-Identifier: CC-BY-SA-3.0
 
 # References and Endnotes
 
-Here are some references that I used or that you may use to find out more about Git.
+Here are some references that I used
+or that you may use to find out more about Git.
 
-The example git repository that I was working with throughout this book can be cloned from its\
+The example git repository that I was working with throughout this book
+can be cloned from its\
 [GitHub repository](http://github.com/schacon/simplegit)
 
-For anything you cannot find in this book or these references, be sure to ask the fantastic people hanging out at the\
+For anything you cannot find in this book or these references,
+be sure to ask the fantastic people hanging out at the\
 '#git' channel on irc.freenode.net
 
 ## Web Documentation
@@ -20,12 +23,15 @@ For anything you cannot find in this book or these references, be sure to ask th
 [Main Git Documentation](http://www.kernel.org/pub/software/scm/git/docs/)\
 - fantastic reference for all the command line programs
 
-[Git User's Manual](http://www.kernel.org/pub/software/scm/git/docs/user-manual.html)
+[Git User's Manual](
+http://www.kernel.org/pub/software/scm/git/docs/user-manual.html)
 
-[Git for Computer Scientists](http://eagain.net/articles/git-for-computer-scientists/)\
+[Git for Computer Scientists](
+http://eagain.net/articles/git-for-computer-scientists/)\
 - good detail about the DAG object model
 
-[A Tutorial Introduction to Git](http://www.kernel.org/pub/software/scm/git/docs/tutorial.html)
+[A Tutorial Introduction to Git](
+http://www.kernel.org/pub/software/scm/git/docs/tutorial.html)
 
 [Git Rebase Explained](http://wincent.com/knowledge-base/Git_rebase_explained)
 
@@ -40,4 +46,5 @@ For anything you cannot find in this book or these references, be sure to ask th
 
 [RailsCasts Git Screencast](http://railscasts.com/episodes/96)
 
-[Using Git to Manage and Deploy Rails Apps](http://www.jointheconversation.org/railsgit)
+[Using Git to Manage and Deploy Rails Apps](
+http://www.jointheconversation.org/railsgit)

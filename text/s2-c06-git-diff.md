@@ -7,15 +7,28 @@ SPDX-License-Identifier: CC-BY-SA-3.0
 
 ## Git Diff
 
-Git has a great diff utility built in that can give you statistics or a patch file given any combination of tree objects, working directory and index.
+Git has a great diff utility built in
+that can give you statistics or a patch file
+given any combination of tree objects,
+working directory and index.
 
-Two common uses of this include seeing what you've worked on but not committed yet, and creating a patch file to send to someone over email (though there is a much preferred way to share changes which we will learn about in the "distributed workflow" section a bit later).
+Two common uses of this
+include seeing what you've worked on but not committed yet,
+and creating a patch file to send to someone over email
+(though there is a much preferred way to share changes
+which we will learn about in the "distributed workflow" section a bit later).
 
 ### What has changed?
 
-If you simply run `git diff` with no arguments, it will show you the differences between your current working directory and your index, that is, the last time you ran `git add` on your files.
+If you simply run `git diff` with no arguments,
+it will show you the differences between your current working directory
+and your index,
+that is,
+the last time you ran `git add` on your files.
 
-For example, if I add my email to the README file and run it, I will see this:
+For example,
+if I add my email to the README file and run it,
+I will see this:
 
 ```shell
 $ git diff
@@ -31,7 +44,13 @@ index 569b350..26c6ac8 100644
 +Author : Scott Chacon (schacon@gmail.com)
 ```
 
-You can also use `git diff` to show you some spiffy stats for a diff, rather than a patch file, if you want to see a wider overview of what changed, then drill down into specific files later. Here are some examples getting stats, the first for the differences between two commits and the second a summary between a commit and the current HEAD.
+You can also use `git diff` to show you some spiffy stats for a diff,
+rather than a patch file,
+if you want to see a wider overview of what changed,
+then drill down into specific files later.
+Here are some examples getting stats,
+the first for the differences between two commits
+and the second a summary between a commit and the current `HEAD`.
 
 ```shell
 $ git diff --numstat a11bef06a3f65..cf25cc3bfb0
@@ -46,7 +65,8 @@ $ git diff --stat 0576fac35..
  3 files changed, 8 insertions(+), 2 deletions(-)
 ```
 
-If you want to see what the specific difference is in one of those files, you can just add a path limiter to the diff command.
+If you want to see what the specific difference is in one of those files,
+you can just add a path limiter to the diff command.
 
 ```shell
 $ git diff a11bef06a3f65..cf25cc3bfb0 -- Rakefile
@@ -65,17 +85,25 @@ index a874b73..8f94139 100644
      s.summary   =   "A simple gem for using Git in Ruby code."
 ```
 
-You can use this command to detect changes between your index and any tree, or your working directory and any tree, your working directory and your index, etc.
+You can use this command to detect changes between your index and any tree,
+or your working directory and any tree,
+your working directory and your index,
+etc.
 
 ### Generating Patch Files
 
-The default output of the `git diff` command is a valid patch file. If you pipe the output into a file and email it to someone, they can apply it with the 'patch' command. If you've done some work off of a project in an 'experiment' branch, you could create a patch file this way:
+The default output of the `git diff` command is a valid patch file.
+If you pipe the output into a file and email it to someone,
+they can apply it with the 'patch' command.
+If you've done some work off of a project in an 'experiment' branch,
+you could create a patch file this way:
 
 ```shell
 $ git diff master..experiment > experiment.patch
 ```
 
-You can then email that file to anyone, who could apply it with the '-p1' argument:
+You can then email that file to anyone,
+who could apply it with the '-p1' argument:
 
 ```shell
 $ patch -p1 < ~/experiment.patch

@@ -14,20 +14,41 @@ SPDX-License-Identifier: CC-BY-SA-3.0
 
 #### Rebasing Screencast
 
-This screencast follows roughly the same course as the previous one on branching and merging, only we replace merging with rebasing. This screencast also demonstrates the interactive rebase command `git rebase -i`. We also demonstrate some slightly more complex branching, by using both interactive and normal rebasing techniques simultaneously on separate branches, then choosing one and deleting the other.
+This screencast follows roughly the same course as the previous one
+on branching and merging,
+only we replace merging with rebasing.
+This screencast also demonstrates the interactive rebase command
+`git rebase -i`.
+We also demonstrate some slightly more complex branching,
+by using both interactive and normal rebasing techniques simultaneously
+on separate branches,
+then choosing one and deleting the other.
 
 movie. c7-rebase.mov
 
 ---
 SIDEBAR -->
 
-To review, rebasing is an alternative to merging that takes all the changes you've done since you branched off and applies those changes as patches to where the branch you are rebasing to is now, abandoning your original commit objects. For clean merges, this is a relatively simple process. Say we have been working in a branch called 'story84' and it's completed and we want to merge it into the master branch.
+To review,
+rebasing is an alternative to merging
+that takes all the changes you've done since you branched off
+and applies those changes as patches
+to where the branch you are rebasing to
+is now,
+abandoning your original commit objects.
+For clean merges,
+this is a relatively simple process.
+Say we have been working in a branch called 'story84'
+and it's completed and we want to merge it into the master branch.
 
 ![](../artwork/bitmap/repo1.png)
 
 If)
 
-But we don't want to mess up our history with a bunch of branches and merges when it can be clearer. Instead of running `git merge story84` from the master branch, we can stay in the 'story84' branch and run `git rebase master`
+But we don't want to mess up our history
+with a bunch of branches and merges when it can be clearer.
+Instead of running `git merge story84` from the master branch,
+we can stay in the 'story84' branch and run `git rebase master`
 
 ```shell
 $ git rebase master
@@ -58,16 +79,43 @@ If you would prefer to skip this patch, instead run "git rebase --skip".
 To restore the original branch and stop rebasing run "git rebase --abort".
 ```
 
-Many times this goes very smoothly and you can see all the new commits and trees written in place of the old ones. In this case, I had edited the 'lib/simplegit.rb' file differently in each branch which caused a conflict. I will have to resolve this conflict before I can continue the rebase.
+Many times this goes very smoothly
+and you can see all the new commits and trees written in place of the old ones.
+In this case,
+I had edited the 'lib/simplegit.rb' file differently in each branch,
+which caused a conflict.
+I will have to resolve this conflict before I can continue the rebase.
 
-This gives us some options, since the rebase can do this at any point - say you have 8 commits to move onto the new branch - each one could cause a conflict and you will have to resolve them each manually. The 'rebase' command will stop at each patch if it needs to and let you do this.
+This gives us some options,
+since the rebase can do this at any point -
+say you have 8 commits to move onto the new branch -
+each one could cause a conflict
+and you will have to resolve them each manually.
+The 'rebase' command will stop at each patch if it needs to
+and let you do this.
 
-You have three things you can do here, you can either fix the file, run a `git add` on it and then run a `git rebase --continue`, which will move on to the next patch until it's done. Our second option is to run `git rebase --abort`, which will reset us to what our repo looked like before we tried the rebase. Or, we can run `git rebase --skip`, which will leave this one patch out, abandoning the change forever.
+You have three things you can do here,
+you can either fix the file,
+run a `git add` on it and then run a `git rebase --continue`,
+which will move on to the next patch until it's done.
+Our second option is to run `git rebase --abort`,
+which will reset us to what our repo looked like
+before we tried the rebase.
+Or,
+we can run `git rebase --skip`,
+which will leave this one patch out,
+abandoning the change forever.
 
 > **NOTE** \
-Git rebase options for a conflict : `--continue` : tries to keep going once you've resolved it, `--abort` : gives up altogether and returns to the state before the rebase, `--skip` : skips this patch, abandoning it forever
+Git rebase options for a conflict:
+`--continue` : tries to keep going once you've resolved it,
+`--abort` : gives up altogether and returns to the state before the rebase,
+`--skip` : skips this patch,
+abandoning it forever
 
-In this case we will simply fix the conflict, run `git add` on the file and then run `git rebase --continue` which then makes our history look like this:
+In this case we will simply fix the conflict,
+run `git add` on the file and then run `git rebase --continue`
+which then makes our history look like this:
 
 ![](../artwork/bitmap/repo3.png)
 
@@ -77,7 +125,20 @@ Then) to get this:
 
 ###)
 
-We can see before we try the merge that the same change is in each branch, and I can see that the master branch version is better, so I don't even really want to merge it, I just want to throw my change away. Also, I don't really need the other two commits to be two commits, because the second one is just a tweak and should be included in the first one. Lets use `git rebase -i` to rebase this branch and make those changes. When we run the command, our editor comes up, showing this:
+We can see before we try the merge
+that the same change is in each branch,
+and I can see that the master branch version is better,
+so I don't even really want to merge it,
+I just want to throw my change away.
+Also,
+I don't really need the other two commits to be two commits,
+because the second one is just a tweak
+and should be included in the first one.
+Lets use `git rebase -i` to rebase this branch
+and make those changes.
+When we run the command,
+our editor comes up,
+showing this:
 
 ```
 # Rebasing c110d7f..c4f10f2 onto c110d7f
@@ -94,14 +155,24 @@ pick bdfd292 made ls-tree recursive
 pick c4f10f2 added verbose option to add()
 ```
 
-Now we can see all of the commits that we are going to rebase. If we remove the 'made ls-tree recursive' line, it effectively ditches that commit so we'll avoid a conflict and not have to worry about it. Changing the action on the last line to 'squash' tells git to just make this and the previous commit into a single commit. So if we exit the editor with this as the new text:
+Now we can see all of the commits that we are going to rebase.
+If we remove the 'made ls-tree recursive' line,
+it effectively ditches that commit
+so we'll avoid a conflict and not have to worry about it.
+Changing the action on the last line to 'squash',
+tells git to just make this and the previous commit
+into a single commit.
+So if we exit the editor with this as the new text:
 
 ```
 pick 2b6ae91 added git.add() function
 squash c4f10f2 added verbose option to add() function
 ```
 
-Then git sees we have squashed two commits and wants us to pick a commit message for it, giving us the commit messages of both for us to create a new one for.
+Then git sees we have squashed two commits
+and wants us to pick a commit message for it,
+giving us the commit messages of both,
+for us to create a new one for.
 
 ```
 # This is a combination of two commits.
@@ -123,7 +194,8 @@ added verbose option to add() function
 #
 ```
 
-So we stick with the first message, save and exit the editor.
+So we stick with the first message,
+save and exit the editor.
 
 ```shell
 $ git rebase -i master
@@ -132,7 +204,10 @@ Created commit 8341085: added git.add() function
 Successfully rebased and updated refs/heads/story92.
 ```
 
-Now we've rebased and instead of three commits on top of our master and having to reconcile a useless conflict, we've just added a single commit with no resolving necessary:
+Now we've rebased
+and instead of three commits on top of our master
+and having to reconcile a useless conflict,
+we've just added a single commit with no resolving necessary:
 
 ![](../artwork/bitmap/repo-rebasei2.png)
 
