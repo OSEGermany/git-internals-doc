@@ -53,6 +53,8 @@ yum install git-core
 
 ## Installing on Mac
 
+**TODO** This section is way outdated; needs revising
+
 You are likely going to want to install Git without the asciidoc dependency,
 because it is a pain to install.
 Other than that,
@@ -60,66 +62,7 @@ what you basically need is Curl and Expat.
 With the exception of the Leopard binary OS X installer,
 you will also need the Developer Tools installed.
 If you don't have the OS X install discs anymore,
-you can get the tools from the\
-[Apple Website](http://developer.apple.com/tools/)
-
-### Mac 10.4 - Tiger
-
-There are some requirements you'll have to install before you can compile Git.
-Expat can be installed roughly like this:
-
-```shell
-curl -O http://surfnet.dl.sourceforge.net/sourceforge/expat/expat-2.0.1.tar.gz
-tar zxvf expat-2.0.1.tar.gz
-cd expat-2.0.1
-./configure --prefix=/usr/local
-make
-make check
-sudo make install
-cd ..
-```
-
-Then download and compile Git as per the Linux instructions.
-
-However,
-if you want an easier path,
-you can use the excellent MacPorts software.
-To install MacPorts,
-simply follow the instructions on the\
-[MacPorts Homepage](http://www.macports.org/),
-and then just run :
-
-```shell
-sudo port install git-core
-```
-
-For an in depth tutorial on installing on 10.4,
-see\
-[this article](http://blog.kineticweb.com/articles/2007/08/26/compiling-git-for-mac-os-x-10-4-10-intel)
-
-> **NOTE** \
-If you hope to use Git with an existing Subversion repository,
-pass the `+svn` flag to `port`.
-This will build Subversion and the necessary Perl interfaces for Subversion as well.
-
-### Mac 10.5 - Leopard
-
-The easiest way to install is most likely the [Git OSX Installer](
-http://code.google.com/p/git-osx-installer/),
-which you can get from Google Code,
-and has just recently been linked to as the official Mac version on the Git homepage.
-Just download and run the DMG from the website.
-
-If you want to compile from source,
-all the requirements are installed with the developer CD.
-You can just download the Git source and compile pretty easily
-if the developer tools are installed.
-
-Finally,
-MacPorts is also an easy option if you have that installed.
-
-For an in-depth tutorial on installations under Leopard,
-see [this article](http://blog.kineticweb.com/articles/2007/10/30/compiling-git-for-mac-os-x-leopard-10-5)
+you can get the tools from **TODO**.
 
 ## Windows
 
