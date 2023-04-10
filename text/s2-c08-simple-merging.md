@@ -80,10 +80,6 @@ The output tells us the files that had conflicts,
 in this case it was the `Rakefile`.
 
 ```ruby
-# SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
-#
-# SPDX-License-Identifier: CC-BY-SA-3.0
-
 spec = Gem::Specification.new do |s|
     s.platform  =   Gem::Platform::RUBY
     s.name      =   "simplegit"
@@ -108,10 +104,6 @@ and remove the rest of the lines,
 like so:
 
 ```ruby
-# SPDX-FileCopyrightText: 2008 Scott Chacon <schacon@gmail.com>
-#
-# SPDX-License-Identifier: CC-BY-SA-3.0
-
 spec = Gem::Specification.new do |s|
     s.platform  =   Gem::Platform::RUBY
     s.name      =   "simplegit"
