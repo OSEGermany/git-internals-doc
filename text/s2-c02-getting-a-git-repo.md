@@ -36,9 +36,9 @@ pointing your new `master` branch to it.
 Congratulations,
 you have now added your source code to Git.
 
-- [git init](http://www.kernel.org/pub/software/scm/git/docs/git-init.html)
-- [git commit](http://www.kernel.org/pub/software/scm/git/docs/git-commit.html)
-- [git add](http://www.kernel.org/pub/software/scm/git/docs/git-add.html)
+- [git init](https://www.kernel.org/pub/software/scm/git/docs/git-init.html)
+- [git commit](https://www.kernel.org/pub/software/scm/git/docs/git-commit.html)
+- [git add](https://www.kernel.org/pub/software/scm/git/docs/git-add.html)
 
 ### Cloning a Repository
 
@@ -79,4 +79,4 @@ too.
 git clone git://github.com/schacon/simplegit.git my_directory
 ```
 
-- [git clone](http://www.kernel.org/pub/software/scm/git/docs/git-clone.html)
+- [git clone](https://www.kernel.org/pub/software/scm/git/docs/git-clone.html)

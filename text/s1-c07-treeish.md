@@ -18,7 +18,7 @@ as an argument can take one of these shorthand versions as well.
 
 I will list here the most common,
 but please read the\
-[rev-parse command](http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html)\
+[rev-parse command](https://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html)\
 for full descriptions of all the available syntaxes.
 
 #### Full SHA-1

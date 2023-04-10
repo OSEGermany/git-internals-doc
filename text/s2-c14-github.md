@@ -12,7 +12,7 @@ for your git repository,
 you can use one of the growing number of public Git hosted servers.
 
 I will focus on some interesting features
-of a commercial service called [GitHub](http://github.com) here,
+of a commercial service called [GitHub](https://github.com) here,
 but there is also an open source project
 called [CodeBerg](https://codeberg.org/) -
 using the [Gitea](https://gitea.io/) software -
@@ -28,9 +28,9 @@ It could be modified to run on your company's server
 if your project needs to remain private.
 
 GitHub hosts many popular projects featured in the PeepCode series,
-including [Ruby on Rails](http://github.com/rails/rails/),
-[Merb](http://github.com/wycats/merb-core/),
-[RSpec](http://github.com/dchelimsky/rspec/),
+including [Ruby on Rails](https://github.com/rails/rails/),
+[Merb](https://github.com/wycats/merb-core/),
+[RSpec](https://github.com/dchelimsky/rspec/),
 and [Capistrano](https://github.com/capistrano/capistrano/).
 
 ### GitHub
@@ -70,7 +70,7 @@ but with Git it's common practice.
 You could just as easily follow and fork
 someone else's repository of the project.
 An interesting example of this is the [git-wiki](
-http://github.com/sr/git-wiki) project,
+https://github.com/sr/git-wiki) project,
 which was started by a user named `sr`,
 then was forked and greatly modified by `al3x`.
 `sr` wanted to keep the project simple,

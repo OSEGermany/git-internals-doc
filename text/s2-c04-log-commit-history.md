@@ -124,4 +124,4 @@ between yesterday and a month ago by me :
 git log -n 30 --since="1 month ago" --until=yesterday --author="schacon"
 ```
 
-- [git log](http://www.kernel.org/pub/software/scm/git/docs/git-log.html)
+- [git log](https://www.kernel.org/pub/software/scm/git/docs/git-log.html)

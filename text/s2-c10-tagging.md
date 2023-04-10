@@ -72,4 +72,4 @@ you or others can later verify that signed tag with a '-v'
 git tag -v v0.1
 ```
 
-- [git tag](http://www.kernel.org/pub/software/scm/git/docs/git-tag.html)
+- [git tag](https://www.kernel.org/pub/software/scm/git/docs/git-tag.html)

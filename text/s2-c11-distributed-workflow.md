@@ -113,7 +113,7 @@ over a number of calls instead of packing them up,
 but it is simple.
 
 ```shell
-git clone http://git.gitorious.org/piston/mainline.git piston
+git clone https://git.gitorious.org/piston/mainline.git piston
 ```
 
 Once you have run one of these commands,
@@ -127,7 +127,7 @@ that can replace it.
 With Git,
 there is really no single point of failure.
 
-- [git clone](http://www.kernel.org/pub/software/scm/git/docs/git-clone.html)
+- [git clone](https://www.kernel.org/pub/software/scm/git/docs/git-clone.html)
 
 ### Fetching and Pulling
 
@@ -179,8 +179,8 @@ git pull origin/story84
 git fetch origin/story84; git merge origin/story84
 ```
 
-- [git fetch](http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html)
-- [git pull](http://www.kernel.org/pub/software/scm/git/docs/git-pull.html)
+- [git fetch](https://www.kernel.org/pub/software/scm/git/docs/git-fetch.html)
+- [git pull](https://www.kernel.org/pub/software/scm/git/docs/git-pull.html)
 
 ### Pushing
 
@@ -228,7 +228,7 @@ the opposite of 'push' is not 'pull',
 but 'fetch'.
 A 'pull' is a 'fetch' and then a 'merge'.
 
-- [git push](http://www.kernel.org/pub/software/scm/git/docs/git-push.html)
+- [git push](https://www.kernel.org/pub/software/scm/git/docs/git-push.html)
 
 ### Multiple Remotes
 
@@ -302,7 +302,7 @@ $ git remote show origin
     html maint man master next pu todo
 ```
 
-- [git remote](http://www.kernel.org/pub/software/scm/git/docs/git-remote.html)
+- [git remote](https://www.kernel.org/pub/software/scm/git/docs/git-remote.html)
 
 ### Possible Workflows
 

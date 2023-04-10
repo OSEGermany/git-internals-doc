@@ -25,7 +25,7 @@ git-daemon --detach --export-all --base-path=/opt/git /opt/git/ambition
 Though for long term running,
 you'll likely want to add this to your inet.d configuration.
 See the [git-daemon](
-http://www.kernel.org/pub/software/scm/git/docs/git-daemon.html)
+https://www.kernel.org/pub/software/scm/git/docs/git-daemon.html)
 docs for specific information on how to set that up.
 
 The git protocol has no built in authentication,
@@ -41,7 +41,7 @@ have SSH enabled for account owners to push over,
 and git-daemon enabled for the public to pull over -
 which is often the most efficient combination.
 
-- [git-daemon](http://www.kernel.org/pub/software/scm/git/docs/git-daemon.html)
+- [git-daemon](https://www.kernel.org/pub/software/scm/git/docs/git-daemon.html)
 
 ### Over SSH
 

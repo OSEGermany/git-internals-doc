@@ -75,6 +75,6 @@ $ git prune
 $ git fsck
 ```
 
-- [git gc](http://www.kernel.org/pub/software/scm/git/docs/git-gc.html)
-- [git fsck](http://www.kernel.org/pub/software/scm/git/docs/git-fsck.html)
-- [git prune](http://www.kernel.org/pub/software/scm/git/docs/git-prune.html)
+- [git gc](https://www.kernel.org/pub/software/scm/git/docs/git-gc.html)
+- [git fsck](https://www.kernel.org/pub/software/scm/git/docs/git-fsck.html)
+- [git prune](https://www.kernel.org/pub/software/scm/git/docs/git-prune.html)

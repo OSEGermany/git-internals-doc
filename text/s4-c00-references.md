@@ -12,7 +12,7 @@ or that you may use to find out more about Git.
 
 The example git repository that I was working with throughout this book
 can be cloned from its
-[GitHub repository](http://github.com/schacon/simplegit).
+[GitHub repository](https://github.com/schacon/simplegit).
 
 For anything you cannot find in this book or these references,
 be sure to ask the fantastic people hanging out
@@ -20,14 +20,14 @@ at the '#git' channel on `irc.freenode.net`.
 
 ## Web Documentation
 
-[Main Git Documentation](http://www.kernel.org/pub/software/scm/git/docs/) - \
+[Main Git Documentation](https://www.kernel.org/pub/software/scm/git/docs/) - \
 fantastic reference for all the command line programs
 
 [Git User's Manual](
-http://www.kernel.org/pub/software/scm/git/docs/user-manual.html)
+https://www.kernel.org/pub/software/scm/git/docs/user-manual.html)
 
 [Git for Computer Scientists](
-http://eagain.net/articles/git-for-computer-scientists/) - \
+https://eagain.net/articles/git-for-computer-scientists/) - \
 good detail about the DAG object model
 
 [A Tutorial Introduction to Git](
@@ -36,14 +36,14 @@ https://git-scm.com/docs/gittutorial)
 [Git Rebase Explained](
 https://wincent.com/wiki/Git_rebase_explained)
 
-[A Tour of Git, the Basics](http://cworth.org/hgbook-git/tour/)
+[A Tour of Git, the Basics](https://cworth.org/hgbook-git/tour/)
 
-[Junio Hamano New Git Maintainer](http://kerneltrap.org/node/5496) - \
+[Junio Hamano New Git Maintainer](https://kerneltrap.org/node/5496) - \
 some history on git and Junio becoming the new maintainer
 
 ## Screencasts
 
-[Git Peepcode Screencast](http://peepcode.com/products/git)
+[Git Peepcode Screencast](https://peepcode.com/products/git)
 
 [RailsCasts Git Screencast](http://railscasts.com/episodes/96)
 

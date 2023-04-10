@@ -53,7 +53,7 @@ and then expands them locally.
 Log and status files could even be transferred back by a push.
 
 An example of a media company actually using this approach
-is [Reactrix](http://reactrix.com/),
+is [Reactrix](https://reactrix.com/),
 which also happens to be where I work.
 
 > **NOTE** \
@@ -103,7 +103,7 @@ in the same repository as our project,
 so clones can get the documentation as well,
 without it muddying up our code tree.
 
-See the [git-wiki](http://github.com/al3x/git-wiki/tree/master)
+See the [git-wiki](https://github.com/al3x/git-wiki/tree/master)
 project for an example of this.
 
 #### Distributed Issue Tracker
@@ -117,7 +117,7 @@ Examples of projects trying to do this are
 [git-bug](https://github.com/MichaelMure/git-bug)
 (which is the most advanced as of 2023),
 [Ditz](https://github.com/jashmenn/ditz) and my own
-[TicGit](http://github.com/schacon/ticgit/wikis).
+[TicGit](https://github.com/schacon/ticgit/wikis).
 
 ### Backup Tool
 

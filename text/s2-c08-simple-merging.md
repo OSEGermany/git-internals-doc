@@ -165,7 +165,7 @@ but undo a commit that was added sometime before that,
 you'll need to use `git revert`,
 which is a bit too dangerous to cover here.
 
-- [git branch](http://www.kernel.org/pub/software/scm/git/docs/git-branch.html)
-- [git merge](http://www.kernel.org/pub/software/scm/git/docs/git-merge.html)
-- [git reset](http://www.kernel.org/pub/software/scm/git/docs/git-reset.html)
-- [git revert](http://www.kernel.org/pub/software/scm/git/docs/git-revert.html)
+- [git branch](https://www.kernel.org/pub/software/scm/git/docs/git-branch.html)
+- [git merge](https://www.kernel.org/pub/software/scm/git/docs/git-merge.html)
+- [git reset](https://www.kernel.org/pub/software/scm/git/docs/git-reset.html)
+- [git revert](https://www.kernel.org/pub/software/scm/git/docs/git-revert.html)

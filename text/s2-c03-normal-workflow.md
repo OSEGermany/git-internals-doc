@@ -50,7 +50,7 @@ config/database.yml
 config/environments/production.rb
 ```
 
-- [.gitignore](http://www.kernel.org/pub/software/scm/git/docs/gitignore.html)
+- [.gitignore](https://www.kernel.org/pub/software/scm/git/docs/gitignore.html)
 
 ### Adding and Committing
 
@@ -132,7 +132,7 @@ when they are looking through your commit history.
 Now we can continue this loop - modifying,
 adding and committing - during our development.
 
-- [git status](http://www.kernel.org/pub/software/scm/git/docs/git-status.html)
+- [git status](https://www.kernel.org/pub/software/scm/git/docs/git-status.html)
 
 ### Interactive Adding
 

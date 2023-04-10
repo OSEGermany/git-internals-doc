@@ -75,4 +75,4 @@ and it will write the same snippet into your `.git/config` file
 in that repository,
 which will overwrite your global values.
 
-- [git config](http://www.kernel.org/pub/software/scm/git/docs/git-config.html)
+- [git config](https://www.kernel.org/pub/software/scm/git/docs/git-config.html)

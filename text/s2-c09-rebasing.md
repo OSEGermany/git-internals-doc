@@ -242,5 +242,5 @@ in the git workflow.
 To learn more about some spiffy things you can do with it,
 check out the [History Manipulation] and [Advanced Merging] sections.
 
-- [git rebase](http://www.kernel.org/pub/software/scm/git/docs/git-rebase.html)
-- [git reset](http://www.kernel.org/pub/software/scm/git/docs/git-reset.html)
+- [git rebase](https://www.kernel.org/pub/software/scm/git/docs/git-rebase.html)
+- [git reset](https://www.kernel.org/pub/software/scm/git/docs/git-reset.html)

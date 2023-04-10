@@ -29,7 +29,7 @@ coming at the problem from the viewpoint of a filesystem person
 kernels is what I do),
 and I actually have absolutely zero interest
 in creating a traditional SCM system." -
-[Linus](http://marc.info/?l=linux-kernel&m=111314792424707)
+[Linus](https://marc.info/?l=linux-kernel&m=111314792424707)
 
 When most SCMs store a new version of a project,
 they store the code delta or diff.

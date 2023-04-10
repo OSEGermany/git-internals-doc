@@ -80,7 +80,7 @@ The Git directory for our little project looks something like this:
 
 For more in-depth information on the Git directory layout,
 see the [git repository layout docs.](
-http://www.kernel.org/pub/software/scm/git/docs/gitrepository-layout.html).
+https://www.kernel.org/pub/software/scm/git/docs/gitrepository-layout.html).
 
 For now,
 let's go over some of the more important contents of this directory.
@@ -112,7 +112,7 @@ Here is an example of what a config file might look like:
         merge = refs/heads/master
 ```
 
-See the [git-config](http://www.kernel.org/pub/software/scm/git/docs/git-config.html)
+See the [git-config](https://www.kernel.org/pub/software/scm/git/docs/git-config.html)
 docs for more information on available configuration options.
 
 ### .git/index
@@ -180,5 +180,5 @@ Git will try to execute the `post-commit` script,
 if it has executable permissions.
 
 See the [online hooks documentation](
-http://www.kernel.org/pub/software/scm/git/docs/githooks.html)
+https://www.kernel.org/pub/software/scm/git/docs/githooks.html)
 for more information on what you can do with hooks.

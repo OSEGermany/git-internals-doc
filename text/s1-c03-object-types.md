@@ -27,7 +27,7 @@ SHA stands for Secure Hash Algorithm.
 A SHA creates an identifier of fixed length
 that uniquely identifies a specific piece of content.
 SHA-1 succeeded SHA-0 and is the most commonly used algorithm.
-[Wikipedia](http://en.wikipedia.org/wiki/SHA1) has more on the topic.
+[Wikipedia](https://en.wikipedia.org/wiki/SHA1) has more on the topic.
 
 To demonstrate these examples,
 we will develop a small ruby library

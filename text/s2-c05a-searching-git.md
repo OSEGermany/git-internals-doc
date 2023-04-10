@@ -66,4 +66,4 @@ v1.0.0:debian/git-tk.files
 v1.0.0:templates/this--description
 ```
 
-- [git grep](http://www.kernel.org/pub/software/scm/git/docs/git-grep.html)
+- [git grep](https://www.kernel.org/pub/software/scm/git/docs/git-grep.html)

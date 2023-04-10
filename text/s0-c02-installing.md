@@ -31,7 +31,7 @@ If you are installing from source,
 it will go something like the standard:
 
 ```shell
-wget http://kernel.org/pub/software/scm/git/git-1.5.4.4.tar.bz2
+wget https://kernel.org/pub/software/scm/git/git-1.5.4.4.tar.bz2
 tar jxpvf git-1.5.4.4.tar.bz2
 cd git-1.5.4.4
 make prefix=/usr all doc info
