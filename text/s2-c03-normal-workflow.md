@@ -158,8 +158,7 @@ including `status`,
 `add untracked`,
 `patch` and `diff`.
 
-movie.
-c3-add-interactive.mov
+movie. c3-add-interactive.mov
 
 ---
 SIDEBAR -->
