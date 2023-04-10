@@ -239,8 +239,6 @@ we've just added a single commit with no resolving necessary:
 
 The rebase command is one of the most useful and unique
 in the git workflow.
-To learn more about some spiffy things you can do with it,
-check out the [History Manipulation] and [Advanced Merging] sections.
 
 - [git rebase](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-rebase.html)
 - [git reset](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-reset.html)
