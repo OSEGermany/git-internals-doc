@@ -13,7 +13,9 @@ you can use one of the growing number of public Git hosted servers.
 
 I will focus on some interesting features
 of a commercial service called [GitHub](http://github.com) here,
-but there is also an open source project called [Gitorious](http://gitorious.com),
+but there is also an open source project
+called [CodeBerg](https://codeberg.org/) -
+using the [Gitea](https://gitea.io/) software -
 that has many of the same features.
 
 > **NOTE** \
@@ -26,10 +28,10 @@ It could be modified to run on your company's server
 if your project needs to remain private.
 
 GitHub hosts many popular projects featured in the PeepCode series,
-including [Ruby on Rails](http://github.com/rails/rails/tree/master),
-[Merb](http://github.com/wycats/merb-core/tree/master),
-[RSpec](http://github.com/dchelimsky/rspec/tree/master),
-and [Capistrano](http://github.com/jamis/capistrano/tree/master).
+including [Ruby on Rails](http://github.com/rails/rails/),
+[Merb](http://github.com/wycats/merb-core/),
+[RSpec](http://github.com/dchelimsky/rspec/),
+and [Capistrano](https://github.com/capistrano/capistrano/).
 
 ### GitHub
 
@@ -60,8 +62,7 @@ by the Merb project.
 
 > **NOTE** \
 In fact,
-Rails itself has recently been [forked](
-http://github.com/ezmobius/rails/tree/master)
+Rails itself has at one point been forked
 and significantly enhanced by Ezra Zygmuntowicz.
 In other contexts this would be a bold divisive gesture,
 but with Git it's common practice.

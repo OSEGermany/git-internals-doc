@@ -113,9 +113,10 @@ where all the tickets (bugs and features)
 for a project could be stored in a Git repository,
 worked on offline and transferred with a project.
 
-Examples of projects trying to do this are\
-[Ditz](http://ditz.rubyforge.org/),
-[Kipling](http://gitorious.org/projects/kipling) and my own\
+Examples of projects trying to do this are
+[git-bug](https://github.com/MichaelMure/git-bug)
+(which is the most advanced as of 2023),
+[Ditz](https://github.com/jashmenn/ditz) and my own
 [TicGit](http://github.com/schacon/ticgit/wikis).
 
 ### Backup Tool
@@ -137,7 +138,8 @@ in which permissions are important.
 A good example would be the `/etc` directory on a Unix machine.
 
 One project that has tackled this is [Gibak](
-http://eigenclass.org/hiki/gibak-backup-system-introduction).
+https://github.com/jaylevitt/gibak)
+(TODO: This is old, maybe there is something more recent).
 It implements a metastore in OCaml
 and it's worth a look if this topic interests you.
 

@@ -31,10 +31,10 @@ http://eagain.net/articles/git-for-computer-scientists/) - \
 good detail about the DAG object model
 
 [A Tutorial Introduction to Git](
-http://www.kernel.org/pub/software/scm/git/docs/tutorial.html)
+https://git-scm.com/docs/gittutorial)
 
 [Git Rebase Explained](
-http://wincent.com/knowledge-base/Git_rebase_explained)
+https://wincent.com/wiki/Git_rebase_explained)
 
 [A Tour of Git, the Basics](http://cworth.org/hgbook-git/tour/)
 

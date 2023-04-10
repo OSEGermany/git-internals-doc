@@ -18,7 +18,8 @@ but I will give you an overview and links
 as to where to find more detailed instructions on each platform.
 
 For any of these examples,
-you can find a link to the most current Git source code at [git.or.cz](http://git.or.cz/).
+you can find a link to the most current Git source code
+at <https://github.com/git/git>.
 
 I would recommend compiling from source if possible,
 simply because Git is lately making big strides in usability,
@@ -69,5 +70,6 @@ you can get the tools from **TODO**.
 There are two options on Windows currently,
 but the popular one is [MSysGit](http://code.google.com/p/msysgit/),
 which installs easily and can be run on the Windows command line.
-Simply download the exe file from the [downloads list](http://code.google.com/p/msysgit/downloads/list),
+Simply download the exe file from the [downloads list](
+http://code.google.com/p/msysgit/downloads/list),
 execute it and follow the on-screen instructions.

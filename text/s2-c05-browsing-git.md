@@ -163,7 +163,7 @@ If you don't want to fire up Tk,
 you can also browse your repository quickly
 via the `git instaweb` command.
 This will basically fire up a web server
-running the [gitweb](http://git.or.cz/gitwiki/Gitweb)
+running the [gitweb](https://git-scm.com/docs/gitweb)
 CGI script using lighttpd,
 apache or webrick.
 It then tries to automatically fire up your default web browser
@@ -194,6 +194,6 @@ into your `cgi-bin` directory.
 
 - [git show](http://www.kernel.org/pub/software/scm/git/docs/git-show.html)
 - [git ls-tree](http://www.kernel.org/pub/software/scm/git/docs/git-ls-tree.html)
-- [git cat-file](http://www.kernel.org/pub/software/scm/git/docs/git-cat-fileß.html)
+- [git cat-file](http://www.kernel.org/pub/software/scm/git/docs/git-cat-file.html)
 - [gitk](http://www.kernel.org/pub/software/scm/git/docs/gitk.html)
 - [git instaweb](http://www.kernel.org/pub/software/scm/git/docs/git-instaweb.html)
