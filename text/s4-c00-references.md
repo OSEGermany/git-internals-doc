@@ -43,7 +43,9 @@ some history on git and Junio becoming the new maintainer
 
 ## Screencasts
 
-[Git Peepcode Screencast](https://peepcode.com/products/git)
+The one pertaining to this book is sadly not available anymore.
+It could previously be found at
+`http://peepcode.com/products/git`.
 
 [RailsCasts Git Screencast](
 http://railscasts.com/episodes/96-git-on-rails)
