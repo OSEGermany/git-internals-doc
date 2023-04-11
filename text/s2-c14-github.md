@@ -47,7 +47,7 @@ You then subscribe to a single Atom feed
 and are kept up to date on what all those projects and people are doing,
 code-wise.
 
-![Custom GitHub home page with your projects](../artwork/bitmap/github1.png)
+![Custom GitHub home page with your projects](../artwork/screenshots/github1.png)
 
 More interestingly,
 you can publicly fork a project to get your own copy of it.
@@ -78,7 +78,7 @@ so now there are two major versions of the project.
 I have a checkout of the project and remotes added for each one,
 so I could work on and contribute to either.
 
-![Project network visualization](../artwork/bitmap/github-network.png)
+![Project network visualization](../artwork/screenshots/github-network.png)
 
 Let's say there is a popular feature request
 that is either not completed or not accepted

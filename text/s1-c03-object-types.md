@@ -35,7 +35,7 @@ that provides very simple bindings to Git,
 keeping the project in a Git repository.
 The basic layout of the project is this:
 
-![Sample project with files and directories](../artwork/vector/layout.eps)
+![Sample project with files and directories](../artwork/diagrams/layout.eps)
 
 Let's take a look at what Git does when this is committed to a repository.
 
@@ -44,7 +44,7 @@ Let's take a look at what Git does when this is committed to a repository.
 In Git,
 the contents of files are stored as **blobs**.
 
-![Files are stored as blobs](../artwork/vector/blobs.eps)
+![Files are stored as blobs](../artwork/diagrams/blobs.eps)
 
 It is important to note that it is the *contents* that are stored,
 not the files.
@@ -61,13 +61,13 @@ Git will only transfer the blob once,
 then expand it out into multiple files upon checkout.
 
 ![The contents of a blob,
-uncompressed](../artwork/vector/blob-expand.eps)
+uncompressed](../artwork/diagrams/blob-expand.eps)
 
 ### The Tree
 
 Directories in Git basically correspond to **trees**.
 
-![Trees are pointers to blobs and other trees](../artwork/vector/trees.eps)
+![Trees are pointers to blobs and other trees](../artwork/diagrams/trees.eps)
 
 A tree is a simple list of trees and blobs that the tree contains,
 along with the names and modes of those trees and blobs.
@@ -83,7 +83,7 @@ which shows *mode*,
 *sha* and *name* for each entry (same fields,
 different order).
 
-![An uncompressed tree](../artwork/vector/tree-expand.eps)
+![An uncompressed tree](../artwork/diagrams/tree-expand.eps)
 
 ### The Commit
 
@@ -92,7 +92,7 @@ now that we can store arbitrary trees of content in Git,
 where does the 'history' part of 'tree history storage system' come in?
 The answer is the **commit** object.
 
-![A commit references a tree](../artwork/vector/commit.eps)
+![A commit references a tree](../artwork/diagrams/commit.eps)
 
 The commit is very simple,
 much like the tree.
@@ -100,14 +100,14 @@ It simply points to a tree and keeps an *author*,
 *committer*,
 *message* and any *parent* commits that directly preceded it.
 
-![Uncompressed initial commit](../artwork/vector/commit-expand.eps)
+![Uncompressed initial commit](../artwork/diagrams/commit-expand.eps)
 
 Since this was my first commit,
 there are no parents.
 If I commit a second time,
 the commit object will look more like this:
 
-![A commit with a parent](../artwork/vector/commit-expand2.eps)
+![A commit with a parent](../artwork/diagrams/commit-expand2.eps)
 
 Notice how the *parent* in that commit
 is the same SHA-1 value of the last commit we did?
@@ -133,7 +133,7 @@ and the *object* is the SHA-1 of the commit you're tagging.
 The tag can also be GPG signed,
 providing cryptographic integrity to a release or version.
 
-![Uncompressed tag](../artwork/vector/tag-expand.eps)
+![Uncompressed tag](../artwork/diagrams/tag-expand.eps)
 
 We'll talk a little bit more about tags
 and how they differ from *branches* (which also point to commits,

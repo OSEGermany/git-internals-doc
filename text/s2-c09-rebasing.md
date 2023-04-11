@@ -41,12 +41,12 @@ this is a relatively simple process.
 Say we have been working in a branch called 'story84'
 and it's completed and we want to merge it into the master branch.
 
-![](../artwork/bitmap/repo1.png)
+![](../artwork/screenshots/repo1.png)
 
 If we do a simple merge,
 our history will look like this:
 
-![](../artwork/bitmap/repo.png)
+![](../artwork/screenshots/repo.png)
 
 But we don't want to mess up our history
 with a bunch of branches and merges when it can be clearer.
@@ -120,7 +120,7 @@ In this case we will simply fix the conflict,
 run `git add` on the file and then run `git rebase --continue`
 which then makes our history look like this:
 
-![](../artwork/bitmap/repo3.png)
+![](../artwork/screenshots/repo3.png)
 
 Then all we have to do is switch to the master branch
 and merge in 'story84'
@@ -128,7 +128,7 @@ and merge in 'story84'
 since 'master' is now a direct ancestor of 'story84')
 to get this:
 
-![](../artwork/bitmap/repo4.png)
+![](../artwork/screenshots/repo4.png)
 
 ### Interactive Rebasing
 
@@ -149,7 +149,7 @@ we've pulled in a change
 that implements the same 'ls-tree' change differently
 into our 'master' branch.
 
-![](../artwork/bitmap/repo-rebasei1.png)
+![](../artwork/screenshots/repo-rebasei1.png)
 
 We can see before we try the merge
 that the same change is in each branch,
@@ -235,7 +235,7 @@ and instead of three commits on top of our master
 and having to reconcile a useless conflict,
 we've just added a single commit with no resolving necessary:
 
-![](../artwork/bitmap/repo-rebasei2.png)
+![](../artwork/screenshots/repo-rebasei2.png)
 
 The rebase command is one of the most useful and unique
 in the git workflow.

@@ -50,7 +50,7 @@ We'll go over it again later.
 
 The basic data model I've been explaining looks something like this:
 
-![](../artwork/vector/dag-model.eps)
+![](../artwork/diagrams/dag-model.eps)
 
 The cheap references I've represented as the grey boxes, the immutable objects are the colored round cornered boxes.
 
@@ -76,7 +76,7 @@ Possibly something like this:
 When we first commit this tree,
 our Git model may look something like this:
 
-![](../artwork/vector/object-dag-tree1.eps)
+![](../artwork/diagrams/object-dag-tree1.eps)
 
 We have three trees,
 three blobs and a single commit that points to the top of the tree.
@@ -101,7 +101,7 @@ which adds a new tag object.
 At this point,
 we'll have the following in Git:
 
-![](../artwork/vector/object-dag-tree2.eps)
+![](../artwork/diagrams/object-dag-tree2.eps)
 
 Notice how the other two blobs that were not changed were not added again.
 The new trees that were added point to the same blobs in the data store
@@ -116,7 +116,7 @@ Again,
 the branch reference will move forward
 and the new commit will point to its parent.
 
-![](../artwork/vector/object-dag-tree3.eps)
+![](../artwork/diagrams/object-dag-tree3.eps)
 
 At this point,
 let's stop to look at the objects we now have in our repository.
@@ -133,7 +133,7 @@ If we wanted the second tree,
 we could ask for the commit pointed to by the tag,
 and so on.
 
-![](../artwork/vector/object-dag.eps)
+![](../artwork/diagrams/object-dag.eps)
 
 So,
 to keep all the information and history on the three versions of this tree,
@@ -153,4 +153,4 @@ tag or remote you specify.
 Then it traverses the objects by walking the trees one by one,
 checking out the blobs under the names listed.
 
-![](../artwork/vector/traversing-git-objects.eps)
+![](../artwork/diagrams/traversing-git-objects.eps)

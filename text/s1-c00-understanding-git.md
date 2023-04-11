@@ -29,7 +29,7 @@ but instead understood what it was actually doing.
 Then I found I could find new and interesting ways to use
 what is really a very powerful and cool toolset.
 
-![](../artwork/vector/what-git-is.eps)
+![](../artwork/diagrams/what-git-is.eps)
 
 So,
 let's see what it's doing behind the scenes first.

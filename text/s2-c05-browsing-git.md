@@ -145,7 +145,7 @@ is the Tcl/Tk based browser called `gitk`.
 If you want to see a simple visualization of your repository,
 `gitk` is a great tool.
 
-![](../artwork/bitmap/gitk.png)
+![](../artwork/screenshots/gitk.png)
 
 Gitk will also take most of the same arguments that `git log` will take,
 including `--since`,
@@ -175,7 +175,7 @@ $ git instaweb --httpd=webrick
 [2008-04-08 20:32:29] INFO  ruby 1.8.4 (2005-12-24) [i686-darwin8.8.2]
 ```
 
-![](../artwork/bitmap/instaweb.png)
+![](../artwork/screenshots/instaweb.png)
 
 When you are done,
 you can run the following to shut down the server:

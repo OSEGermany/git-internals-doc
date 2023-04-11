@@ -27,7 +27,7 @@ As we recall from section one,
 that command will create a git object
 that looks something like this:
 
-![](../artwork/vector/tag-expand.eps)
+![](../artwork/diagrams/tag-expand.eps)
 
 and).
 
