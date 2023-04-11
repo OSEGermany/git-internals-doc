@@ -273,7 +273,7 @@ in this case,
 one for every developer with a public fork of that project
 that might push changes I care to try.
 
-![](../artwork/vector/Fetch_Pull.eps)
+![](../artwork/vector/fetch-pull.eps)
 
 You can also remove remotes at any time,
 which simply removes the lines
