@@ -381,7 +381,7 @@ tests,
 accepts and pushes.
 
 ![Private and public repositories driven by read-only pull requests](
-../artwork/vector/integration-manager.eps)
+../artwork/vector/workflow-integration-manager.eps)
 
 This is largely how community-based git repositories
 like GitHub were built to work
