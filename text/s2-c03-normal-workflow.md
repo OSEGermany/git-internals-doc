@@ -107,7 +107,7 @@ $ git status
 You can see that if we commit at this point,
 only the Rakefile will show up as changed in the commit.
 
-![](../artwork/vector/Git_Add_Commit.eps)
+![](../artwork/vector/add-commit.eps)
 
 If we want to commit all our changes,
 we can use this shorthand,
