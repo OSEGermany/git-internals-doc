@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504.0" height="198.0">
+	<defs>
+		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lstart_000000_1.000000px" style="overflow:visible">
+			
+				  
+			<path id="path_Arrow1Lstart_000000_1.000000px" d="M 5,0.0 L 5.0,-2.0 L 0.0,0.0 L 5.0,2.0 z" style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;marker-start:none" transform="scale(1.000000)"/>
+			
+				
+		</marker>
+		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lend_000000_1.000000px" style="overflow:visible;">
+			
+				  
+			<path id="path_Arrow1Lend_000000_1.000000px" d="M -5,0.0 L -5,-2.0 L 0.0,0.0 L -5,2.0 z " style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;marker-start:none;" transform="scale(1.000000)"/>
+			
+				
+		</marker>
+	</defs>
+	<g transform="translate(-6.921000,-7.297300)">
+		<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
+			<rect id="1957" width="106.079" height="36.125" x="256.461" y="7.6723" rx="20.0" ry="20.0" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1957_text" x="256.461" y="7.6723" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="1957_line1" text-anchor="middle" x="309.5005" y="31.7348" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+			</text>
+			<rect id="1972" width="106.079" height="36.125" x="133.461" y="7.2973" rx="20.0" ry="20.0" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1972_text" x="133.461" y="7.2973" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="1972_line1" text-anchor="middle" x="186.50050000000002" y="31.3598" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+			</text>
+			<rect id="1974" width="106.079" height="36.125" x="383.0" y="40.875" rx="20.0" ry="20.0" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1974_text" x="383.0" y="40.875" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="1974_line1" text-anchor="middle" x="436.0395" y="64.9375" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+			</text>
+			<rect id="1993" width="129.04" height="36.125" x="183.48" y="84.6875" rx="20.0" ry="20.0" style="fill:#8ab891;stroke:none;stroke-width:3.000000px"/>
+			<text id="1993_text" x="183.48" y="84.6875" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="1993_line1" text-anchor="middle" x="248.0" y="108.75" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">shared repository</tspan>
+			</text>
+			<rect id="2029" width="106.079" height="36.125" x="383.0" y="100.5" rx="20.0" ry="20.0" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="2029_text" x="383.0" y="100.5" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="2029_line1" text-anchor="middle" x="436.0395" y="124.5625" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+			</text>
+			<rect id="2030" width="106.079" height="37.125" x="6.921" y="40.875" rx="20.0" ry="20.0" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="2030_text" x="6.921" y="40.875" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="2030_line1" text-anchor="middle" x="59.960499999999996" y="65.4375" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+			</text>
+			<rect id="2031" width="106.079" height="36.125" x="6.921" y="100.5" rx="20.0" ry="20.0" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="2031_text" x="6.921" y="100.5" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="2031_line1" text-anchor="middle" x="59.960499999999996" y="124.5625" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+			</text>
+			<rect id="2032" width="106.079" height="36.125" x="256.461" y="155.202" rx="20.0" ry="20.0" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="2032_text" x="256.461" y="155.202" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="2032_line1" text-anchor="middle" x="309.5005" y="179.2645" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+			</text>
+			<rect id="2033" width="106.079" height="36.125" x="133.461" y="155.202" rx="20.0" ry="20.0" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="2033_text" x="133.461" y="155.202" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="2033_line1" text-anchor="middle" x="186.50050000000002" y="179.2645" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+			</text>
+			<path id="2034" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 186.501,43.4223 L 229.276,84.6875"/>
+			<path id="2035" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 309.5,43.7973 L 266.843,84.6875"/>
+			<path id="2036" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 383.0,58.9375 L 300.484,85.7171"/>
+			<path id="2037" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 383.0,118.562 L 310.951,110.123"/>
+			<path id="2038" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 309.5,155.202 L 269.178,120.813"/>
+			<path id="2039" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 186.501,155.202 L 226.822,120.813"/>
+			<path id="2040" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 113.0,118.562 L 185.049,110.123"/>
+			<path id="2041" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 113.0,59.4375 L 195.232,85.8204"/>
+			<rect id="2042" width="106.079" height="36.375" x="6.921" y="41.625" rx="20.0" ry="20.0" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="2042_text" x="6.921" y="41.625" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="2042_line1" text-anchor="middle" x="59.960499999999996" y="65.8125" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+			</text>
+		</g>
+	</g>
+</svg>

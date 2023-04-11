@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="306.0" height="306.0">
+	<defs>
+		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lend_000000_1.000000px" style="overflow:visible;">
+			
+				  
+			<path id="path_Arrow1Lend_000000_1.000000px" d="M -5,0.0 L -5,-2.0 L 0.0,0.0 L -5,2.0 z " style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;marker-start:none;" transform="scale(1.000000)"/>
+			
+				
+		</marker>
+		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lend_cccccc_1.000000px" style="overflow:visible;">
+			
+				  
+			<path id="path_Arrow1Lend_cccccc_1.000000px" d="M -5,0.0 L -5,-2.0 L 0.0,0.0 L -5,2.0 z " style="fill:#cccccc;fill-rule:evenodd;stroke:#cccccc;stroke-width:1.0px;marker-start:none;" transform="scale(1.000000)"/>
+			
+				
+		</marker>
+	</defs>
+	<g transform="translate(-3.708000,-3.000000)">
+		<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
+			<rect id="1195" width="62.5" height="17.0" x="141.31" y="91.0" rx="1.1782108945942475" ry="8.5" style="fill:none;stroke:#cccccc;stroke-width:3.000000px"/>
+			<text id="1195_text" x="151.31" y="94.0" style="fill:#cccccc;stroke:#cccccc;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1195_line1" text-anchor="middle" x="172.56" y="104.5" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#cccccc" stroke="#cccccc">commit</tspan>
+			</text>
+			<rect id="1196" width="43.75" height="17.0" x="150.685" y="44.0" rx="1.718968024434968" ry="8.5" style="fill:none;stroke:#cccccc;stroke-width:3.000000px"/>
+			<text id="1196_text" x="160.685" y="47.0" style="fill:#cccccc;stroke:#cccccc;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1196_line1" text-anchor="middle" x="172.56" y="57.5" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#cccccc" stroke="#cccccc">tag</tspan>
+			</text>
+			<rect id="1197" width="50.0" height="17.0" x="147.56" y="138.0" rx="1.4893641089825067" ry="8.5" style="fill:none;stroke:#cccccc;stroke-width:3.000000px"/>
+			<text id="1197_text" x="157.56" y="141.0" style="fill:#cccccc;stroke:#cccccc;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1197_line1" text-anchor="middle" x="172.56" y="151.5" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#cccccc" stroke="#cccccc">tree</tspan>
+			</text>
+			<path id="1198" style="stroke:#cccccc;marker-end:url(#Arrow1Lend_cccccc_1.000000px);marker-start:none;fill:none" d="M 172.56,109.5 L 172.56,136.5"/>
+			<path id="1199" style="stroke:#cccccc;marker-end:url(#Arrow1Lend_cccccc_1.000000px);marker-start:none;fill:none" d="M 172.56,62.5 L 172.56,89.5"/>
+			<path id="1200" style="stroke:#cccccc;marker-end:url(#Arrow1Lend_cccccc_1.000000px);marker-start:none;fill:none" d="M 172.56,156.5 L 172.56,185.5"/>
+			<path id="1201" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 172.56,202.5 L 172.56,237.0"/>
+			<rect id="1202" width="50.0" height="17.0" x="147.56" y="284.0" rx="1.4893641089825067" ry="8.5" style="fill:#f5e7e7;stroke:none;stroke-width:3.000000px"/>
+			<text id="1202_text" x="157.56" y="287.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1202_line1" text-anchor="middle" x="172.56" y="297.5" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">blob</tspan>
+			</text>
+			<rect id="1203" width="50.0" height="17.0" x="147.56" y="237.0" rx="1.4893641089825067" ry="8.5" style="fill:#e1eaf5;stroke:none;stroke-width:3.000000px"/>
+			<text id="1203_text" x="157.56" y="240.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1203_line1" text-anchor="middle" x="172.56" y="250.5" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">tree</tspan>
+			</text>
+			<rect id="1204" width="50.0" height="17.0" x="147.56" y="185.5" rx="1.4893641089825067" ry="8.5" style="fill:#e1eaf5;stroke:none;stroke-width:3.000000px"/>
+			<text id="1204_text" x="157.56" y="188.5" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1204_line1" text-anchor="middle" x="172.56" y="199.0" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">tree</tspan>
+			</text>
+			<rect id="1205" width="62.5" height="17.0" x="33.2448" y="91.0" rx="1.1782108945942475" ry="8.5" style="fill:none;stroke:#cccccc;stroke-width:3.000000px"/>
+			<text id="1205_text" x="43.2448" y="94.0" style="fill:#cccccc;stroke:#cccccc;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1205_line1" text-anchor="middle" x="64.4948" y="104.5" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#cccccc" stroke="#cccccc">commit</tspan>
+			</text>
+			<rect id="1206" width="50.0" height="17.0" x="39.4948" y="138.0" rx="1.4893641089825067" ry="8.5" style="fill:none;stroke:#cccccc;stroke-width:3.000000px"/>
+			<text id="1206_text" x="49.4948" y="141.0" style="fill:#cccccc;stroke:#cccccc;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1206_line1" text-anchor="middle" x="64.4948" y="151.5" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#cccccc" stroke="#cccccc">tree</tspan>
+			</text>
+			<path id="1207" style="stroke:#cccccc;marker-end:url(#Arrow1Lend_cccccc_1.000000px);marker-start:none;fill:none" d="M 64.4948,109.5 L 64.4948,136.5"/>
+			<path id="1208" style="stroke:#cccccc;marker-end:url(#Arrow1Lend_cccccc_1.000000px);marker-start:none;fill:none" d="M 72.8567,156.133 L 97.3661,184.367"/>
+			<path id="1209" style="stroke:#cccccc;marker-end:url(#Arrow1Lend_cccccc_1.000000px);marker-start:none;fill:none" d="M 57.1882,156.198 L 36.0146,184.302"/>
+			<path id="1210" style="stroke:#cccccc;marker-end:url(#Arrow1Lend_cccccc_1.000000px);marker-start:none;fill:none" d="M 42.667,203.334 L 93.016,237.0"/>
+			<rect id="1211" width="50.0" height="17.0" x="3.708" y="284.0" rx="1.4893641089825067" ry="8.5" style="fill:none;stroke:#cccccc;stroke-width:3.000000px"/>
+			<text id="1211_text" x="13.708" y="287.0" style="fill:#cccccc;stroke:#cccccc;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1211_line1" text-anchor="middle" x="28.708" y="297.5" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#cccccc" stroke="#cccccc">blob</tspan>
+			</text>
+			<rect id="1212" width="50.0" height="17.0" x="3.708" y="237.0" rx="1.4893641089825067" ry="8.5" style="fill:none;stroke:#cccccc;stroke-width:3.000000px"/>
+			<text id="1212_text" x="13.708" y="240.0" style="fill:#cccccc;stroke:#cccccc;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1212_line1" text-anchor="middle" x="28.708" y="250.5" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#cccccc" stroke="#cccccc">tree</tspan>
+			</text>
+			<rect id="1213" width="50.0" height="17.0" x="3.708" y="185.5" rx="1.4893641089825067" ry="8.5" style="fill:none;stroke:#cccccc;stroke-width:3.000000px"/>
+			<text id="1213_text" x="13.708" y="188.5" style="fill:#cccccc;stroke:#cccccc;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1213_line1" text-anchor="middle" x="28.708" y="199.0" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#cccccc" stroke="#cccccc">tree</tspan>
+			</text>
+			<rect id="1214" width="50.0" height="17.0" x="80.728" y="185.5" rx="1.4893641089825067" ry="8.5" style="fill:none;stroke:#cccccc;stroke-width:3.000000px"/>
+			<text id="1214_text" x="90.728" y="188.5" style="fill:#cccccc;stroke:#cccccc;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1214_line1" text-anchor="middle" x="105.728" y="199.0" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#cccccc" stroke="#cccccc">blob</tspan>
+			</text>
+			<rect id="1215" width="62.5" height="17.0" x="234.29" y="91.0" rx="1.1782108945942475" ry="8.5" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1215_text" x="244.29" y="94.0" style="fill:#cccccc;stroke:#cccccc;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1215_line1" text-anchor="middle" x="265.53999999999996" y="104.5" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">commit</tspan>
+			</text>
+			<rect id="1216" width="50.0" height="17.0" x="240.54" y="138.0" rx="1.4893641089825067" ry="8.5" style="fill:#e1eaf5;stroke:none;stroke-width:3.000000px"/>
+			<text id="1216_text" x="250.54" y="141.0" style="fill:#cccccc;stroke:#cccccc;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1216_line1" text-anchor="middle" x="265.53999999999996" y="151.5" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">tree</tspan>
+			</text>
+			<path id="1217" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 265.54,108.0 L 265.54,138.0"/>
+			<path id="1218" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 265.54,155.0 L 265.54,185.0"/>
+			<rect id="1219" width="50.0" height="17.0" x="240.54" y="185.0" rx="1.4893641089825067" ry="8.5" style="fill:#f5e7e7;stroke:none;stroke-width:3.000000px"/>
+			<text id="1219_text" x="250.54" y="188.0" style="fill:#cccccc;stroke:#cccccc;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1219_line1" text-anchor="middle" x="265.53999999999996" y="198.5" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">blob</tspan>
+			</text>
+			<path id="1220" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 161.529,202.5 L 116.759,237.0"/>
+			<path id="1221" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 248.901,155.0 L 189.199,185.5"/>
+			<path id="1222" style="stroke:#cccccc;marker-end:url(#Arrow1Lend_cccccc_1.000000px);marker-start:none;fill:none" d="M 28.708,204.0 L 28.708,235.5"/>
+			<rect id="1223" width="50.0" height="17.0" x="80.728" y="237.0" rx="1.4893641089825067" ry="8.5" style="fill:#f5e7e7;stroke:none;stroke-width:3.000000px"/>
+			<text id="1223_text" x="90.728" y="240.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1223_line1" text-anchor="middle" x="105.728" y="250.5" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">blob</tspan>
+			</text>
+			<path id="1224" style="stroke:#cccccc;marker-end:url(#Arrow1Lend_cccccc_1.000000px);marker-start:none;fill:none" d="M 28.708,255.5 L 28.708,282.5"/>
+			<path id="1225" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 172.56,254.0 L 172.56,284.0"/>
+			<path id="1226" style="stroke:#cccccc;marker-end:url(#Arrow1Lend_cccccc_1.000000px);marker-start:none;fill:none" d="M 159.378,155.869 L 118.91,184.631"/>
+			<rect id="1227" width="50.0" height="17.0" x="240.54" y="44.0" style="fill:#eeeeee;stroke:none;stroke-width:2.000000px"/>
+			<text id="1227_text" x="250.54" y="47.0" style="fill:#cccccc;stroke:#cccccc;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1227_line1" text-anchor="middle" x="265.53999999999996" y="57.5" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#777777" stroke="#777777">branch</tspan>
+			</text>
+			<rect id="1228" width="40.0" height="17.0" x="245.54" y="3.0" style="fill:#eeeeee;stroke:none;stroke-width:2.000000px"/>
+			<text id="1228_text" x="255.54" y="6.0" style="fill:#cccccc;stroke:#cccccc;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1228_line1" text-anchor="middle" x="265.53999999999996" y="16.5" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#777777" stroke="#777777">HEAD</tspan>
+			</text>
+			<path id="1229" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 265.54,61.0 L 265.54,91.0"/>
+			<path id="1230" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 265.54,20.0 L 265.54,44.0"/>
+			<path id="1231" style="stroke:#cccccc;marker-end:url(#Arrow1Lend_cccccc_1.000000px);marker-start:none;fill:none" d="M 234.29,99.5 L 205.31,99.5"/>
+			<path id="1232" style="stroke:#cccccc;marker-end:url(#Arrow1Lend_cccccc_1.000000px);marker-start:none;fill:none" d="M 139.81,99.5 L 97.2448,99.5"/>
+		</g>
+	</g>
+</svg>

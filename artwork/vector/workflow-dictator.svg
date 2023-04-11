@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="547.2" height="180.0">
+	<defs>
+		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lstart_000000_1.000000px" style="overflow:visible">
+			
+				  
+			<path id="path_Arrow1Lstart_000000_1.000000px" d="M 5,0.0 L 5.0,-2.0 L 0.0,0.0 L 5.0,2.0 z" style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;marker-start:none" transform="scale(1.000000)"/>
+			
+				
+		</marker>
+	</defs>
+	<g transform="translate(-5.999900,-3.000000)">
+		<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
+			<rect id="1957" width="106.079" height="36.0" x="294.0" y="141.0" rx="20.0" ry="20.0" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1957_text" x="294.0" y="141.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="1957_line1" text-anchor="middle" x="347.0395" y="165.0" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+			</text>
+			<rect id="1972" width="106.079" height="36.0" x="150.0" y="141.0" rx="20.0" ry="20.0" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1972_text" x="150.0" y="141.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="1972_line1" text-anchor="middle" x="203.0395" y="165.0" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+			</text>
+			<rect id="1973" width="106.079" height="36.0" x="5.9999" y="3.0" rx="20.0" ry="20.0" style="fill:#ffada5;stroke:none;stroke-width:3.000000px"/>
+			<text id="1973_text" x="5.9999" y="3.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="1973_line1" text-anchor="middle" x="59.0394" y="27.0" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">dictator</tspan>
+			</text>
+			<rect id="1974" width="106.079" height="36.0" x="438.0" y="141.0" rx="20.0" ry="20.0" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1974_text" x="438.0" y="141.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="1974_line1" text-anchor="middle" x="491.0395" y="165.0" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+			</text>
+			<rect id="1987" width="106.079" height="36.0" x="5.9999" y="65.0" rx="20.0" ry="20.0" style="fill:#8ab5eb;stroke:none;stroke-width:3.000000px"/>
+			<text id="1987_text" x="5.9999" y="65.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="1987_line1" text-anchor="middle" x="59.0394" y="89.0" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">lieutenant</tspan>
+			</text>
+			<path id="1990" style="stroke:#000000;marker-end:none;marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 106.099,34.3988 L 155.98,48.6012"/>
+			<rect id="1994" width="180.0" height="36.0" x="351.0" y="22.7348" rx="20.0" ry="20.0" style="fill:#8ab891;stroke:none;stroke-width:3.000000px"/>
+			<text id="1994_text" x="351.0" y="22.7348" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="1994_line1" text-anchor="middle" x="441.0" y="46.7348" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">blessed repository</tspan>
+			</text>
+			<path id="2004" style="stroke:#000000;marker-end:none;marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 491.039,141.0 L 449.983,58.7348"/>
+			<rect id="2010" width="106.079" height="36.0" x="5.9999" y="141.0" rx="20.0" ry="20.0" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="2010_text" x="5.9999" y="141.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="2010_line1" text-anchor="middle" x="59.0394" y="165.0" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+			</text>
+			<rect id="2011" width="106.079" height="36.0" x="150.0" y="44.0" rx="20.0" ry="20.0" style="fill:#8ab5eb;stroke:none;stroke-width:3.000000px"/>
+			<text id="2011_text" x="150.0" y="44.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:12px">
+				<tspan id="2011_line1" text-anchor="middle" x="203.0395" y="68.0" text-align="center" font-family="BryantPro-Medium" font-size="12.0px" fill="#000000" stroke="#000000">lieutenant</tspan>
+			</text>
+			<path id="2013" style="stroke:#000000;marker-end:none;marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 59.0394,39.0 L 59.0394,65.0"/>
+			<path id="2014" style="stroke:#000000;marker-end:none;marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 59.0394,101.0 L 59.0394,141.0"/>
+			<path id="2015" style="stroke:#000000;marker-end:none;marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 100.654,99.7614 L 203.039,141.0"/>
+			<path id="2016" style="stroke:#000000;marker-end:none;marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 235.85,80.0 L 347.039,141.0"/>
+			<path id="2017" style="stroke:#000000;marker-end:none;marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 250.507,75.0207 L 491.039,141.0"/>
+			<path id="2018" style="stroke:#000000;marker-end:none;marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 347.039,141.0 L 424.132,58.7348"/>
+			<path id="2019" style="stroke:#000000;marker-end:none;marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 203.04,141.0 L 398.28,58.7348"/>
+			<path id="2020" style="stroke:#000000;marker-end:none;marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 59.0394,141.0 L 372.429,58.7348"/>
+			<path id="2021" style="stroke:#000000;marker-end:none;marker-start:url(#Arrow1Lstart_000000_1.000000px);fill:none" d="M 351.598,36.1157 L 111.873,23.7298"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="522.0" height="216.0">
+	<defs>
+		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lstart_808080_1.000000px" style="overflow:visible">
+			
+				  
+			<path id="path_Arrow1Lstart_808080_1.000000px" d="M 5,0.0 L 5.0,-2.0 L 0.0,0.0 L 5.0,2.0 z" style="fill:#808080;fill-rule:evenodd;stroke:#808080;stroke-width:1.0px;marker-start:none" transform="scale(1.000000)"/>
+			
+				
+		</marker>
+		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lstart_000000_2.000000px" style="overflow:visible">
+			
+				  
+			<path id="path_Arrow1Lstart_000000_2.000000px" d="M 5,0.0 L 5.0,-2.0 L 0.0,0.0 L 5.0,2.0 z" style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;marker-start:none" transform="scale(0.952381)"/>
+			
+				
+		</marker>
+	</defs>
+	<g transform="translate(-2.748000,-3.000000)">
+		<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
+			<rect id="1957" width="106.079" height="57.4696" x="287.0" y="3.0" rx="8.458115665168044" ry="28.7348" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1957_text" x="287.0" y="3.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Helvetica;font-size:12px">
+				<tspan id="1957_line1" text-anchor="middle" x="340.0395" y="31.7348" text-align="center" font-family="LucidaGrande" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+				<tspan id="1957_line2" text-anchor="middle" x="340.0395" y="43.7348" text-align="center" font-family="LucidaGrande" font-size="12.0px" fill="#000000" stroke="#000000">public</tspan>
+			</text>
+			<rect id="1972" width="106.079" height="57.4696" x="164.0" y="3.0" rx="8.458115665168044" ry="28.7348" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1972_text" x="164.0" y="3.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Helvetica;font-size:12px">
+				<tspan id="1972_line1" text-anchor="middle" x="217.0395" y="31.7348" text-align="center" font-family="LucidaGrande" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+				<tspan id="1972_line2" text-anchor="middle" x="217.0395" y="43.7348" text-align="center" font-family="LucidaGrande" font-size="12.0px" fill="#000000" stroke="#000000">public</tspan>
+			</text>
+			<rect id="1973" width="106.079" height="57.4696" x="18.874" y="150.0" rx="8.458115665168044" ry="28.7348" style="fill:#ffada5;stroke:none;stroke-width:3.000000px"/>
+			<text id="1973_text" x="18.874" y="150.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Helvetica;font-size:12px">
+				<tspan id="1973_line1" text-anchor="middle" x="71.9135" y="184.7348" text-align="center" font-family="LucidaGrande" font-size="12.0px" fill="#000000" stroke="#000000">integration manager</tspan>
+			</text>
+			<rect id="1974" width="106.079" height="57.4696" x="410.001" y="3.0" rx="8.458115665168044" ry="28.7348" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1974_text" x="410.001" y="3.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Helvetica;font-size:12px">
+				<tspan id="1974_line1" text-anchor="middle" x="463.04049999999995" y="31.7348" text-align="center" font-family="LucidaGrande" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+				<tspan id="1974_line2" text-anchor="middle" x="463.04049999999995" y="43.7348" text-align="center" font-family="LucidaGrande" font-size="12.0px" fill="#000000" stroke="#000000">public</tspan>
+			</text>
+			<rect id="1987" width="138.331" height="81.0" x="2.748" y="3.0" rx="13.097537755506039" ry="40.5" style="fill:#8ab5eb;stroke:none;stroke-width:3.000000px"/>
+			<text id="1987_text" x="2.748" y="3.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Helvetica;font-size:12px">
+				<tspan id="1987_line1" text-anchor="middle" x="71.9135" y="43.5" text-align="center" font-family="LucidaGrande" font-size="12.0px" fill="#000000" stroke="#000000">blessed</tspan>
+				<tspan id="1987_line2" text-anchor="middle" x="71.9135" y="55.5" text-align="center" font-family="LucidaGrande" font-size="12.0px" fill="#000000" stroke="#000000">repository</tspan>
+			</text>
+			<path id="1990" style="stroke:#000000;stroke-width:2.000000px;marker-end:none;marker-start:url(#Arrow1Lstart_000000_2.000000px);fill:none" d="M 71.9135,84.0 L 71.9135,150.0"/>
+			<rect id="1991" width="106.079" height="57.4696" x="287.0" y="150.0" rx="8.458115665168044" ry="28.7348" style="fill:#8ab891;stroke:none;stroke-width:3.000000px"/>
+			<text id="1991_text" x="287.0" y="150.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Helvetica;font-size:12px">
+				<tspan id="1991_line1" text-anchor="middle" x="340.0395" y="178.7348" text-align="center" font-family="LucidaGrande" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+				<tspan id="1991_line2" text-anchor="middle" x="340.0395" y="190.7348" text-align="center" font-family="LucidaGrande" font-size="12.0px" fill="#000000" stroke="#000000">private</tspan>
+			</text>
+			<rect id="1993" width="106.079" height="57.4696" x="164.0" y="150.0" rx="8.458115665168044" ry="28.7348" style="fill:#8ab891;stroke:none;stroke-width:3.000000px"/>
+			<text id="1993_text" x="164.0" y="150.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Helvetica;font-size:12px">
+				<tspan id="1993_line1" text-anchor="middle" x="217.0395" y="178.7348" text-align="center" font-family="LucidaGrande" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+				<tspan id="1993_line2" text-anchor="middle" x="217.0395" y="190.7348" text-align="center" font-family="LucidaGrande" font-size="12.0px" fill="#000000" stroke="#000000">private</tspan>
+			</text>
+			<rect id="1994" width="106.079" height="57.4696" x="410.001" y="150.0" rx="8.458115665168044" ry="28.7348" style="fill:#8ab891;stroke:none;stroke-width:3.000000px"/>
+			<text id="1994_text" x="410.001" y="150.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Helvetica;font-size:12px">
+				<tspan id="1994_line1" text-anchor="middle" x="463.04049999999995" y="178.7348" text-align="center" font-family="LucidaGrande" font-size="12.0px" fill="#000000" stroke="#000000">developer</tspan>
+				<tspan id="1994_line2" text-anchor="middle" x="463.04049999999995" y="190.7348" text-align="center" font-family="LucidaGrande" font-size="12.0px" fill="#000000" stroke="#000000">private</tspan>
+			</text>
+			<path id="1998" style="stroke:#808080;marker-end:none;marker-start:url(#Arrow1Lstart_808080_1.000000px);fill:none" d="M 119.821,157.604 L 340.039,60.4696"/>
+			<path id="1999" style="stroke:#808080;marker-end:none;marker-start:url(#Arrow1Lstart_808080_1.000000px);fill:none" d="M 107.175,150.0 L 217.04,60.4696"/>
+			<path id="2000" style="stroke:#808080;marker-end:none;marker-start:url(#Arrow1Lstart_808080_1.000000px);fill:none" d="M 122.51,163.436 L 463.04,60.4696"/>
+			<path id="2002" style="stroke:#000000;stroke-width:2.000000px;marker-end:none;marker-start:url(#Arrow1Lstart_000000_2.000000px);fill:none" d="M 217.04,60.4696 L 217.04,150.0"/>
+			<path id="2003" style="stroke:#000000;stroke-width:2.000000px;marker-end:none;marker-start:url(#Arrow1Lstart_000000_2.000000px);fill:none" d="M 340.039,60.4696 L 340.039,150.0"/>
+			<path id="2004" style="stroke:#000000;stroke-width:2.000000px;marker-end:none;marker-start:url(#Arrow1Lstart_000000_2.000000px);fill:none" d="M 463.04,60.4696 L 463.04,150.0"/>
+			<path id="2006" style="stroke:#808080;marker-end:none;marker-start:url(#Arrow1Lstart_808080_1.000000px);fill:none" d="M 186.203,150.0 L 115.376,84.0"/>
+			<path id="2007" style="stroke:#808080;marker-end:none;marker-start:url(#Arrow1Lstart_808080_1.000000px);fill:none" d="M 293.669,155.347 L 133.607,74.6163"/>
+			<path id="2008" style="stroke:#808080;marker-end:none;marker-start:url(#Arrow1Lstart_808080_1.000000px);fill:none" d="M 413.184,161.497 L 137.518,66.1833"/>
+			<path id="2009" style="stroke:#808080;marker-end:none;marker-start:url(#Arrow1Lstart_808080_1.000000px);stroke-dasharray:5 5;fill:none" d="M 433.155,150.0 L 340.039,60.4696"/>
+		</g>
+	</g>
+</svg>

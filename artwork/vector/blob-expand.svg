@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504.0" height="144.0">
+	<defs>
+		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lend_7e7e7e_1.000000px" style="overflow:visible;">
+			
+				  
+			<path id="path_Arrow1Lend_7e7e7e_1.000000px" d="M -5,0.0 L -5,-2.0 L 0.0,0.0 L -5,2.0 z " style="fill:#7e7e7e;fill-rule:evenodd;stroke:#7e7e7e;stroke-width:1.0px;marker-start:none;" transform="scale(1.000000)"/>
+			
+				
+		</marker>
+	</defs>
+	<g transform="translate(-6.000000,-5.000000)">
+		<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
+			<rect id="847" width="228.0" height="130.0" x="6.0" y="5.0" rx="5.0" ry="5.0" style="fill:#f2f2f2;stroke:none;stroke-width:3.000000px"/>
+			<text id="847_text" x="26.0" y="15.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:9px">
+				<tspan id="847_line1" x="26.0" y="52.0" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">SimpleGit Ruby Library</tspan>
+				<tspan id="847_line2" x="26.0" y="61.0" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">======================</tspan>
+				<tspan id="847_line3" x="26.0" y="70.0" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000"></tspan>
+				<tspan id="847_line4" x="26.0" y="79.0" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">This library calls git commands and returns the output.</tspan>
+				<tspan id="847_line5" x="26.0" y="88.0" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000"></tspan>
+				<tspan id="847_line6" x="26.0" y="97.0" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">Author : Scott Chacon</tspan>
+			</text>
+			<rect id="1" width="167.0" height="26.13" x="22.57" y="16.0" style="stroke:#808080"/>
+			<text id="1_text" x="22.57" y="16.0" style="fill:#ff736b;stroke:#ff736b;stroke-width:0;font-family: BitstreamVeraSansMono-Roman;font-size:10px">
+				<tspan id="1_line1" x="22.57" y="34.065" text-align="left" font-family="BitstreamVeraSansMono-Roman" font-size="10.0px" fill="#303aff" stroke="#303aff">blob [content size]</tspan>
+			</text>
+			<rect id="806" width="133.16" height="27.0" x="361.84" y="9.0" rx="15.0" ry="15.0" style="fill:#f5e7e7;stroke:none;stroke-width:3.000000px"/>
+			<text id="806_text" x="361.84" y="9.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:12px">
+				<tspan id="806_line1" text-anchor="middle" x="428.41999999999996" y="28.5" text-align="center" font-family="Inconsolata" font-size="12.0px" fill="#000000" stroke="#000000">blob : a906cb</tspan>
+			</text>
+			<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
+				<rect id="852" width="98.0" height="19.0" x="250.026" y="36.0" style="fill:none;stroke:none"/>
+				<text id="852_text" x="250.026" y="36.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Bold;font-size:16px">
+					<tspan id="852_line1" text-anchor="middle" x="299.026" y="53.5" text-align="center" font-family="BryantPro-Regular" font-weight="bold" font-size="16.0px" fill="#000000" stroke="#000000">Zlib::Deflate</tspan>
+				</text>
+				<path id="851" style="stroke:#7e7e7e;marker-end:url(#Arrow1Lend_7e7e7e_1.000000px);marker-start:none;stroke-dasharray:3 3;fill:none" d="M 250.026,21.75 L 348.026,21.75"/>
+			</g>
+		</g>
+	</g>
+</svg>

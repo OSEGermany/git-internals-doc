@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126.0" height="270.0">
+	<defs>
+		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lend_000000_1.000000px" style="overflow:visible;">
+			
+				  
+			<path id="path_Arrow1Lend_000000_1.000000px" d="M -5,0.0 L -5,-2.0 L 0.0,0.0 L -5,2.0 z " style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;marker-start:none;" transform="scale(1.000000)"/>
+			
+				
+		</marker>
+	</defs>
+	<g transform="translate(-2.755680,-5.499000)">
+		<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
+			<rect id="1083" width="62.5" height="17.0" x="29.93" y="79.574" rx="1.1782108945942475" ry="8.5" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1083_text" x="39.93" y="82.574" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1083_line1" text-anchor="middle" x="61.18" y="93.074" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">commit</tspan>
+			</text>
+			<rect id="1084" width="50.0" height="17.0" x="36.18" y="117.574" rx="1.4893641089825067" ry="8.5" style="fill:#e1eaf5;stroke:none;stroke-width:3.000000px"/>
+			<text id="1084_text" x="46.18" y="120.574" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1084_line1" text-anchor="middle" x="61.18" y="131.074" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">tree</tspan>
+			</text>
+			<path id="1085" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 61.18,96.574 L 61.18,117.574"/>
+			<path id="1086" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 68.444,134.574 L 90.236,160.074"/>
+			<path id="1087" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 54.4951,134.574 L 34.4405,160.074"/>
+			<path id="1088" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 41.7045,177.074 L 83.5511,202.574"/>
+			<rect id="1089" width="50.0" height="17.0" x="2.75568" y="249.574" rx="1.4893641089825067" ry="8.5" style="fill:#f5e7e7;stroke:none;stroke-width:3.000000px"/>
+			<text id="1089_text" x="12.75568" y="252.574" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1089_line1" text-anchor="middle" x="27.755679999999998" y="263.074" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">blob</tspan>
+			</text>
+			<rect id="1090" width="50.0" height="17.0" x="2.75568" y="202.574" rx="1.4893641089825067" ry="8.5" style="fill:#e1eaf5;stroke:none;stroke-width:3.000000px"/>
+			<text id="1090_text" x="12.75568" y="205.574" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1090_line1" text-anchor="middle" x="27.755679999999998" y="216.074" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">tree</tspan>
+			</text>
+			<rect id="1091" width="50.0" height="17.0" x="2.75568" y="160.074" rx="1.4893641089825067" ry="8.5" style="fill:#e1eaf5;stroke:none;stroke-width:3.000000px"/>
+			<text id="1091_text" x="12.75568" y="163.074" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1091_line1" text-anchor="middle" x="27.755679999999998" y="173.574" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">tree</tspan>
+			</text>
+			<rect id="1092" width="50.0" height="17.0" x="72.5" y="160.074" rx="1.4893641089825067" ry="8.5" style="fill:#f5e7e7;stroke:none;stroke-width:3.000000px"/>
+			<text id="1092_text" x="82.5" y="163.074" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1092_line1" text-anchor="middle" x="97.5" y="173.574" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">blob</tspan>
+			</text>
+			<path id="1100" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 27.7557,177.074 L 27.7557,202.574"/>
+			<rect id="1101" width="50.0" height="17.0" x="72.5" y="202.574" rx="1.4893641089825067" ry="8.5" style="fill:#f5e7e7;stroke:none;stroke-width:3.000000px"/>
+			<text id="1101_text" x="82.5" y="205.574" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1101_line1" text-anchor="middle" x="97.5" y="216.074" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">blob</tspan>
+			</text>
+			<path id="1102" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 27.7557,219.574 L 27.7557,249.574"/>
+			<rect id="1239" width="50.0" height="17.0" x="36.18" y="41.073" style="fill:#eeeeee;stroke:none;stroke-width:2.000000px"/>
+			<text id="1239_text" x="46.18" y="44.073" style="fill:#cccccc;stroke:#cccccc;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1239_line1" text-anchor="middle" x="61.18" y="54.573" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#777777" stroke="#777777">branch</tspan>
+			</text>
+			<rect id="1240" width="40.0" height="17.0" x="41.18" y="5.499" style="fill:#eeeeee;stroke:none;stroke-width:2.000000px"/>
+			<text id="1240_text" x="51.18" y="8.498999999999999" style="fill:#cccccc;stroke:#cccccc;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1240_line1" text-anchor="middle" x="61.18" y="18.999" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#777777" stroke="#777777">HEAD</tspan>
+			</text>
+			<path id="1241" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 61.18,58.073 L 61.18,79.574"/>
+			<path id="1242" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 61.18,22.499 L 61.18,41.073"/>
+		</g>
+	</g>
+</svg>

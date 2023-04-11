@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="342.0" height="45.0">
+	<defs/>
+	<g transform="translate(-4.000000,-1.500000)">
+		<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
+			<rect id="3" width="41.0" height="43.0" x="85.125" y="1.5" style="fill:none;stroke:none"/>
+			<text id="3_text" x="85.125" y="1.5" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Arial Narrow;font-size:36px">
+				<tspan id="3_line1" text-anchor="middle" x="105.625" y="41.0" text-align="center" font-family="GillSans" font-size="36.0px" fill="#000000" stroke="#000000">!=</tspan>
+			</text>
+			<rect id="7" width="75.0" height="31.0" x="4.0" y="8.0" rx="5.0" ry="5.0" style="fill:#efefef;stroke:none;stroke-width:3.000000px"/>
+			<text id="7_text" x="4.0" y="8.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:18px">
+				<tspan id="7_line1" text-anchor="middle" x="41.5" y="32.5" text-align="center" font-family="BryantPro-Medium" font-size="18.0px" fill="#000000" stroke="#000000">Git</tspan>
+			</text>
+			<rect id="10" width="105.0" height="31.0" x="132.0" y="8.0" rx="5.0" ry="5.0" style="fill:#efefef;stroke:none;stroke-width:3.000000px"/>
+			<text id="10_text" x="132.0" y="8.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:18px">
+				<tspan id="10_line1" text-anchor="middle" x="184.5" y="32.5" text-align="center" font-family="BryantPro-Medium" font-size="18.0px" fill="#000000" stroke="#000000">Subversion</tspan>
+			</text>
+			<rect id="11" width="68.75" height="31.0" x="269.25" y="8.0" rx="5.0" ry="5.0" style="fill:#f5e7e7;stroke:none;stroke-width:3.000000px"/>
+			<text id="11_text" x="269.25" y="8.0" style="fill:#a40700;stroke:#a40700;stroke-width:0;font-family: BryantPro-Medium;font-size:18px">
+				<tspan id="11_line1" text-anchor="middle" x="303.625" y="32.5" text-align="center" font-family="BryantPro-Medium" font-size="18.0px" fill="#a40800" stroke="#a40800">Magic!</tspan>
+			</text>
+			<rect id="12" width="32.0" height="43.0" x="238.0" y="1.5" style="fill:none;stroke:none"/>
+			<text id="12_text" x="238.0" y="1.5" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Arial Narrow;font-size:36px">
+				<tspan id="12_line1" text-anchor="middle" x="254.0" y="41.0" text-align="center" font-family="GillSans" font-size="36.0px" fill="#000000" stroke="#000000">+</tspan>
+			</text>
+		</g>
+	</g>
+</svg>

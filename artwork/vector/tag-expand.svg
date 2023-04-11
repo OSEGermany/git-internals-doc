@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504.0" height="156.0">
+	<defs>
+		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lend_7e7e7e_1.000000px" style="overflow:visible;">
+			
+				  
+			<path id="path_Arrow1Lend_7e7e7e_1.000000px" d="M -5,0.0 L -5,-2.0 L 0.0,0.0 L -5,2.0 z " style="fill:#7e7e7e;fill-rule:evenodd;stroke:#7e7e7e;stroke-width:1.0px;marker-start:none;" transform="scale(1.000000)"/>
+			
+				
+		</marker>
+	</defs>
+	<g transform="translate(-9.170000,-9.000000)">
+		<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
+			<rect id="892" width="278.83" height="134.0" x="9.17" y="10.0" rx="5.0" ry="5.0" style="fill:#f2f2f2;stroke:none;stroke-width:3.000000px"/>
+			<text id="892_text" x="29.17" y="20.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:9px">
+				<tspan id="892_line1" x="29.17" y="45.5" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000"></tspan>
+				<tspan id="892_line2" x="29.17" y="54.5" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000"></tspan>
+				<tspan id="892_line3" x="29.17" y="63.5" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">object 0576fa</tspan>
+				<tspan id="892_line4" x="29.17" y="72.5" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">type commit</tspan>
+				<tspan id="892_line5" x="29.17" y="81.5" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">tag v0.1</tspan>
+				<tspan id="892_line6" x="29.17" y="90.5" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">tagger Scott Chacon </tspan>
+				<tspan id="892_line7" x="29.17" y="99.5" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">         &lt;schacon@gmail.com&gt; 1205624655 </tspan>
+				<tspan id="892_line8" x="29.17" y="108.5" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000"></tspan>
+				<tspan id="892_line9" x="29.17" y="117.5" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">this is my v0.1 tag</tspan>
+			</text>
+			<rect id="893" width="182.84" height="25.7266" x="27.0" y="25.007" style="stroke:#808080"/>
+			<text id="893_text" x="27.0" y="25.007" style="fill:#ff736b;stroke:#ff736b;stroke-width:0;font-family: BitstreamVeraSansMono-Roman;font-size:10px">
+				<tspan id="893_line1" x="27.0" y="42.8703" text-align="left" font-family="BitstreamVeraSansMono-Roman" font-size="10.0px" fill="#303aff" stroke="#303aff">tag [content size]</tspan>
+			</text>
+			<rect id="806" width="133.16" height="27.0" x="363.814" y="9.0" rx="15.0" ry="15.0" style="fill:#f5f3d7;stroke:none;stroke-width:3.000000px"/>
+			<text id="806_text" x="363.814" y="9.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:12px">
+				<tspan id="806_line1" text-anchor="middle" x="430.394" y="28.5" text-align="center" font-family="Inconsolata" font-size="12.0px" fill="#000000" stroke="#000000">tag : 0c819c</tspan>
+			</text>
+			<path id="851" style="stroke:#7e7e7e;marker-end:url(#Arrow1Lend_7e7e7e_1.000000px);marker-start:none;stroke-dasharray:3 3;fill:none" d="M 297.0,21.75 L 350.0,21.75"/>
+		</g>
+	</g>
+</svg>

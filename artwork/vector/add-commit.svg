@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="342.0" height="86.0">
+	<defs>
+		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lend_808080_1.000000px" style="overflow:visible;">
+			
+				  
+			<path id="path_Arrow1Lend_808080_1.000000px" d="M -5,0.0 L -5,-2.0 L 0.0,0.0 L -5,2.0 z " style="fill:#808080;fill-rule:evenodd;stroke:#808080;stroke-width:1.0px;marker-start:none;" transform="scale(1.000000)"/>
+			
+				
+		</marker>
+	</defs>
+	<g transform="translate(1.159740,-4.363600)">
+		<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
+			<rect id="1891" width="103.025" height="21.6364" x="85.1" y="4.3636" style="fill:#b4d6b4;stroke:none;stroke-width:3.000000px"/>
+			<text id="1891_text" x="85.1" y="4.3636" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:10px">
+				<tspan id="1891_line1" text-anchor="middle" x="136.6125" y="20.1818" text-align="center" font-family="BryantPro-Medium" font-size="10.0px" fill="#000000" stroke="#000000">working directory</tspan>
+			</text>
+			<rect id="1892" width="102.65" height="21.6364" x="86.175" y="57.4536" style="fill:#8ab5eb;stroke:none;stroke-width:3.000000px"/>
+			<text id="1892_text" x="86.175" y="57.4536" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:10px">
+				<tspan id="1892_line1" text-anchor="middle" x="137.5" y="73.2718" text-align="center" font-family="BryantPro-Medium" font-size="10.0px" fill="#000000" stroke="#000000">repository</tspan>
+			</text>
+			<rect id="1893" width="102.65" height="21.6364" x="85.475" y="30.9086" style="fill:#ffb88a;stroke:none;stroke-width:3.000000px"/>
+			<text id="1893_text" x="85.475" y="30.9086" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Medium;font-size:10px">
+				<tspan id="1893_line1" text-anchor="middle" x="136.8" y="46.7268" text-align="center" font-family="BryantPro-Medium" font-size="10.0px" fill="#000000" stroke="#000000">index</tspan>
+			</text>
+			<path id="1897" style="stroke:#808080;marker-end:url(#Arrow1Lend_808080_1.000000px);marker-start:none;fill:none" d="M 85.1,14.2709 L 41.5,13.5  L 43.0,40.5  L 85.475,41.0555"/>
+			<path id="1898" style="stroke:#808080;marker-end:url(#Arrow1Lend_808080_1.000000px);marker-start:none;fill:none" d="M 188.125,41.0512 L 230.0,40.5  L 230.0,65.0  L 188.825,66.4564"/>
+			<rect id="1901" width="52.0" height="14.0" x="-1.15974" y="19.4658" style="stroke:none"/>
+			<text id="1901_text" x="-1.15974" y="19.4658" style="fill:#None;stroke:#None;stroke-width:0;font-family: Inconsolata;font-size:12px">
+				<tspan id="1901_line1" x="-1.15974" y="32.4658" text-align="left" font-family="Inconsolata" font-size="12.0px" fill="#000000" stroke="#000000">git add</tspan>
+			</text>
+			<rect id="1902" width="70.0" height="14.0" x="205.185" y="46.1098" style="stroke:none"/>
+			<text id="1902_text" x="205.185" y="46.1098" style="fill:#None;stroke:#None;stroke-width:0;font-family: Inconsolata;font-size:12px">
+				<tspan id="1902_line1" x="205.185" y="59.1098" text-align="left" font-family="Inconsolata" font-size="12.0px" fill="#000000" stroke="#000000">git commit</tspan>
+			</text>
+		</g>
+	</g>
+</svg>

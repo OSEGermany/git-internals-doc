@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360.0" height="144.0">
+	<defs>
+		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lend_000000_1.000000px" style="overflow:visible;">
+			
+				  
+			<path id="path_Arrow1Lend_000000_1.000000px" d="M -5,0.0 L -5,-2.0 L 0.0,0.0 L -5,2.0 z " style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;marker-start:none;" transform="scale(1.000000)"/>
+			
+				
+		</marker>
+	</defs>
+	<g transform="translate(6.142890,-5.072470)">
+		<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
+			<rect id="1680" width="25.4726" height="19.042" x="38.5792" y="40.5045" rx="4.276755290619951" ry="9.521" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1680_text" x="38.5792" y="40.5045" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1680_line1" text-anchor="middle" x="51.3155" y="55.0255" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">C0</tspan>
+			</text>
+			<rect id="1682" width="25.4726" height="19.042" x="79.7557" y="5.07248" rx="4.276755290619951" ry="9.521" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1682_text" x="79.7557" y="5.07248" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1682_line1" text-anchor="middle" x="92.492" y="19.59348" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">R1</tspan>
+			</text>
+			<path id="1683" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 82.185,23.4625 L 61.6225,41.1564"/>
+			<rect id="1684" width="25.4726" height="19.042" x="128.616" y="5.07247" rx="4.276755290619951" ry="9.521" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1684_text" x="128.616" y="5.07247" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1684_line1" text-anchor="middle" x="141.3523" y="19.59347" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">R2</tspan>
+			</text>
+			<path id="1685" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 128.616,14.5935 L 105.228,14.5935"/>
+			<rect id="1686" width="25.4726" height="19.042" x="222.905" y="40.5045" rx="4.276755290619951" ry="9.521" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1686_text" x="222.905" y="40.5045" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1686_line1" text-anchor="middle" x="235.6413" y="55.0255" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">C6</tspan>
+			</text>
+			<rect id="1687" width="25.4726" height="19.042" x="271.239" y="40.5045" rx="4.276755290619951" ry="9.521" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1687_text" x="271.239" y="40.5045" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1687_line1" text-anchor="middle" x="283.97529999999995" y="55.0255" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">C7</tspan>
+			</text>
+			<path id="1688" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 271.239,50.0255 L 248.377,50.0255"/>
+			<rect id="1689" width="25.4726" height="19.042" x="177.476" y="5.07248" rx="4.276755290619951" ry="9.521" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1689_text" x="177.476" y="5.07248" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1689_line1" text-anchor="middle" x="190.2123" y="19.59348" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">R3</tspan>
+			</text>
+			<path id="1690" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 177.476,14.5935 L 154.088,14.5935"/>
+			<path id="1692" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 224.906,41.6527 L 200.947,22.9662"/>
+			<rect id="1702" width="25.4726" height="19.042" x="91.5501" y="116.387" rx="4.276755290619951" ry="9.521" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1702_text" x="91.5501" y="116.387" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1702_line1" text-anchor="middle" x="104.2864" y="130.90800000000002" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">C1</tspan>
+			</text>
+			<rect id="1705" width="25.4726" height="19.042" x="38.2144" y="116.387" rx="4.276755290619951" ry="9.521" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1705_text" x="38.2144" y="116.387" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1705_line1" text-anchor="middle" x="50.9507" y="130.90800000000002" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">C0</tspan>
+			</text>
+			<path id="1706" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 91.5501,125.908 L 63.687,125.908"/>
+			<rect id="1707" width="25.4726" height="19.042" x="153.884" y="116.387" rx="4.276755290619951" ry="9.521" style="fill:#71985e;stroke:none;stroke-width:3.000000px"/>
+			<text id="1707_text" x="153.884" y="116.387" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1707_line1" text-anchor="middle" x="166.6203" y="130.90800000000002" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">C2</tspan>
+			</text>
+			<path id="1708" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 153.884,125.908 L 117.023,125.908"/>
+			<rect id="1711" width="25.4726" height="19.042" x="91.5501" y="79.5767" rx="4.276755290619951" ry="9.521" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1711_text" x="91.5501" y="79.5767" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1711_line1" text-anchor="middle" x="104.2864" y="94.0977" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">R1</tspan>
+			</text>
+			<path id="1712" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 93.1256,96.8004 L 62.1115,118.205"/>
+			<path id="1713" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 155.046,119.073 L 115.861,95.9327"/>
+			<rect id="1714" width="25.4726" height="19.042" x="161.282" y="79.5766" rx="4.276755290619951" ry="9.521" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1714_text" x="161.282" y="79.5766" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1714_line1" text-anchor="middle" x="174.0183" y="94.0976" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">R2</tspan>
+			</text>
+			<path id="1715" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 161.282,89.0976 L 117.023,89.0976"/>
+			<rect id="1716" width="27.4456" height="20.5169" x="207.217" y="114.912" rx="4.608007438591924" ry="10.25845" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1716_text" x="207.217" y="114.912" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1716_line1" text-anchor="middle" x="220.93980000000002" y="130.17045000000002" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">C3</tspan>
+			</text>
+			<path id="1717" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 207.218,125.357 L 179.356,125.735"/>
+			<rect id="1718" width="25.4726" height="19.042" x="269.553" y="116.387" rx="4.276755290619951" ry="9.521" style="fill:#71985e;stroke:none;stroke-width:3.000000px"/>
+			<text id="1718_text" x="269.553" y="116.387" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1718_line1" text-anchor="middle" x="282.2893" y="130.90800000000002" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">C4</tspan>
+			</text>
+			<path id="1719" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 269.554,125.755 L 234.662,125.335"/>
+			<path id="1720" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 269.944,121.71 L 186.364,93.2949"/>
+			<rect id="1721" width="25.4726" height="19.042" x="247.044" y="79.5768" rx="4.276755290619951" ry="9.521" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
+			<text id="1721_text" x="247.044" y="79.5768" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1721_line1" text-anchor="middle" x="259.7803" y="94.0978" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">R3</tspan>
+			</text>
+			<rect id="1722" width="25.4726" height="19.042" x="322.885" y="116.387" rx="4.276755290619951" ry="9.521" style="fill:#71985e;stroke:none;stroke-width:3.000000px"/>
+			<text id="1722_text" x="322.885" y="116.387" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
+				<tspan id="1722_line1" text-anchor="middle" x="335.6213" y="130.90800000000002" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">C5</tspan>
+			</text>
+			<path id="1723" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 247.044,89.0977 L 186.755,89.0976"/>
+			<path id="1724" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 322.885,125.908 L 295.026,125.908"/>
+			<path id="1725" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 323.676,120.11 L 271.726,94.8956"/>
+			<ellipse id="2015" style="fill:none;stroke:none" cx="11.857109999999999" cy="27.14293" rx="18.0" ry="18.0"/>
+			<text id="2015_text" x="-6.14289" y="9.14293" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Bold;font-size:18px">
+				<tspan id="2015_line1" text-anchor="middle" x="11.857109999999999" y="36.14293" text-align="center" font-family="BryantPro-Regular" font-weight="bold" font-size="18.0px" fill="#33332d" stroke="#33332d">1</tspan>
+			</text>
+			<ellipse id="2022" style="fill:none;stroke:none" cx="11.857109999999999" cy="106.0" rx="18.0" ry="18.0"/>
+			<text id="2022_text" x="-6.14289" y="88.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Bold;font-size:18px">
+				<tspan id="2022_line1" text-anchor="middle" x="11.857109999999999" y="115.0" text-align="center" font-family="BryantPro-Regular" font-weight="bold" font-size="18.0px" fill="#33332d" stroke="#33332d">2</tspan>
+			</text>
+		</g>
+	</g>
+</svg>

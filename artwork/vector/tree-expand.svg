@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504.0" height="96.0">
+	<defs>
+		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lend_7e7e7e_1.000000px" style="overflow:visible;">
+			
+				  
+			<path id="path_Arrow1Lend_7e7e7e_1.000000px" d="M -5,0.0 L -5,-2.0 L 0.0,0.0 L -5,2.0 z " style="fill:#7e7e7e;fill-rule:evenodd;stroke:#7e7e7e;stroke-width:1.0px;marker-start:none;" transform="scale(1.000000)"/>
+			
+				
+		</marker>
+	</defs>
+	<g transform="translate(-4.054990,-6.000000)">
+		<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
+			<rect id="852" width="220.945" height="84.0" x="4.05499" y="6.0" rx="5.0" ry="5.0" style="fill:#f2f2f2;stroke:none;stroke-width:3.000000px"/>
+			<text id="852_text" x="24.05499" y="16.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:9px">
+				<tspan id="852_line1" x="24.05499" y="43.5" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">100644 blob a906cb   README</tspan>
+				<tspan id="852_line2" x="24.05499" y="52.5" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">100644 blob a874b7   Rakefile</tspan>
+				<tspan id="852_line3" x="24.05499" y="61.5" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">040000 tree fe8971   lib</tspan>
+			</text>
+			<rect id="853" width="139.992" height="26.13" x="20.7744" y="18.0" style="stroke:#808080"/>
+			<text id="853_text" x="20.7744" y="18.0" style="fill:#ff736b;stroke:#ff736b;stroke-width:0;font-family: BitstreamVeraSansMono-Roman;font-size:10px">
+				<tspan id="853_line1" x="20.7744" y="36.065" text-align="left" font-family="BitstreamVeraSansMono-Roman" font-size="10.0px" fill="#303aff" stroke="#303aff">tree [content size]</tspan>
+			</text>
+			<rect id="806" width="133.16" height="27.0" x="352.84" y="9.0" rx="15.0" ry="15.0" style="fill:#e1eaf5;stroke:none;stroke-width:3.000000px"/>
+			<text id="806_text" x="352.84" y="9.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:12px">
+				<tspan id="806_line1" text-anchor="middle" x="419.41999999999996" y="28.5" text-align="center" font-family="Inconsolata" font-size="12.0px" fill="#000000" stroke="#000000">tree : 1a738d</tspan>
+			</text>
+			<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
+				<rect id="854" width="98.0" height="19.0" x="241.026" y="36.0" style="fill:none;stroke:none"/>
+				<text id="854_text" x="241.026" y="36.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Bold;font-size:16px">
+					<tspan id="854_line1" text-anchor="middle" x="290.026" y="53.5" text-align="center" font-family="BryantPro-Regular" font-weight="bold" font-size="16.0px" fill="#000000" stroke="#000000">Zlib::Deflate</tspan>
+				</text>
+				<path id="851" style="stroke:#7e7e7e;marker-end:url(#Arrow1Lend_7e7e7e_1.000000px);marker-start:none;stroke-dasharray:3 3;fill:none" d="M 241.026,21.75 L 339.026,21.75"/>
+			</g>
+		</g>
+	</g>
+</svg>

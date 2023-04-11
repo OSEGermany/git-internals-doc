@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="612.0" height="468.0">
+	<defs>
+		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lend_fa4e19_3.000000px" style="overflow:visible;">
+			
+				  
+			<path id="path_Arrow1Lend_fa4e19_3.000000px" d="M -5,0.0 L -5,-2.0 L 0.0,0.0 L -5,2.0 z " style="fill:#fa4e19;fill-rule:evenodd;stroke:#fa4e19;stroke-width:1.0px;marker-start:none;" transform="scale(0.909091)"/>
+			
+				
+		</marker>
+		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lend_5b87f2_3.000000px" style="overflow:visible;">
+			
+				  
+			<path id="path_Arrow1Lend_5b87f2_3.000000px" d="M -5,0.0 L -5,-2.0 L 0.0,0.0 L -5,2.0 z " style="fill:#5b87f2;fill-rule:evenodd;stroke:#5b87f2;stroke-width:1.0px;marker-start:none;" transform="scale(0.909091)"/>
+			
+				
+		</marker>
+		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lend_777777_3.000000px" style="overflow:visible;">
+			
+				  
+			<path id="path_Arrow1Lend_777777_3.000000px" d="M -5,0.0 L -5,-2.0 L 0.0,0.0 L -5,2.0 z " style="fill:#777777;fill-rule:evenodd;stroke:#777777;stroke-width:1.0px;marker-start:none;" transform="scale(0.909091)"/>
+			
+				
+		</marker>
+	</defs>
+	<g transform="translate(-7.197700,-5.943000)">
+		<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
+			<rect id="1954" width="261.103" height="80.8811" x="7.1977" y="127.491" rx="4.0" ry="4.0" style="fill:#cccccc;stroke:none;stroke-width:2.000000px"/>
+			<rect id="1953" width="261.103" height="80.8811" x="292.38" y="125.313" rx="4.0" ry="4.0" style="fill:#cccccc;stroke:none;stroke-width:2.000000px"/>
+			<rect id="1928" width="268.826" height="211.35" x="147.427" y="249.604" rx="4.0" ry="4.0" style="fill:#cccccc;stroke:none;stroke-width:2.000000px"/>
+			<rect id="1917" width="205.342" height="41.8182" x="175.591" y="273.922" rx="5.0" ry="5.0" style="fill:#ffada5;stroke:none;stroke-width:3.000000px"/>
+			<text id="1917_text" x="175.591" y="273.922" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Regular;font-size:12px">
+				<tspan id="1917_line1" text-anchor="middle" x="278.262" y="300.83110000000005" text-align="center" font-family="BryantPro-Regular" font-size="12.0px" fill="#000000" stroke="#000000">private repo</tspan>
+			</text>
+			<rect id="1920" width="236.585" height="25.8588" x="304.664" y="137.708" rx="5.0" ry="5.0" style="fill:#8ab5eb;stroke:none"/>
+			<text id="1920_text" x="304.664" y="137.708" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:11px">
+				<tspan id="1920_line1" text-anchor="middle" x="422.9565" y="156.13739999999999" text-align="center" font-family="Inconsolata" font-size="11.0px" fill="#000000" stroke="#000000">git://github.com/schacon/ticgit.git</tspan>
+			</text>
+			<path id="1925" style="stroke:#777777;stroke-width:3.000000px;marker-end:url(#Arrow1Lend_777777_3.000000px);marker-start:none;fill:none" d="M 232.045,375.308 L 232.218,315.74"/>
+			<rect id="1926" width="124.0" height="23.0" x="260.675" y="334.524" style="fill:none;stroke:none"/>
+			<text id="1926_text" x="260.675" y="334.524" style="fill:#None;stroke:#None;stroke-width:0;font-family: BryantPro-Regular;font-size:12px">
+				<tspan id="1926_line1" x="260.675" y="355.024" text-align="left" font-family="BryantPro-Regular" font-weight="bold" font-size="18.0px" fill="#000000" stroke="#000000">add &amp; commit</tspan>
+			</text>
+			<rect id="1927" width="205.342" height="41.8182" x="175.591" y="375.308" rx="5.0" ry="5.0" style="fill:#ffada5;stroke:none;stroke-width:3.000000px"/>
+			<text id="1927_text" x="175.591" y="375.308" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Regular;font-size:12px">
+				<tspan id="1927_line1" text-anchor="middle" x="278.262" y="402.2171" text-align="center" font-family="BryantPro-Regular" font-size="12.0px" fill="#000000" stroke="#000000">working directory</tspan>
+			</text>
+			<rect id="1929" width="116.0" height="23.0" x="215.34" y="428.842" style="fill:none;stroke:none"/>
+			<text id="1929_text" x="215.34" y="428.842" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: LucidaGrande-Bold;font-size:18px">
+				<tspan id="1929_line1" x="215.34" y="449.342" text-align="left" font-family="BryantPro-Regular" font-weight="bold" font-size="18.0px" fill="#000000" stroke="#000000">my computer</tspan>
+			</text>
+			<path id="1930" style="stroke:#fa4e19;stroke-width:3.000000px;marker-end:url(#Arrow1Lend_fa4e19_3.000000px);marker-start:none;fill:none" d="M 298.329,273.922 L 405.696,193.495"/>
+			<rect id="1931" width="106.0" height="23.0" x="295.765" y="224.641" style="stroke:none"/>
+			<text id="1931_text" x="295.765" y="224.641" style="fill:#None;stroke:#None;stroke-width:0;font-family: BryantPro-Regular;font-size:12px">
+				<tspan id="1931_line1" x="295.765" y="245.141" text-align="left" font-family="BryantPro-Regular" font-weight="bold" font-size="18.0px" fill="#000000" stroke="#000000">push github</tspan>
+			</text>
+			<path id="1932" style="stroke:#5b87f2;stroke-width:3.000000px;marker-end:url(#Arrow1Lend_5b87f2_3.000000px);marker-start:none;fill:none" d="M 149.705,196.821 L 219.594,273.922"/>
+			<rect id="1933" width="89.0" height="23.0" x="141.345" y="225.19" style="stroke:none"/>
+			<text id="1933_text" x="141.345" y="225.19" style="fill:#None;stroke:#None;stroke-width:0;font-family: BryantPro-Regular;font-size:12px">
+				<tspan id="1933_line1" x="141.345" y="245.69" text-align="left" font-family="BryantPro-Regular" font-weight="bold" font-size="18.0px" fill="#000000" stroke="#000000">fetch nick</tspan>
+			</text>
+			<rect id="1921" width="237.055" height="26.5486" x="19.3795" y="141.642" rx="5.0" ry="5.0" style="fill:#ffb88a;stroke:none"/>
+			<text id="1921_text" x="19.3795" y="141.642" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:11px">
+				<tspan id="1921_line1" text-anchor="middle" x="137.907" y="160.4163" text-align="center" font-family="Inconsolata" font-size="11.0px" fill="#000000" stroke="#000000">ssh://nickh@hengeveld.com:git/ticgit.git</tspan>
+			</text>
+			<rect id="1939" width="212.818" height="68.1824" x="171.677" y="5.943" rx="4.0" ry="4.0" style="fill:#cccccc;stroke:none;stroke-width:2.000000px"/>
+			<rect id="1940" width="115.912" height="16.0" x="268.583" y="8.67" style="fill:none;stroke:none"/>
+			<text id="1940_text" x="268.583" y="8.67" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Regular;font-size:13px">
+				<tspan id="1940_line1" x="268.583" y="23.17" text-align="left" font-family="BryantPro-Regular" font-size="13.0px" fill="#000000" stroke="#000000">nick's computer</tspan>
+			</text>
+			<rect id="1941" width="174.375" height="30.2732" x="190.898" y="35.886" rx="5.0" ry="5.0" style="fill:#ffada5;stroke:none;stroke-width:3.000000px"/>
+			<text id="1941_text" x="190.898" y="35.886" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Regular;font-size:12px">
+				<tspan id="1941_line1" text-anchor="middle" x="278.0855" y="57.022600000000004" text-align="center" font-family="BryantPro-Regular" font-size="12.0px" fill="#000000" stroke="#000000">private repo</tspan>
+			</text>
+			<path id="1942" style="stroke:#fa4e19;stroke-width:3.000000px;marker-end:url(#Arrow1Lend_fa4e19_3.000000px);marker-start:none;fill:none" d="M 257.662,66.1592 L 155.817,141.642"/>
+			<rect id="1943" width="103.0" height="23.0" x="159.675" y="89.1134" style="stroke:none"/>
+			<text id="1943_text" x="159.675" y="89.1134" style="fill:#None;stroke:#None;stroke-width:0;font-family: BryantPro-Regular;font-size:12px">
+				<tspan id="1943_line1" x="159.675" y="109.6134" text-align="left" font-family="BryantPro-Regular" font-weight="bold" font-size="18.0px" fill="#000000" stroke="#000000">push public</tspan>
+			</text>
+			<path id="1949" style="stroke:#5b87f2;stroke-width:3.000000px;marker-end:url(#Arrow1Lend_5b87f2_3.000000px);marker-start:none;fill:none" d="M 404.153,137.708 L 300.099,66.1592"/>
+			<rect id="1950" width="103.0" height="23.0" x="299.922" y="89.9496" style="stroke:none"/>
+			<text id="1950_text" x="299.922" y="89.9496" style="fill:#None;stroke:#None;stroke-width:0;font-family: BryantPro-Regular;font-size:12px">
+				<tspan id="1950_line1" x="299.922" y="110.4496" text-align="left" font-family="BryantPro-Regular" font-weight="bold" font-size="18.0px" fill="#000000" stroke="#000000">fetch origin</tspan>
+			</text>
+			<rect id="1951" width="236.585" height="25.8588" x="304.664" y="167.636" rx="5.0" ry="5.0" style="fill:#ffb88a;stroke:none"/>
+			<text id="1951_text" x="304.664" y="167.636" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:11px">
+				<tspan id="1951_line1" text-anchor="middle" x="422.9565" y="186.06539999999998" text-align="center" font-family="Inconsolata" font-size="11.0px" fill="#000000" stroke="#000000">ssh://git@github.com:schacon/ticgit.git</tspan>
+			</text>
+			<rect id="1952" width="236.586" height="26.5486" x="19.3796" y="170.272" rx="5.0" ry="5.0" style="fill:#8ab5eb;stroke:none"/>
+			<text id="1952_text" x="19.3796" y="170.272" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:11px">
+				<tspan id="1952_line1" text-anchor="middle" x="137.67260000000002" y="189.0463" text-align="center" font-family="Inconsolata" font-size="11.0px" fill="#000000" stroke="#000000">http://hengeveld.com/ticgit.git</tspan>
+			</text>
+		</g>
+	</g>
+</svg>
