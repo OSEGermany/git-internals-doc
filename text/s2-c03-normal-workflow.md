@@ -118,7 +118,7 @@ then commit the whole thing:
 git commit -a -m 'committing all changes'
 ```
 
-![](../artwork/vector/Git_Commit_A.eps)
+![](../artwork/vector/commit-a.eps)
 
 If you would like to give a more useful commit message,
 you can leave out the `-m` option.
