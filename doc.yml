@@ -5,7 +5,7 @@
 ---
 # See    Metadata variables
 title: |
-  ![](artwork/vector/title.svg){width=16cm}
+  ![](artwork/title.svg){width=16cm}
 #
 #  Git Internals
 # The `${KEY}` placeholders are supplied their final value by MoVeDo
