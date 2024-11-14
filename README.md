@@ -7,6 +7,13 @@ SPDX-License-Identifier: CC-BY-SA-3.0
 
 # Git Internals PDF
 
+[![License: CC-BY-SA-3.0](
+    https://img.shields.io/badge/License-CC--BY--SA--3.0-blue.svg)](
+    LICENSE.txt)
+[![REUSE status](
+    https://api.reuse.software/badge/github.com/osegermany/git-internals-pdf)](
+    https://api.reuse.software/info/github.com/osegermany/git-internals-pdf)
+
 This PDF explains the internal workings
 of the Git source code control system.
 
