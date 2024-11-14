@@ -1,0 +1,52 @@
+version = 1
+SPDX-PackageName = "git-internals-pdf"
+SPDX-PackageSupplier = "Robin Vobruba <hoijui.quaero@gmail.com>"
+SPDX-PackageDownloadLocation = "https://github.com/osegermany/git-internals-pdf/"
+
+[[annotations]]
+path = "artwork/bitmap/**.png"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2008 Geoffrey Grosenbach <boss@topfunky.com>"
+SPDX-License-Identifier = "CC-BY-SA-3.0"
+
+[[annotations]]
+path = "artwork/s1/**.png"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2008 Scott Chacon <schacon@gmail.com>"
+SPDX-License-Identifier = "CC-BY-SA-3.0"
+
+[[annotations]]
+path = "artwork/s2/**.png"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2008 Geoffrey Grosenbach <boss@topfunky.com>", "2008 Scott Chacon <schacon@gmail.com>"]
+SPDX-License-Identifier = "CC-BY-SA-3.0"
+
+[[annotations]]
+path = "artwork/vector/**.eps"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2008 Geoffrey Grosenbach <boss@topfunky.com>"
+SPDX-License-Identifier = "CC-BY-SA-3.0"
+
+[[annotations]]
+path = "artwork/vector/**.svg"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2023 Robin Vobruba <hoijui.quaero@gmail.com>"
+SPDX-License-Identifier = "CC-BY-SA-3.0"
+
+[[annotations]]
+path = "artwork/**.graffle"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2008 Geoffrey Grosenbach <boss@topfunky.com>", "2008 Scott Chacon <schacon@gmail.com>"]
+SPDX-License-Identifier = "CC-BY-SA-3.0"
+
+[[annotations]]
+path = "code/**.txt"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2008 Scott Chacon <schacon@gmail.com>"]
+SPDX-License-Identifier = "CC-BY-SA-3.0"
+
+[[annotations]]
+path = "movies/**.txt"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2008 Scott Chacon <schacon@gmail.com>"
+SPDX-License-Identifier = "CC-BY-SA-3.0"
