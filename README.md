@@ -14,6 +14,9 @@ SPDX-License-Identifier: CC-BY-SA-3.0
     https://api.reuse.software/badge/github.com/osegermany/git-internals-pdf)](
     https://api.reuse.software/info/github.com/osegermany/git-internals-pdf)
 
+[![In cooperation with Open Source Ecology Germany](
+    https://raw.githubusercontent.com/osegermany/tiny-files/master/res/media/img/badge-oseg.svg)][OSEG]
+
 This PDF explains the internal workings
 of the Git source code control system.
 
