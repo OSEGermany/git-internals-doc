@@ -22,6 +22,7 @@ of the Git source code control system.
 
 - [Download PDF][pdf]
 - [Download E-Book (epub)][epub]
+- [View HTML version (experimental/ugly)][html]
 
 (NOTE: The rendering of the title is sub-optimal still)
 
@@ -45,6 +46,7 @@ and published at PeepCode
 
 [CC-BY-SA-3.0]: https://creativecommons.org/licenses/by-sa/3.0/
 [epub]: https://osegermany.github.io/git-internals-doc/ebook/doc.epub
+[html]: https://osegermany.github.io/git-internals-doc/html/
 [OSEG]: https://www.ose-germany.de/die-bewegung/
 [pdf]: https://osegermany.github.io/git-internals-doc/pdf/doc.pdf
 [Pluralsight]: https://www.pluralsight.com
