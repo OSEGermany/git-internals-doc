@@ -21,7 +21,9 @@ This PDF explains the internal workings
 of the Git source code control system.
 
 - [Download PDF][pdf]
-  (NOTE: The rendering of the title is sub-optimal still)
+- [Download E-Book (epub)][epub]
+
+(NOTE: The rendering of the title is sub-optimal still)
 
 ## History
 
@@ -42,6 +44,7 @@ and published at PeepCode
 [Creative Commons Attribution-ShareAlike 3.0][CC-BY-SA-3.0]
 
 [CC-BY-SA-3.0]: https://creativecommons.org/licenses/by-sa/3.0/
+[epub]: https://osegermany.github.io/git-internals-doc/ebook/doc.epub
 [OSEG]: https://www.ose-germany.de/die-bewegung/
 [pdf]: https://osegermany.github.io/git-internals-doc/pdf/doc.pdf
 [Pluralsight]: https://www.pluralsight.com
