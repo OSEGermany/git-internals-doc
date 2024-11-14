@@ -25,7 +25,7 @@ of the Git source code control system.
 
 ## History
 
-It was originally written by [Scott Chacon][Scott]
+It was originally written by [Scott Chacon][Scott] in 2008
 and published at PeepCode
 (now a part of [Pluralsight]).
 
