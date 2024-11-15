@@ -41,6 +41,11 @@ of the Git source code control system.
 - 2023:
   [Open Source Ecology Germany][OSEG] took over.
 
+  [<img
+    src="https://osegermany.gitlab.io/oseg-logo/logo_community_below.svg"
+    alt="Open Source Ecology Germany logo"
+    height="128">][OSEG]
+
 ## License
 
 [Creative Commons Attribution-ShareAlike 3.0][CC-BY-SA-3.0]
