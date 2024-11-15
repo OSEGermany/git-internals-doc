@@ -1,37 +1,202 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504.0" height="96.0">
-	<defs>
-		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lend_7e7e7e_1.000000px" style="overflow:visible;">
-			
-				  
-			<path id="path_Arrow1Lend_7e7e7e_1.000000px" d="M -5,0.0 L -5,-2.0 L 0.0,0.0 L -5,2.0 z " style="fill:#7e7e7e;fill-rule:evenodd;stroke:#7e7e7e;stroke-width:1.0px;marker-start:none;" transform="scale(1.000000)"/>
-			
-				
-		</marker>
-	</defs>
-	<g transform="translate(-4.054990,-6.000000)">
-		<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
-			<rect id="852" width="220.945" height="84.0" x="4.05499" y="6.0" rx="5.0" ry="5.0" style="fill:#f2f2f2;stroke:none;stroke-width:3.000000px"/>
-			<text id="852_text" x="24.05499" y="16.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:9px">
-				<tspan id="852_line1" x="24.05499" y="43.5" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">100644 blob a906cb   README</tspan>
-				<tspan id="852_line2" x="24.05499" y="52.5" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">100644 blob a874b7   Rakefile</tspan>
-				<tspan id="852_line3" x="24.05499" y="61.5" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">040000 tree fe8971   lib</tspan>
-			</text>
-			<rect id="853" width="139.992" height="26.13" x="20.7744" y="18.0" style="stroke:#808080"/>
-			<text id="853_text" x="20.7744" y="18.0" style="fill:#ff736b;stroke:#ff736b;stroke-width:0;font-family: BitstreamVeraSansMono-Roman;font-size:10px">
-				<tspan id="853_line1" x="20.7744" y="36.065" text-align="left" font-family="BitstreamVeraSansMono-Roman" font-size="10.0px" fill="#303aff" stroke="#303aff">tree [content size]</tspan>
-			</text>
-			<rect id="806" width="133.16" height="27.0" x="352.84" y="9.0" rx="15.0" ry="15.0" style="fill:#e1eaf5;stroke:none;stroke-width:3.000000px"/>
-			<text id="806_text" x="352.84" y="9.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:12px">
-				<tspan id="806_line1" text-anchor="middle" x="419.41999999999996" y="28.5" text-align="center" font-family="Inconsolata" font-size="12.0px" fill="#000000" stroke="#000000">tree : 1a738d</tspan>
-			</text>
-			<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
-				<rect id="854" width="98.0" height="19.0" x="241.026" y="36.0" style="fill:none;stroke:none"/>
-				<text id="854_text" x="241.026" y="36.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Bold;font-size:16px">
-					<tspan id="854_line1" text-anchor="middle" x="290.026" y="53.5" text-align="center" font-family="BryantPro-Regular" font-weight="bold" font-size="16.0px" fill="#000000" stroke="#000000">Zlib::Deflate</tspan>
-				</text>
-				<path id="851" style="stroke:#7e7e7e;marker-end:url(#Arrow1Lend_7e7e7e_1.000000px);marker-start:none;stroke-dasharray:3 3;fill:none" d="M 241.026,21.75 L 339.026,21.75"/>
-			</g>
-		</g>
-	</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg42994"
+   width="582.66907"
+   height="138.49707"
+   viewBox="0 0 582.66907 138.49707"
+   sodipodi:docname="tree-expand.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs42998">
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="14.324"
+       markerHeight="11.091"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="none">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter46395"
+       x="-0.024480001"
+       y="-0.068024389"
+       width="1.0695411"
+       height="1.193239">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood46385" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite46387" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="2.9736"
+         result="blur"
+         id="feGaussianBlur46389" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset46391" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite46393" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="namedview42996"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.84375"
+     inkscape:cx="338.1695"
+     inkscape:cy="122.30509"
+     inkscape:window-width="1920"
+     inkscape:window-height="1044"
+     inkscape:window-x="0"
+     inkscape:window-y="36"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g_main">
+    <inkscape:page
+       x="0"
+       y="0"
+       id="page43000"
+       width="582.66907"
+       height="138.49707" />
+  </sodipodi:namedview>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:20px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="249.30453"
+     y="61.748135"
+     id="t_zlib_deflate"
+     inkscape:label="t_zlib_deflate"><tspan
+       sodipodi:role="line"
+       id="tspan43270"
+       x="249.30453"
+       y="61.748135"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#000000;fill-opacity:1;stroke:none">Zlib::Deflate</tspan></text>
+  <path
+     style="fill:#919191;fill-opacity:1;fill-rule:evenodd;stroke:#919191;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:8, 4;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleStart)"
+     d="m 249.8735,27.929227 130.62332,1.347259"
+     id="a_1"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:label="a_1" />
+  <g
+     id="g_main"
+     inkscape:label="g_main">
+    <rect
+       style="fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:3.28985;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter46395)"
+       id="b_main"
+       width="291.52939"
+       height="104.91296"
+       x="28.286364"
+       y="-130.24345"
+       rx="10.71373"
+       ry="8.5869627"
+       transform="matrix(0.75163013,0,0,1.1063283,-15.896769,151.98749)"
+       inkscape:label="b_main" />
+    <g
+       id="g_tree_cont"
+       inkscape:label="g_tree_cont"
+       transform="translate(-8.1642745,0.02392416)">
+      <path
+         d="M 27.698933,58.840135 H 214.35493 V 24.000003 H 27.698933 Z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#929292;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="b_tree_cont"
+         inkscape:label="b_tree_cont" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;word-spacing:0px;fill:#4157ff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="35.519707"
+         y="45.759937"
+         id="t_tree_cont"
+         inkscape:label="t_tree_cont"><tspan
+           sodipodi:role="line"
+           id="tspan2963"
+           x="35.519707"
+           y="45.759937"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:sans-serif;-inkscape-font-specification:sans-serif">tree [content size]\0</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:12px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="17.532057"
+       y="80.705086"
+       id="t_main"
+       inkscape:label="t_main"><tspan
+         sodipodi:role="line"
+         id="tspan2580"
+         x="17.532057"
+         y="80.705086"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:'Courier New'">100644 blob a906cb README</tspan><tspan
+         sodipodi:role="line"
+         x="17.532057"
+         y="95.749825"
+         id="tspan2590"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:'Courier New'">100644 blob a874b7 Rakefile</tspan><tspan
+         sodipodi:role="line"
+         x="17.532057"
+         y="110.79457"
+         id="tspan2592"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:'Courier New'">040000 tree fe8971 lib</tspan></text>
+  </g>
+  <g
+     id="g3028">
+    <g
+       id="g_tree_sha"
+       inkscape:label="g_tree_sha"
+       transform="translate(-66.164274,-0.10890139)">
+      <path
+         d="m 487.78665,11.333336 h 141.54667 c 9.94133,0 18,8.0588 18,18 v 0 c 0,9.9412 -8.05867,17.999999 -18,17.999999 H 487.78665 c -9.94133,0 -18,-8.058799 -18,-17.999999 v 0 0 c 0,-9.9412 8.05867,-18 18,-18 z"
+         style="fill:#e6eef7;fill-opacity:1;fill-rule:nonzero;stroke:#919191;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
+         id="b_tree_sha"
+         inkscape:label="b_tree_sha" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Courier New';-inkscape-font-specification:'Courier New';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="429.54807"
+       y="34.115059"
+       id="text3016"><tspan
+         sodipodi:role="line"
+         id="tspan3014"
+         x="429.54807"
+         y="34.115059"
+         style="font-size:16px">tree : 1a738d</tspan></text>
+  </g>
 </svg>

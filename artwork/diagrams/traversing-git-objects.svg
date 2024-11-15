@@ -1,97 +1,688 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360.0" height="324.0">
-	<defs>
-		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lend_000000_1.000000px" style="overflow:visible;">
-			
-				  
-			<path id="path_Arrow1Lend_000000_1.000000px" d="M -5,0.0 L -5,-2.0 L 0.0,0.0 L -5,2.0 z " style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;marker-start:none;" transform="scale(1.000000)"/>
-			
-				
-		</marker>
-	</defs>
-	<g transform="translate(-1.996280,-1.472990)">
-		<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
-			<rect id="899" width="95.0" height="17.0" x="41.2738" y="113.511" rx="15.0" ry="15.0" style="fill:#d3f5d6;stroke:none;stroke-width:3.000000px"/>
-			<text id="899_text" x="51.2738" y="116.511" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
-				<tspan id="899_line1" text-anchor="middle" x="88.7738" y="127.011" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">commit : a11bef</tspan>
-			</text>
-			<rect id="900" width="80.0" height="17.0" x="48.3276" y="75.0076" rx="15.0" ry="15.0" style="fill:#f5f3d7;stroke:none;stroke-width:3.000000px"/>
-			<text id="900_text" x="58.3276" y="78.0076" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
-				<tspan id="900_line1" text-anchor="middle" x="88.32759999999999" y="88.5076" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">tag : 0c819c</tspan>
-			</text>
-			<rect id="901" width="85.0" height="17.0" x="45.8738" y="152.519" rx="15.0" ry="15.0" style="fill:#e1eaf5;stroke:none;stroke-width:3.000000px"/>
-			<text id="901_text" x="55.8738" y="155.519" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
-				<tspan id="901_line1" text-anchor="middle" x="88.3738" y="166.019" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">tree : 1a738d</tspan>
-			</text>
-			<rect id="902" width="85.0" height="17.0" x="155.237" y="252.082" rx="15.0" ry="15.0" style="fill:#e1eaf5;stroke:none;stroke-width:3.000000px"/>
-			<text id="902_text" x="165.237" y="255.082" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
-				<tspan id="902_line1" text-anchor="middle" x="197.737" y="265.582" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">tree : fe8971</tspan>
-			</text>
-			<rect id="907" width="85.0" height="17.0" x="151.638" y="185.03" rx="15.0" ry="15.0" style="fill:#f5e7e7;stroke:none;stroke-width:3.000000px"/>
-			<text id="907_text" x="161.638" y="188.03" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
-				<tspan id="907_line1" text-anchor="middle" x="194.138" y="198.53" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">blob : a874b7</tspan>
-			</text>
-			<rect id="904" width="85.0" height="17.0" x="151.638" y="218.158" rx="15.0" ry="15.0" style="fill:#f5e7e7;stroke:none;stroke-width:3.000000px"/>
-			<text id="904_text" x="161.638" y="221.158" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
-				<tspan id="904_line1" text-anchor="middle" x="194.138" y="231.658" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">blob : a906cb</tspan>
-			</text>
-			<rect id="905" width="85.0" height="17.0" x="272.606" y="286.007" rx="15.0" ry="15.0" style="fill:#f5e7e7;stroke:none;stroke-width:3.000000px"/>
-			<text id="905_text" x="282.606" y="289.007" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
-				<tspan id="905_line1" text-anchor="middle" x="315.106" y="299.507" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">blob : a0a60a</tspan>
-			</text>
-			<path id="911" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 88.6867,130.511 L 88.461,152.519"/>
-			<path id="912" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 88.4261,92.0076 L 88.6753,113.511"/>
-			<rect id="2036" width="50.0" height="17.0" x="63.3276" y="218.158" rx="3.0" ry="3.0" style="fill:#803838;stroke:none"/>
-			<text id="2036_text" x="73.32759999999999" y="221.158" style="fill:#None;stroke:#None;stroke-width:0;font-family: Inconsolata;font-size:10px">
-				<tspan id="2036_line1" text-anchor="middle" x="88.32759999999999" y="231.658" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#ffffff" stroke="#ffffff">README</tspan>
-			</text>
-			<rect id="914" width="60.0" height="17.0" x="58.7739" y="185.03" rx="3.0" ry="3.0" style="fill:#803838;stroke:none"/>
-			<text id="914_text" x="68.7739" y="188.03" style="fill:#None;stroke:#None;stroke-width:0;font-family: Inconsolata;font-size:10px">
-				<tspan id="914_line1" text-anchor="middle" x="88.7739" y="198.53" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#ffffff" stroke="#ffffff">Rakefile</tspan>
-			</text>
-			<rect id="2037" width="45.0" height="17.0" x="65.8276" y="252.082" rx="3.0" ry="3.0" style="fill:#4a6080;stroke:none"/>
-			<text id="2037_text" x="75.8276" y="255.082" style="fill:#None;stroke:#None;stroke-width:0;font-family: Inconsolata;font-size:10px">
-				<tspan id="2037_line1" text-anchor="middle" x="88.3276" y="265.582" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#ffffff" stroke="#ffffff">lib  </tspan>
-			</text>
-			<rect id="2047" width="80.0" height="17.0" x="157.737" y="286.007" rx="3.0" ry="3.0" style="fill:#803838;stroke:none"/>
-			<text id="2047_text" x="167.737" y="289.007" style="fill:#None;stroke:#None;stroke-width:0;font-family: Inconsolata;font-size:10px">
-				<tspan id="2047_line1" text-anchor="middle" x="197.737" y="299.507" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#ffffff" stroke="#ffffff">simplegit.rb</tspan>
-			</text>
-			<rect id="917" width="115.0" height="17.0" x="28.9926" y="5.99222" style="fill:#f4f4f4;stroke:none"/>
-			<text id="917_text" x="38.992599999999996" y="8.99222" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
-				<tspan id="917_line1" text-anchor="middle" x="86.4926" y="19.49222" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">$ git checkout v0.1</tspan>
-			</text>
-			<rect id="918" width="115.0" height="17.0" x="28.9926" y="42.5076" style="fill:#f4f4f4;stroke:none"/>
-			<text id="918_text" x="38.992599999999996" y="45.5076" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
-				<tspan id="918_line1" text-anchor="middle" x="86.4926" y="56.0076" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">.git/refs/tags/v0.1</tspan>
-			</text>
-			<rect id="919" width="60.0" height="17.0" x="176.993" y="42.5076" style="fill:#f4f4f4;stroke:none"/>
-			<text id="919_text" x="186.993" y="45.5076" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:10px">
-				<tspan id="919_line1" text-anchor="middle" x="206.993" y="56.0076" text-align="center" font-family="Inconsolata" font-size="10.0px" fill="#000000" stroke="#000000">&quot;0c819c&quot;</tspan>
-			</text>
-			<path id="923" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 86.4926,22.9922 L 86.4926,42.5076"/>
-			<path id="924" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 143.993,51.0076 L 176.993,51.0076"/>
-			<path id="927" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 206.993,59.5076 L 206.993,84.0076  L 128.326,83.6761"/>
-			<rect id="2026" width="18.0" height="33.0" x="3.99628" y="1.47299" style="fill:none;stroke:none"/>
-			<text id="2026_text" x="3.99628" y="1.47299" style="fill:#33332d;stroke:#33332d;stroke-width:0;font-family: BryantPro-Bold;font-size:18px">
-				<tspan id="2026_line1" x="3.99628" y="26.97299" text-align="left" font-family="BryantPro-Regular" font-weight="bold" font-size="18.0px" fill="#33332d" stroke="#33332d">1</tspan>
-			</text>
-			<rect id="2029" width="22.0" height="33.0" x="1.99628" y="37.4999" style="fill:none;stroke:none"/>
-			<text id="2029_text" x="1.99628" y="37.4999" style="fill:#33332d;stroke:#33332d;stroke-width:0;font-family: BryantPro-Bold;font-size:18px">
-				<tspan id="2029_line1" text-anchor="middle" x="12.99628" y="62.9999" text-align="center" font-family="BryantPro-Regular" font-weight="bold" font-size="18.0px" fill="#33332d" stroke="#33332d">2</tspan>
-			</text>
-			<rect id="2032" width="22.0" height="33.0" x="1.99628" y="73.5268" style="fill:none;stroke:none"/>
-			<text id="2032_text" x="1.99628" y="73.5268" style="fill:#33332d;stroke:#33332d;stroke-width:0;font-family: BryantPro-Bold;font-size:18px">
-				<tspan id="2032_line1" text-anchor="middle" x="12.99628" y="99.0268" text-align="center" font-family="BryantPro-Regular" font-weight="bold" font-size="18.0px" fill="#33332d" stroke="#33332d">3</tspan>
-			</text>
-			<path id="2038" style="stroke:#000000;marker-end:none;marker-start:none;fill:none" d="M 88.4784,169.519 L 88.6693,185.03"/>
-			<path id="2040" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 118.774,193.53 L 151.638,193.53"/>
-			<path id="2041" style="stroke:#000000;marker-end:none;marker-start:none;fill:none" d="M 88.6594,202.03 L 88.4421,218.158"/>
-			<path id="2042" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 113.328,226.658 L 151.638,226.658"/>
-			<path id="2044" style="stroke:#000000;marker-end:none;marker-start:none;fill:none" d="M 88.3276,235.158 L 88.3276,252.082"/>
-			<path id="2045" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 110.828,260.582 L 155.237,260.582"/>
-			<path id="2048" style="stroke:#000000;marker-end:none;marker-start:none;fill:none" d="M 197.737,269.082 L 197.737,286.007"/>
-			<path id="2049" style="stroke:#000000;marker-end:url(#Arrow1Lend_000000_1.000000px);marker-start:none;fill:none" d="M 237.737,294.507 L 272.606,294.507"/>
-		</g>
-	</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="345.49741"
+   height="299.01477"
+   version="1.1"
+   id="svg47328"
+   sodipodi:docname="traversing-git-objects.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview47330"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.0602123"
+     inkscape:cx="130.81176"
+     inkscape:cy="157.99342"
+     inkscape:window-width="1920"
+     inkscape:window-height="1044"
+     inkscape:window-x="0"
+     inkscape:window-y="36"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg47328" />
+  <defs
+     id="defs47258">
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend_000000_1.000000px"
+       style="overflow:visible"
+       viewBox="0 0 6.8462912 5.477033"
+       markerWidth="6.8462906"
+       markerHeight="5.4770327"
+       preserveAspectRatio="xMidYMid">
+      <path
+         id="path_Arrow1Lend_000000_1.000000px"
+         d="M -5,0 V -2 L 0,0 -5,2 Z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;marker-start:none" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend_000000_1.000000px-4"
+       style="overflow:visible"
+       viewBox="0 0 6.8462912 5.477033"
+       markerWidth="6.8462906"
+       markerHeight="5.4770327"
+       preserveAspectRatio="xMidYMid">
+      <path
+         id="path_Arrow1Lend_000000_1.000000px-2"
+         d="M -5,0 V -2 L 0,0 -5,2 Z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;marker-start:none" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend_000000_1.000000px-6"
+       style="overflow:visible"
+       viewBox="0 0 6.8462912 5.477033"
+       markerWidth="6.8462906"
+       markerHeight="5.4770327"
+       preserveAspectRatio="xMidYMid">
+      <path
+         id="path_Arrow1Lend_000000_1.000000px-4"
+         d="M -5,0 V -2 L 0,0 -5,2 Z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;marker-start:none" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend_000000_1.000000px-2"
+       style="overflow:visible"
+       viewBox="0 0 6.8462912 5.477033"
+       markerWidth="6.8462906"
+       markerHeight="5.4770327"
+       preserveAspectRatio="xMidYMid">
+      <path
+         id="path_Arrow1Lend_000000_1.000000px-8"
+         d="M -5,0 V -2 L 0,0 -5,2 Z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;marker-start:none" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend_000000_1.000000px-9"
+       style="overflow:visible"
+       viewBox="0 0 6.8462912 5.477033"
+       markerWidth="6.8462906"
+       markerHeight="5.4770327"
+       preserveAspectRatio="xMidYMid">
+      <path
+         id="path_Arrow1Lend_000000_1.000000px-28"
+         d="M -5,0 V -2 L 0,0 -5,2 Z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;marker-start:none" />
+    </marker>
+  </defs>
+  <g
+     id="g_commit"
+     transform="translate(-6.1123047,-6.5709616)"
+     inkscape:label="g_commit">
+    <rect
+       id="899"
+       width="95"
+       height="17"
+       x="39.277519"
+       y="112.03801"
+       rx="7.3302522"
+       ry="8.5"
+       style="fill:#d3f5d6;stroke:none;stroke-width:3px"
+       inkscape:label="b_commit" />
+    <text
+       id="899_text"
+       x="49.082512"
+       y="113.32301"
+       style="font-size:10px;font-family:Inconsolata;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_commit"><tspan
+         id="899_line1"
+         text-anchor="middle"
+         x="86.58252"
+         y="123.82301"
+         text-align="center"
+         font-family="Inconsolata"
+         font-size="10px"
+         fill="#000000"
+         stroke="#000000">commit : a11bef</tspan></text>
+  </g>
+  <g
+     id="g_tag"
+     transform="translate(-6.1123047,-3.2232415)"
+     inkscape:label="g_tag">
+    <rect
+       id="900"
+       width="80"
+       height="17"
+       x="46.331318"
+       y="73.534607"
+       rx="7.9512463"
+       ry="8.5"
+       style="fill:#f5f3d7;stroke:none;stroke-width:3px"
+       inkscape:label="b_tag" />
+    <text
+       id="900_text"
+       x="56.206314"
+       y="73.819611"
+       style="font-size:10px;font-family:Inconsolata;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_tag"><tspan
+         id="900_line1"
+         text-anchor="middle"
+         x="86.206314"
+         y="84.319611"
+         text-align="center"
+         font-family="Inconsolata"
+         font-size="10px"
+         fill="#000000"
+         stroke="#000000">tag : 0c819c</tspan></text>
+  </g>
+  <g
+     id="g_tree_1"
+     transform="translate(-6.1123047,-10.423274)"
+     inkscape:label="g_tree_1">
+    <rect
+       id="901"
+       width="85"
+       height="17"
+       x="43.877518"
+       y="151.04601"
+       rx="9.0395212"
+       ry="8.5"
+       style="fill:#e1eaf5;stroke:none;stroke-width:3px"
+       inkscape:label="b_tree_1" />
+    <text
+       id="901_text"
+       x="53.796722"
+       y="152.311"
+       style="font-size:10px;font-family:Inconsolata;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_tree_1"><tspan
+         id="901_line1"
+         text-anchor="middle"
+         x="86.29673"
+         y="162.811"
+         text-align="center"
+         font-family="Inconsolata"
+         font-size="10px"
+         fill="#000000"
+         stroke="#000000">tree : 1a738d</tspan></text>
+  </g>
+  <g
+     id="g_tree_2"
+     transform="translate(-9.7113037,-4.5192299)"
+     inkscape:label="g_tree_2">
+    <rect
+       id="902"
+       width="85"
+       height="17"
+       x="153.24072"
+       y="250.60901"
+       rx="9.8687468"
+       ry="8.5"
+       style="fill:#e1eaf5;stroke:none;stroke-width:3px"
+       inkscape:label="b_tree_2" />
+    <text
+       id="902_text"
+       x="163.90073"
+       y="251.89899"
+       style="font-size:10px;font-family:Inconsolata;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_tree_2"><tspan
+         id="902_line1"
+         text-anchor="middle"
+         x="196.40073"
+         y="262.39902"
+         text-align="center"
+         font-family="Inconsolata"
+         font-size="10px"
+         fill="#000000"
+         stroke="#000000">tree : fe8971</tspan></text>
+  </g>
+  <g
+     id="g_blob_1"
+     transform="translate(-6.1123047,-7.7785933)"
+     inkscape:label="g_blob_1">
+    <rect
+       id="907"
+       width="85"
+       height="17"
+       x="149.64172"
+       y="183.55701"
+       rx="9.3990812"
+       ry="8.5"
+       style="fill:#f5e7e7;stroke:none;stroke-width:3px"
+       inkscape:label="b_blob_1" />
+    <text
+       id="907_text"
+       x="159.69173"
+       y="184.817"
+       style="font-size:10px;font-family:Inconsolata;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_blob_1"><tspan
+         id="907_line1"
+         text-anchor="middle"
+         x="192.19173"
+         y="195.317"
+         text-align="center"
+         font-family="Inconsolata"
+         font-size="10px"
+         fill="#000000"
+         stroke="#000000">blob : a874b7</tspan></text>
+  </g>
+  <g
+     id="g_blob_2"
+     transform="translate(-6.1123047,-5.7509166)"
+     inkscape:label="g_blob_2">
+    <rect
+       id="904"
+       width="85"
+       height="17"
+       x="149.64172"
+       y="216.68501"
+       rx="8.948348"
+       ry="8.5"
+       style="fill:#f5e7e7;stroke:none;stroke-width:3px"
+       inkscape:label="b_blob_2" />
+    <text
+       id="904_text"
+       x="159.56172"
+       y="217.94501"
+       style="font-size:10px;font-family:Inconsolata;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_blob_2"><tspan
+         id="904_line1"
+         text-anchor="middle"
+         x="192.06172"
+         y="228.44501"
+         text-align="center"
+         font-family="Inconsolata"
+         font-size="10px"
+         fill="#000000"
+         stroke="#000000">blob : a906cb</tspan></text>
+  </g>
+  <g
+     id="g_blob_3"
+     transform="translate(-10.112305,-2.5192299)"
+     inkscape:label="g_blob_3">
+    <rect
+       id="905"
+       width="85"
+       height="17"
+       x="270.60971"
+       y="284.534"
+       rx="8.389699"
+       ry="8.5"
+       style="fill:#f5e7e7;stroke:none;stroke-width:3px"
+       inkscape:label="b_blob_3" />
+    <text
+       id="905_text"
+       x="280.64471"
+       y="285.79401"
+       style="font-size:10px;font-family:Inconsolata;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_blob_3"><tspan
+         id="905_line1"
+         text-anchor="middle"
+         x="313.14471"
+         y="296.29401"
+         text-align="center"
+         font-family="Inconsolata"
+         font-size="10px"
+         fill="#000000"
+         stroke="#000000">blob : a0a60a</tspan></text>
+  </g>
+  <g
+     id="g_readme"
+     transform="translate(-6.1123047,-5.7509166)"
+     inkscape:label="g_readme">
+    <rect
+       id="2036"
+       width="50"
+       height="17"
+       x="61.331318"
+       y="216.68501"
+       rx="3"
+       ry="3"
+       style="fill:#803838;stroke:none;stroke-width:1px"
+       inkscape:label="b_readme" />
+    <text
+       id="2036_text"
+       x="71.351318"
+       y="217.85001"
+       style="font-size:10px;font-family:Inconsolata;fill:#ffffff;stroke:#000000;stroke-width:0"
+       inkscape:label="t_readme"><tspan
+         id="2036_line1"
+         text-anchor="middle"
+         x="86.351318"
+         y="228.35001"
+         text-align="center"
+         font-family="Inconsolata"
+         font-size="10px"
+         fill="#ffffff"
+         stroke="#ffffff">README</tspan></text>
+  </g>
+  <g
+     id="g_rakefile"
+     transform="translate(-6.1123047,-7.7785933)"
+     inkscape:label="g_rakefile">
+    <rect
+       id="914"
+       width="60"
+       height="17"
+       x="56.777618"
+       y="183.55701"
+       rx="3"
+       ry="3"
+       style="fill:#803838;stroke:none;stroke-width:1px"
+       inkscape:label="b_rakefile" />
+    <text
+       id="914_text"
+       x="66.779182"
+       y="184.847"
+       style="font-size:10px;font-family:Inconsolata;fill:#ffffff;stroke:#000000;stroke-width:0"
+       inkscape:label="t_rakefile"><tspan
+         id="914_line1"
+         text-anchor="middle"
+         x="86.779182"
+         y="195.347"
+         text-align="center"
+         font-family="Inconsolata"
+         font-size="10px"
+         fill="#ffffff"
+         stroke="#ffffff">Rakefile</tspan></text>
+  </g>
+  <g
+     id="g_lib"
+     transform="translate(-6.1123047,-4.5192299)"
+     inkscape:label="g_lib">
+    <rect
+       id="2037"
+       width="45"
+       height="17"
+       x="63.831318"
+       y="250.60901"
+       rx="3"
+       ry="3"
+       style="fill:#4a6080;stroke:none;stroke-width:1px"
+       inkscape:label="b_lib" />
+    <text
+       id="2037_text"
+       x="73.656319"
+       y="251.87401"
+       style="font-size:10px;font-family:Inconsolata;fill:#ffffff;stroke:#000000;stroke-width:0"
+       inkscape:label="t_lib"><tspan
+         id="2037_line1"
+         text-anchor="middle"
+         x="86.156319"
+         y="262.37402"
+         text-align="center"
+         font-family="Inconsolata"
+         font-size="10px"
+         fill="#ffffff"
+         stroke="#ffffff">lib</tspan></text>
+  </g>
+  <g
+     id="g_simplegit"
+     transform="translate(-6.1123047,-2.5192299)"
+     inkscape:label="g_simplegit">
+    <rect
+       id="2047"
+       width="80"
+       height="17"
+       x="152.14172"
+       y="284.534"
+       rx="3"
+       ry="3"
+       style="fill:#803838;stroke:none;stroke-width:1px"
+       inkscape:label="b_simplegit" />
+    <text
+       id="2047_text"
+       x="162.07672"
+       y="284.99399"
+       style="font-size:10px;font-family:Inconsolata;fill:#ffffff;stroke:#000000;stroke-width:0"
+       inkscape:label="t_simplegit"><tspan
+         id="2047_line1"
+         text-anchor="middle"
+         x="192.07672"
+         y="295.49399"
+         text-align="center"
+         font-family="Inconsolata"
+         font-size="10px"
+         fill="#ffffff"
+         stroke="#ffffff">simplegit.rb</tspan></text>
+  </g>
+  <g
+     id="g_git_co"
+     transform="translate(-6.1123047,-4.5192299)"
+     inkscape:label="g_git_co">
+    <rect
+       id="917"
+       width="115"
+       height="17"
+       x="26.996319"
+       y="4.5192299"
+       style="fill:#f4f4f4;stroke:none;stroke-width:1px"
+       inkscape:label="b_git_co" />
+    <text
+       id="917_text"
+       x="37.706314"
+       y="4.9742298"
+       style="font-size:10px;font-family:Inconsolata;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_git_co"><tspan
+         id="917_line1"
+         text-anchor="middle"
+         x="85.206322"
+         y="15.47423"
+         text-align="center"
+         font-family="Inconsolata"
+         font-size="10px"
+         fill="#000000"
+         stroke="#000000">$ git checkout v0.1</tspan></text>
+  </g>
+  <g
+     id="g_git_refs_tags"
+     transform="translate(-6.1123047,-5.8789281)"
+     inkscape:label="g_git_refs_tags">
+    <rect
+       id="918"
+       width="115"
+       height="17"
+       x="26.996319"
+       y="41.034611"
+       style="fill:#f4f4f4;stroke:none;stroke-width:1px"
+       inkscape:label="b_git_refs_tags" />
+    <text
+       id="918_text"
+       x="37.106316"
+       y="41.519611"
+       style="font-size:10px;font-family:Inconsolata;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_git_refs_tags"><tspan
+         id="918_line1"
+         text-anchor="middle"
+         x="84.606316"
+         y="52.019611"
+         text-align="center"
+         font-family="Inconsolata"
+         font-size="10px"
+         fill="#000000"
+         stroke="#000000">.git/refs/tags/v0.1</tspan></text>
+  </g>
+  <g
+     id="g_sha"
+     transform="translate(-18.967301,-5.8789281)"
+     inkscape:label="g_sha">
+    <rect
+       id="919"
+       width="60"
+       height="17"
+       x="174.99672"
+       y="41.034611"
+       style="fill:#f4f4f4;stroke:none;stroke-width:1px"
+       inkscape:label="b_sha" />
+    <text
+       id="919_text"
+       x="184.96172"
+       y="42.304611"
+       style="font-size:10px;font-family:Inconsolata;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_sha"><tspan
+         id="919_line1"
+         text-anchor="middle"
+         x="204.96172"
+         y="52.804611"
+         text-align="center"
+         font-family="Inconsolata"
+         font-size="10px"
+         fill="#000000"
+         stroke="#000000">&quot;0c819c&quot;</tspan></text>
+  </g>
+  <text
+     id="t_3"
+     x="-5.9418945"
+     y="59.863613"
+     style="font-size:18px;font-family:BryantPro-Bold;fill:#33332d;stroke:#33332d;stroke-width:0"
+     inkscape:label="t_3"><tspan
+       id="2032_line1"
+       text-anchor="middle"
+       x="5.0581055"
+       y="85.363617"
+       text-align="center"
+       font-family="BryantPro-Regular"
+       font-weight="bold"
+       font-size="18px"
+       fill="#33332d"
+       stroke="#33332d">3</tspan></text>
+  <text
+     id="t_2"
+     x="-5.8100576"
+     y="24.835371"
+     style="font-size:18px;font-family:BryantPro-Bold;fill:#33332d;stroke:#33332d;stroke-width:0"
+     inkscape:label="t_2"><tspan
+       id="2029_line1"
+       text-anchor="middle"
+       x="5.1899414"
+       y="50.335369"
+       text-align="center"
+       font-family="BryantPro-Regular"
+       font-weight="bold"
+       font-size="18px"
+       fill="#33332d"
+       stroke="#33332d">2</tspan></text>
+  <text
+     id="t_1"
+     x="-1.3974609"
+     y="-10.438965"
+     style="font-size:18px;font-family:BryantPro-Bold;fill:#33332d;stroke:#33332d;stroke-width:0"
+     inkscape:label="t_1"><tspan
+       id="2026_line1"
+       x="-1.3974609"
+       y="15.061035"
+       text-align="left"
+       font-family="BryantPro-Regular"
+       font-weight="bold"
+       font-size="18px"
+       fill="#33332d"
+       stroke="#33332d">1</tspan></text>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 186.02942,263.08978 0,18.92499"
+     id="c_4"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#902"
+     inkscape:connection-end="#2047"
+     inkscape:label="c_4" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 80.219013,227.9341 v 18.15568"
+     id="c_3"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#2036"
+     inkscape:connection-end="#2037"
+     inkscape:label="c_3" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 80.557406,192.77841 80.32692,210.9341"
+     id="c_2"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#914"
+     inkscape:connection-end="#2036"
+     inkscape:label="c_2" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 80.568577,175.77841 80.36195,157.62273"
+     id="c_1"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#914"
+     inkscape:connection-end="#901"
+     inkscape:label="c_1" />
+  <path
+     style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend_000000_1.000000px-9)"
+     d="m 226.02942,290.51477 h 34.46799"
+     id="a_9"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#2047"
+     inkscape:connection-end="#905"
+     inkscape:label="a_9" />
+  <path
+     style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend_000000_1.000000px-2)"
+     d="m 102.71901,254.58978 40.81041,0"
+     id="a_8"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#2037"
+     inkscape:connection-end="#902"
+     inkscape:label="a_8" />
+  <path
+     style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend_000000_1.000000px-6)"
+     d="m 105.21901,219.4341 h 38.31041"
+     id="a_7"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-end="#904"
+     inkscape:connection-start="#2036"
+     inkscape:label="a_7" />
+  <path
+     style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend_000000_1.000000px-4)"
+     d="m 110.66531,184.27841 h 32.86411"
+     id="a_6"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-end="#907"
+     inkscape:connection-start="#914"
+     inkscape:label="a_6" />
+  <path
+     style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend_000000_1.000000px)"
+     d="m 80.568501,122.46705 -0.206575,18.15568"
+     id="a_5"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-end="#901"
+     inkscape:connection-start="#899"
+     inkscape:label="a_5" />
+  <path
+     style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend_000000_1.000000px)"
+     d="m 80.326897,87.311365 0.230434,18.155685"
+     id="a_4"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-end="#899"
+     inkscape:connection-start="#900"
+     inkscape:label="a_4" />
+  <path
+     style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend_000000_1.000000px)"
+     d="M 186.02942,52.155683 V 78.811365 H 120.21901"
+     id="a_3"
+     inkscape:connector-type="orthogonal"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#919"
+     inkscape:connection-end="#900"
+     inkscape:label="a_3" />
+  <path
+     style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend_000000_1.000000px)"
+     d="m 135.88401,43.655683 h 20.14541"
+     id="a_2"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-end="#919"
+     inkscape:connection-start="#918"
+     inkscape:label="a_2" />
+  <path
+     style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend_000000_1.000000px)"
+     d="M 78.384014,17 V 35.155683"
+     id="a_1"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-end="#918"
+     inkscape:connection-start="#917"
+     inkscape:label="a_1" />
 </svg>
