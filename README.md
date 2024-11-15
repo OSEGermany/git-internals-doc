@@ -28,17 +28,18 @@ of the Git source code control system.
 
 ## History
 
-It was originally written by [Scott Chacon][Scott] in 2008
-and published at PeepCode
-(now a part of [Pluralsight]).
+- 2008:
+  Written an published by [Scott Chacon][Scott].
 
-[Scott] and [Pluralsight] have generously open sourced it.
+  [Scott] and [Pluralsight] have generously open sourced it.
 
-[![Pluralsight](http://s.pluralsight.com/mn/img/sh/logo-v2.png)][Pluralsight]
+  [![Pluralsight](http://s.pluralsight.com/mn/img/sh/logo-v2.png)][Pluralsight]
 
-[Pluralsight] stopped maintaining the project in 2013.
+- 2013:
+  [Pluralsight] stopped maintaining the project.
 
-[Open Source Ecology Germany][OSEG] took over in 2023.
+- 2023:
+  [Open Source Ecology Germany][OSEG] took over.
 
 ## License
 
