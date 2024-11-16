@@ -108,7 +108,7 @@ this is the equivalent commit in caret syntax:
 e65s46^^^^^
 ```
 
-![](../artwork/diagrams/treeish.eps)
+![](../artwork/diagrams/treeish.svg)
 
 #### Tree Pointer
 

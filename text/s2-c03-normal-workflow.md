@@ -107,7 +107,7 @@ $ git status
 You can see that if we commit at this point,
 only the Rakefile will show up as changed in the commit.
 
-![](../artwork/diagrams/add-commit.eps)
+![](../artwork/diagrams/add-commit.svg)
 
 If we want to commit all our changes,
 we can use this shorthand,
@@ -118,7 +118,7 @@ then commit the whole thing:
 git commit -a -m 'committing all changes'
 ```
 
-![](../artwork/diagrams/commit-a.eps)
+![](../artwork/diagrams/commit-a.svg)
 
 If you would like to give a more useful commit message,
 you can leave out the `-m` option.

@@ -273,7 +273,7 @@ in this case,
 one for every developer with a public fork of that project
 that might push changes I care to try.
 
-![](../artwork/diagrams/fetch-pull.eps)
+![](../artwork/diagrams/fetch-pull.svg)
 
 You can also remove remotes at any time,
 which simply removes the lines
@@ -324,7 +324,7 @@ maybe some permissions tweaked here or there.
 
 There is a single repository that all developers push to and pull from.
 
-![All developers push to a single server](../artwork/diagrams/workflow-star.eps)
+![All developers push to a single server](../artwork/diagrams/workflow-star.svg)
 
 This model works just like a centralized SCM
 and Git can work that way just fine.
@@ -354,7 +354,7 @@ and merged and pushed into the blessed repository,
 where the cycle starts over again.
 
 ![Approved features gradually make their way up the ladder](
-../artwork/diagrams/workflow-dictator.eps)
+../artwork/diagrams/workflow-dictator.svg)
 
 This is a model something like the Linux kernel uses,
 Linus being the benevolent dictator.
@@ -381,7 +381,7 @@ tests,
 accepts and pushes.
 
 ![Private and public repositories driven by read-only pull requests](
-../artwork/diagrams/workflow-integration-manager.eps)
+../artwork/diagrams/workflow-integration-manager.svg)
 
 This is largely how community-based git repositories
 like GitHub were built to work
