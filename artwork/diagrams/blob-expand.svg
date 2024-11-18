@@ -1,40 +1,179 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504.0" height="144.0">
-	<defs>
-		<marker orient="auto" refY="0.0" refX="0.0" id="Arrow1Lend_7e7e7e_1.000000px" style="overflow:visible;">
-			
-				  
-			<path id="path_Arrow1Lend_7e7e7e_1.000000px" d="M -5,0.0 L -5,-2.0 L 0.0,0.0 L -5,2.0 z " style="fill:#7e7e7e;fill-rule:evenodd;stroke:#7e7e7e;stroke-width:1.0px;marker-start:none;" transform="scale(1.000000)"/>
-			
-				
-		</marker>
-	</defs>
-	<g transform="translate(-6.000000,-5.000000)">
-		<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
-			<rect id="847" width="228.0" height="130.0" x="6.0" y="5.0" rx="5.0" ry="5.0" style="fill:#f2f2f2;stroke:none;stroke-width:3.000000px"/>
-			<text id="847_text" x="26.0" y="15.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:9px">
-				<tspan id="847_line1" x="26.0" y="52.0" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">SimpleGit Ruby Library</tspan>
-				<tspan id="847_line2" x="26.0" y="61.0" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">======================</tspan>
-				<tspan id="847_line3" x="26.0" y="70.0" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000"></tspan>
-				<tspan id="847_line4" x="26.0" y="79.0" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">This library calls git commands and returns the output.</tspan>
-				<tspan id="847_line5" x="26.0" y="88.0" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000"></tspan>
-				<tspan id="847_line6" x="26.0" y="97.0" text-align="left" font-family="Inconsolata" font-size="9.0px" fill="#000000" stroke="#000000">Author : Scott Chacon</tspan>
-			</text>
-			<rect id="1" width="167.0" height="26.13" x="22.57" y="16.0" style="stroke:#808080"/>
-			<text id="1_text" x="22.57" y="16.0" style="fill:#ff736b;stroke:#ff736b;stroke-width:0;font-family: BitstreamVeraSansMono-Roman;font-size:10px">
-				<tspan id="1_line1" x="22.57" y="34.065" text-align="left" font-family="BitstreamVeraSansMono-Roman" font-size="10.0px" fill="#303aff" stroke="#303aff">blob [content size]</tspan>
-			</text>
-			<rect id="806" width="133.16" height="27.0" x="361.84" y="9.0" rx="15.0" ry="15.0" style="fill:#f5e7e7;stroke:none;stroke-width:3.000000px"/>
-			<text id="806_text" x="361.84" y="9.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: Inconsolata;font-size:12px">
-				<tspan id="806_line1" text-anchor="middle" x="428.41999999999996" y="28.5" text-align="center" font-family="Inconsolata" font-size="12.0px" fill="#000000" stroke="#000000">blob : a906cb</tspan>
-			</text>
-			<g style="fill:#fff;stroke:#000000;stroke-width:1.000000px">
-				<rect id="852" width="98.0" height="19.0" x="250.026" y="36.0" style="fill:none;stroke:none"/>
-				<text id="852_text" x="250.026" y="36.0" style="fill:#000000;stroke:#000000;stroke-width:0;font-family: BryantPro-Bold;font-size:16px">
-					<tspan id="852_line1" text-anchor="middle" x="299.026" y="53.5" text-align="center" font-family="BryantPro-Regular" font-weight="bold" font-size="16.0px" fill="#000000" stroke="#000000">Zlib::Deflate</tspan>
-				</text>
-				<path id="851" style="stroke:#7e7e7e;marker-end:url(#Arrow1Lend_7e7e7e_1.000000px);marker-start:none;stroke-dasharray:3 3;fill:none" d="M 250.026,21.75 L 348.026,21.75"/>
-			</g>
-		</g>
-	</g>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="279.72519"
+   height="314.91971"
+   version="1.1"
+   id="svg6396"
+   sodipodi:docname="blob-expand.svg"
+   xml:space="preserve"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"><sodipodi:namedview
+     id="namedview6398"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.6388889"
+     inkscape:cx="271.83051"
+     inkscape:cy="39.966102"
+     inkscape:window-width="1918"
+     inkscape:window-height="1078"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3028" /><defs
+     id="defs6370"><filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter46395"
+       x="-0.024480001"
+       y="-0.068024389"
+       width="1.0695411"
+       height="1.193239"><feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood46385" /><feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite46387" /><feGaussianBlur
+         in="composite1"
+         stdDeviation="2.9736"
+         result="blur"
+         id="feGaussianBlur46389" /><feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset46391" /><feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite46393" /></filter></defs><text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:14px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="93.808876"
+     y="99.353096"
+     id="t_zlib_deflate"
+     inkscape:label="t_zlib_inflate"><tspan
+       sodipodi:role="line"
+       id="tspan43270"
+       x="93.808876"
+       y="99.353096"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#000000;fill-opacity:1;stroke:none">Zlib::Inflate</tspan></text><g
+     id="g6662"
+     inkscape:label="g_main"
+     transform="translate(9.0436778,109.86594)"><rect
+       style="fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:2.47479;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter46395)"
+       id="b_main"
+       width="291.52939"
+       height="104.91296"
+       x="28.286364"
+       y="-130.24345"
+       rx="8.9762115"
+       ry="5.7997913"
+       transform="matrix(0.89712249,0,0,1.6379899,-28.017571,225.02721)"
+       inkscape:label="b_main" /><g
+       id="g_tree_cont"
+       inkscape:label="g_cont"
+       transform="translate(-8.1642745,0.02392416)"><path
+         d="M 27.698933,58.840135 H 197.6115 V 24.000003 H 27.698933 Z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#929292;stroke-width:1.33333;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="b_tree_cont"
+         inkscape:label="b_cont" /><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;word-spacing:0px;fill:#4157ff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         x="35.519707"
+         y="45.759937"
+         id="t_tree_cont"
+         inkscape:label="t_cont"><tspan
+           sodipodi:role="line"
+           id="tspan2963"
+           x="35.519707"
+           y="45.759937"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke:#4157ff;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1">blob [content size]\0</tspan></text></g><text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:12px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       x="17.532057"
+       y="80.705086"
+       id="t_main"
+       inkscape:label="t_main"><tspan
+         sodipodi:role="line"
+         x="17.532057"
+         y="80.705086"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan6195">SimpleGit Ruby Library</tspan><tspan
+         sodipodi:role="line"
+         x="17.532057"
+         y="95.749825"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan7298">======================</tspan><tspan
+         sodipodi:role="line"
+         x="17.532057"
+         y="110.79457"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan7300" /><tspan
+         sodipodi:role="line"
+         x="17.532057"
+         y="125.83931"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan7304">This library calls git commands</tspan><tspan
+         sodipodi:role="line"
+         x="17.532057"
+         y="140.88405"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan7312">and returns the output.</tspan><tspan
+         sodipodi:role="line"
+         x="17.532057"
+         y="155.9288"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan7306" /><tspan
+         sodipodi:role="line"
+         x="17.532057"
+         y="170.97354"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan7308">Author : Scott Chacon</tspan></text></g><text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:202.046px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.299999;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     x="-147.55067"
+     y="150.76392"
+     id="text4998"
+     transform="matrix(0,-0.7001793,1.4282056,0,0,0)"
+     inkscape:label="t_bracket"><tspan
+       sodipodi:role="line"
+       id="tspan4996"
+       x="-147.55067"
+       y="150.76392"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:202.046px;font-family:FreeSerif;-inkscape-font-specification:'FreeSerif Bold';stroke-width:0.299999;stroke-dasharray:none">}</tspan></text><g
+     id="g3028"
+     transform="translate(-352.53313,-9.724435)"
+     inkscape:label="g_blob"><path
+       d="M 434.24833,11.224435 H 550.5431 c 8.1678,0 14.7888,8.0588 14.7888,18 v 0 c 0,9.9412 -6.621,17.999999 -14.7888,17.999999 H 434.24833 c -8.1678,0 -14.78881,-8.058799 -14.78881,-17.999999 v 0 0 c 0,-9.9412 6.62101,-18 14.78881,-18 z"
+       style="fill:#f5e7e7;fill-opacity:1;fill-rule:nonzero;stroke:#919191;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
+       id="b_tree_sha"
+       inkscape:label="b_commit_sha" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Courier New';-inkscape-font-specification:'Courier New';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="438.56369"
+       y="34.115059"
+       id="text3016"
+       inkscape:label="t_blob"><tspan
+         sodipodi:role="line"
+         id="tspan3014"
+         x="438.56369"
+         y="34.115059"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:sans-serif">blob : a906cb</tspan></text></g><metadata
+     id="metadata7365"><rdf:RDF><cc:Work
+         rdf:about=""><cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" /></cc:Work></rdf:RDF></metadata></svg>
