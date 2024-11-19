@@ -55,7 +55,7 @@ of the Git source code control system.
 
 [CC-BY-SA-3.0]: https://creativecommons.org/licenses/by-sa/3.0/
 [epub]: https://osegermany.github.io/git-internals-doc/ebook/doc.epub
-[html]: https://osegermany.github.io/git-internals-doc/html/
+[html]: https://osegermany.github.io/git-internals-doc/html/text/s0-c00-title.html
 [OSEG]: https://www.ose-germany.de/die-bewegung/
 [pdf]: https://osegermany.github.io/git-internals-doc/pdf/doc.pdf
 [Pluralsight]: https://www.pluralsight.com
