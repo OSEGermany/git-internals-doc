@@ -1,11 +1,11 @@
-# SPDX-FileCopyrightText: 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+# SPDX-FileCopyrightText: 2023-2024 Robin Vobruba <hoijui.quaero@gmail.com>
 #
 # SPDX-License-Identifier: CC-BY-SA-3.0
 
 ---
 # See    Metadata variables
 title: |
-  ![](artwork/title.svg){width=16cm}
+  ![Git Internals book cover](artwork/title.svg){width=100%}
 #
 #  Git Internals
 # The `${KEY}` placeholders are supplied their final value by MoVeDo
