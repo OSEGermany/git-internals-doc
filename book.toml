@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2023-2024 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: CC-BY-SA-3.0
+
+[book]
+authors = ["Robin Vobruba <hoijui.quaero@gmail.com>"]
+language = "en"
+multilingual = false
+src = "."
+title = "Git Internals"
+
+[build]
+build-dir = "build/html"
+
+[output.html]
+site-url = "/mdBook/"
+smart-punctuation = false
+git-repository-url = "https://github.com/osegermany/git-internals-doc"
+edit-url-template = "https://github.com/osegermany/git-internals-doc/edit/master/{path}"

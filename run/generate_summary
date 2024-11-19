@@ -1,0 +1,129 @@
+#!/usr/bin/env bash
+# SPDX-FileCopyrightText: 2024 Robin Vobruba <hoijui.quaero@gmail.com>
+# SPDX-License-Identifier: AGPL-3.0-only
+#
+# See the output of "$0 -h" for details.
+
+# Exit immediately on each error and unset variable;
+# see: https://vaneyckt.io/posts/safer_bash_scripts_with_set_euxo_pipefail/
+set -Eeuo pipefail
+#set -Eeu
+
+script_path="$(readlink -f "${BASH_SOURCE[0]}")"
+#script_dir="$(dirname "$script_path")"
+script_name="$(basename "$script_path")"
+
+function print_help() {
+
+	echo -e "$script_name -"
+	echo "Generates the 'SUMMARY.md' file"
+	echo "(required by [mdbook](https://github.com/rust-lang/mdBook/))."
+	echo
+	echo "Usage:"
+	echo "  $script_name [OPTION...]"
+	echo "Options:"
+	echo "  -h, --help              Print this usage help and exits."
+	echo "Examples:"
+	echo "  $script_name --help"
+	echo "  $script_name"
+}
+
+# read command-line args
+POSITIONAL=()
+while [[ $# -gt 0 ]]
+do
+	arg="$1"
+	shift # $2 -> $1, $3 -> $2, ...
+
+	case "$arg" in
+		-h|--help)
+			print_help
+			exit 0
+			;;
+		*) # non-/unknown option
+			POSITIONAL+=("$arg") # save it in an array for later
+			;;
+	esac
+done
+set -- "${POSITIONAL[@]}" # restore positional parameters
+
+# REUSE-IgnoreStart
+find text/ -name "*.md" | sed -e 's|^\./||' | sort | awk -F'-' -e '
+BEGIN {
+	section_title = ""
+	chapter_title = ""
+	last_section_id = -1
+	last_chapter_id = -1
+	introduction_ended = 0
+	annex_started = 0
+
+	print("# Summary")
+	print("\n<!--\nSPDX-FileCopyrightText: Robin Vobruba <hoijui.quaero@gmail.com>\n\nSPDX-License-Identifier: CC-BY-SA-3.0\n-->")
+	print("\n<!--\nNOTE:\nThis file was auto-generated with script\n\"'"$0"'\";\ndo not edit manually!\n-->")
+}
+{
+	section_id = $1
+	sub(/^text\/s/, "", section_id)
+	chapter_id = $2
+	sub(/^c/, "", chapter_id)
+	file_name = $0
+	new_section = section_id != last_section_id && section_id > 0
+
+	if (new_section) {
+		cmd_get_section_title = sprintf("grep \"^# \" < \"%s\" | head -1 | sed -e \"s/^# *//\" -e \"s/ *$//\"", file_name)
+		section_title = "<SECTION_TITLE_NOT_FOUND>"
+		while ( ( cmd_get_section_title | getline result ) > 0 ) {
+			section_title = result
+			break
+		}
+	} else {
+		cmd_get_chapter_title = sprintf("grep \"^## \" < \"%s\" | head -1 | sed -e \"s/^## *//\" -e \"s/ *$//\"", file_name)
+		chapter_title = "<CHAPTER_TITLE_NOT_FOUND>"
+		while ( ( cmd_get_chapter_title | getline result ) > 0 ) {
+			chapter_title = result
+			break
+		}
+	}
+
+	if (section_id > 0) {
+		introduction_ended = 1
+	}
+
+	if (new_section && section_id == 3) {
+		annex_started = 1
+	}
+	if (new_section && section_id > 3) {
+		new_section = 0
+	}
+	if (annex_started) {
+		chapter_title = section_title
+	}
+
+	main_section = introduction_ended && !annex_started
+
+	if (new_section) {
+		if (main_section) {
+			sec_title = section_title "\n"
+			chapter_title = section_title
+		} else {
+			sec_title = "Annex\n\n."
+		}
+		printf("\n# %s\n", sec_title)
+	}
+
+	if (main_section) {
+		sep = "- "
+	} else {
+		sep = "\n"
+	}
+
+	printf("%s[%s](%s)\n", sep, chapter_title, file_name)
+
+	annex_started_now = 0
+	section_title = ""
+	chapter_title = ""
+	last_section_id = section_id
+	last_chapter_id = chapter_id
+}
+' > "SUMMARY.md"
+# REUSE-IgnoreEnd
