@@ -25,7 +25,7 @@ of the Git source code control system.
 - [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Epub_logo_color.svg/180px-Epub_logo_color.svg.png" alt="EPub file icon" height="32">
   E-Book (`*.epub`)][epub]
 - [<img src="https://cdn4.iconfinder.com/data/icons/hodgepodge-vol-1/32/code_script_html_symbols-32.png" alt="HTML file icon" height="32">
-  HTML (experimental & ugly)][html]
+  HTML][html]
 
 (NOTE: The rendering of the title is sub-optimal still)
 
