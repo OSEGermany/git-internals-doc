@@ -9,7 +9,9 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#">
   <sodipodi:namedview
      id="namedview13361"
      pagecolor="#ffffff"
@@ -20,27 +22,35 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="4.3703704"
-     inkscape:cx="199.0678"
-     inkscape:cy="60.75"
-     inkscape:window-width="1920"
-     inkscape:window-height="1044"
+     inkscape:zoom="1.0925926"
+     inkscape:cx="303.8644"
+     inkscape:cy="83.745762"
+     inkscape:window-width="1918"
+     inkscape:window-height="1078"
      inkscape:window-x="0"
-     inkscape:window-y="36"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg13359" />
   <defs
      id="defs13311">
     <marker
-       orient="auto"
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="2.8"
        refY="0"
-       refX="0"
-       id="Arrow1Lstart_808080_1.000000px"
-       style="overflow:visible">
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="12.324"
+       markerHeight="7.1550002"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="none">
       <path
-         id="path_Arrow1Lstart_808080_1.000000px"
-         d="M 5,0 V -2 L 0,0 5,2 Z"
-         style="fill:#808080;fill-rule:evenodd;stroke:#808080;stroke-width:1px;marker-start:none" />
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
     </marker>
     <marker
        orient="auto"
@@ -55,276 +65,45 @@
          transform="scale(0.952381)" />
     </marker>
   </defs>
-  <rect
-     id="1957"
-     width="106.079"
-     height="57.469601"
-     x="285.25201"
-     y="1"
-     rx="14.665257"
-     ry="28.7348"
-     style="fill:#d3f5d6;stroke:#5e5e5e;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
-  <text
-     id="1957_text"
-     x="284.92096"
-     y="-1.6894522"
-     style="font-size:12px;font-family:Helvetica;fill:#000000;stroke:#000000;stroke-width:0"><tspan
-       id="1957_line1"
-       text-anchor="middle"
-       x="337.96045"
-       y="27.045349"
-       text-align="center"
-       font-family="LucidaGrande"
-       font-size="12px"
-       fill="#000000"
-       stroke="#000000">developer</tspan><tspan
-       id="1957_line2"
-       text-anchor="middle"
-       x="337.96045"
-       y="39.045345"
-       text-align="center"
-       font-family="LucidaGrande"
-       font-size="12px"
-       fill="#000000"
-       stroke="#000000">public</tspan></text>
-  <rect
-     id="1972"
-     width="106.079"
-     height="57.469601"
-     x="162.252"
-     y="1"
-     rx="12.824134"
-     ry="28.7348"
-     style="fill:#d3f5d6;stroke:#5e5e5e;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
-  <text
-     id="1972_text"
-     x="161.92094"
-     y="-1.6894522"
-     style="font-size:12px;font-family:Helvetica;fill:#000000;stroke:#000000;stroke-width:0"><tspan
-       id="1972_line1"
-       text-anchor="middle"
-       x="214.96045"
-       y="27.045349"
-       text-align="center"
-       font-family="LucidaGrande"
-       font-size="12px"
-       fill="#000000"
-       stroke="#000000">developer</tspan><tspan
-       id="1972_line2"
-       text-anchor="middle"
-       x="214.96045"
-       y="39.045345"
-       text-align="center"
-       font-family="LucidaGrande"
-       font-size="12px"
-       fill="#000000"
-       stroke="#000000">public</tspan></text>
-  <rect
-     id="1973"
-     width="106.079"
-     height="57.469601"
-     x="17.126001"
-     y="148"
-     rx="13.858974"
-     ry="28.7348"
-     style="fill:#ffada5;stroke:#5e5e5e;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
-  <text
-     id="1973_text"
-     x="50.75779"
-     y="150"
-     style="font-size:12px;line-height:1;font-family:Helvetica;text-align:center;text-anchor:middle;white-space:pre;inline-size:81.347;display:inline;fill:#000000;stroke:#000000;stroke-width:0"
-     transform="translate(19.352025,23.860754)"
-     xml:space="preserve"><tspan
-       x="50.75779"
-       y="150"
-       id="tspan15027"><tspan
-   style="font-family:LucidaGrande"
-   id="tspan15025">integration</tspan>
-</tspan><tspan
-       x="50.75779"
-       y="162.36919"
-       id="tspan15031"><tspan
-         style="font-family:LucidaGrande"
-         id="tspan15029">manager</tspan></tspan></text>
-  <rect
-     id="1974"
-     width="106.079"
-     height="57.469601"
-     x="408.25302"
-     y="1"
-     rx="13.443372"
-     ry="28.7348"
-     style="fill:#d3f5d6;stroke:#5e5e5e;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
-  <text
-     id="1974_text"
-     x="407.92197"
-     y="-1.6894522"
-     style="font-size:12px;font-family:Helvetica;fill:#000000;stroke:#000000;stroke-width:0"><tspan
-       id="1974_line1"
-       text-anchor="middle"
-       x="460.96146"
-       y="27.045349"
-       text-align="center"
-       font-family="LucidaGrande"
-       font-size="12px"
-       fill="#000000"
-       stroke="#000000">developer</tspan><tspan
-       id="1974_line2"
-       text-anchor="middle"
-       x="460.96146"
-       y="39.045345"
-       text-align="center"
-       font-family="LucidaGrande"
-       font-size="12px"
-       fill="#000000"
-       stroke="#000000">public</tspan></text>
-  <rect
-     id="1987"
-     width="138.33099"
-     height="81"
-     x="1"
-     y="1"
-     rx="22.773148"
-     ry="40.5"
-     style="fill:#8ab5eb;stroke:#5e5e5e;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
-  <text
-     id="1987_text"
-     x="0.63378787"
-     y="-1.6894531"
-     style="font-size:12px;font-family:Helvetica;fill:#000000;stroke:#000000;stroke-width:0"><tspan
-       id="1987_line1"
-       text-anchor="middle"
-       x="69.799286"
-       y="38.810547"
-       text-align="center"
-       font-family="LucidaGrande"
-       font-size="12px"
-       fill="#000000"
-       stroke="#000000">blessed</tspan><tspan
-       id="1987_line2"
-       text-anchor="middle"
-       x="69.799286"
-       y="50.810547"
-       text-align="center"
-       font-family="LucidaGrande"
-       font-size="12px"
-       fill="#000000"
-       stroke="#000000">repository</tspan></text>
-  <path
-     id="1990"
-     style="fill:none;stroke:#000000;stroke-width:2px;marker-start:url(#Arrow1Lstart_000000_2.000000px);marker-end:none"
-     d="M 70.1655,84.164176 V 148"
-     sodipodi:nodetypes="cc" />
-  <rect
-     id="1991"
-     width="106.079"
-     height="57.469601"
-     x="285.25201"
-     y="148"
-     rx="14.037136"
-     ry="28.7348"
-     style="fill:#8ab891;stroke:#5e5e5e;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
-  <text
-     id="1991_text"
-     x="284.92096"
-     y="145.31055"
-     style="font-size:12px;font-family:Helvetica;fill:#000000;stroke:#000000;stroke-width:0"><tspan
-       id="1991_line1"
-       text-anchor="middle"
-       x="337.96045"
-       y="174.04535"
-       text-align="center"
-       font-family="LucidaGrande"
-       font-size="12px"
-       fill="#000000"
-       stroke="#000000">developer</tspan><tspan
-       id="1991_line2"
-       text-anchor="middle"
-       x="337.96045"
-       y="186.04535"
-       text-align="center"
-       font-family="LucidaGrande"
-       font-size="12px"
-       fill="#000000"
-       stroke="#000000">private</tspan></text>
-  <rect
-     id="1993"
-     width="106.079"
-     height="57.469601"
-     x="162.252"
-     y="148"
-     rx="13.920272"
-     ry="28.7348"
-     style="fill:#8ab891;stroke:#5e5e5e;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
-  <text
-     id="1993_text"
-     x="161.92094"
-     y="145.31055"
-     style="font-size:12px;font-family:Helvetica;fill:#000000;stroke:#000000;stroke-width:0"><tspan
-       id="1993_line1"
-       text-anchor="middle"
-       x="214.96045"
-       y="174.04535"
-       text-align="center"
-       font-family="LucidaGrande"
-       font-size="12px"
-       fill="#000000"
-       stroke="#000000">developer</tspan><tspan
-       id="1993_line2"
-       text-anchor="middle"
-       x="214.96045"
-       y="186.04535"
-       text-align="center"
-       font-family="LucidaGrande"
-       font-size="12px"
-       fill="#000000"
-       stroke="#000000">private</tspan></text>
-  <rect
-     id="1994"
-     width="106.079"
-     height="57.469601"
-     x="408.25302"
-     y="148"
-     rx="13.958593"
-     ry="28.7348"
-     style="fill:#8ab891;stroke:#5e5e5e;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
-  <text
-     id="1994_text"
-     x="407.92197"
-     y="145.31055"
-     style="font-size:12px;font-family:Helvetica;fill:#000000;stroke:#000000;stroke-width:0"><tspan
-       id="1994_line1"
-       text-anchor="middle"
-       x="460.96146"
-       y="174.04535"
-       text-align="center"
-       font-family="LucidaGrande"
-       font-size="12px"
-       fill="#000000"
-       stroke="#000000">developer</tspan><tspan
-       id="1994_line2"
-       text-anchor="middle"
-       x="460.96146"
-       y="186.04535"
-       text-align="center"
-       font-family="LucidaGrande"
-       font-size="12px"
-       fill="#000000"
-       stroke="#000000">private</tspan></text>
   <path
      id="1998"
-     style="fill:none;stroke:#808080;stroke-width:1px;marker-start:url(#Arrow1Lstart_808080_1.000000px);marker-end:none"
+     style="fill:none;stroke:#808080;stroke-width:1px;marker-start:url(#TriangleStart);marker-end:none"
      d="M 120.20362,154.59441 338.02379,59.283966"
      sodipodi:nodetypes="cc" />
   <path
+     id="2006"
+     style="fill:none;stroke:#808080;stroke-width:1px;marker-start:url(#TriangleStart);marker-end:none"
+     d="M 202.04779,146.55403 113.628,82"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="2007"
+     style="fill:none;stroke:#808080;stroke-width:1px;marker-start:url(#TriangleStart);marker-end:none"
+     d="M 291.19306,150.67695 132.43593,73.151395"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="2008"
+     style="fill:none;stroke:#808080;stroke-width:1px;marker-start:url(#TriangleStart);marker-end:none"
+     d="M 414.22209,150.25458 135.77,64.1833"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="2009"
+     style="fill:none;stroke:#808080;stroke-width:1px;stroke-dasharray:5, 5;marker-start:url(#TriangleStart);marker-end:none"
+     d="M 423.59622,146.28985 338.291,58.4696"
+     sodipodi:nodetypes="cc" />
+  <path
      id="1999"
-     style="fill:none;stroke:#808080;stroke-width:1px;marker-start:url(#Arrow1Lstart_808080_1.000000px);marker-end:none"
+     style="fill:none;stroke:#808080;stroke-width:1px;marker-start:url(#TriangleStart);marker-end:none"
      d="M 115.13013,148.46996 214.92188,59.112782"
      sodipodi:nodetypes="cc" />
   <path
      id="2000"
-     style="fill:none;stroke:#808080;stroke-width:1px;marker-start:url(#Arrow1Lstart_808080_1.000000px);marker-end:none"
+     style="fill:none;stroke:#808080;stroke-width:1px;marker-start:url(#TriangleStart);marker-end:none"
      d="M 122.35433,160.02875 461.292,58.4696"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="1990"
+     style="fill:none;stroke:#000000;stroke-width:2px;marker-start:url(#Arrow1Lstart_000000_2.000000px);marker-end:none"
+     d="M 70.1655,84.164176 V 148"
      sodipodi:nodetypes="cc" />
   <path
      id="2002"
@@ -341,24 +120,313 @@
      style="fill:none;stroke:#000000;stroke-width:2px;marker-start:url(#Arrow1Lstart_000000_2.000000px);marker-end:none"
      d="M 461.292,60.418747 V 148"
      sodipodi:nodetypes="cc" />
-  <path
-     id="2006"
-     style="fill:none;stroke:#808080;stroke-width:1px;marker-start:url(#Arrow1Lstart_808080_1.000000px);marker-end:none"
-     d="M 202.04779,146.55403 113.628,82"
-     sodipodi:nodetypes="cc" />
-  <path
-     id="2007"
-     style="fill:none;stroke:#808080;stroke-width:1px;marker-start:url(#Arrow1Lstart_808080_1.000000px);marker-end:none"
-     d="M 291.19306,150.67695 132.43593,73.151395"
-     sodipodi:nodetypes="cc" />
-  <path
-     id="2008"
-     style="fill:none;stroke:#808080;stroke-width:1px;marker-start:url(#Arrow1Lstart_808080_1.000000px);marker-end:none"
-     d="M 414.22209,150.25458 135.77,64.1833"
-     sodipodi:nodetypes="cc" />
-  <path
-     id="2009"
-     style="fill:none;stroke:#808080;stroke-width:1px;stroke-dasharray:5, 5;marker-start:url(#Arrow1Lstart_808080_1.000000px);marker-end:none"
-     d="M 423.59622,146.28985 338.291,58.4696"
-     sodipodi:nodetypes="cc" />
+  <g
+     id="g12786"
+     inkscape:label="g_developer_public">
+    <rect
+       id="1957"
+       width="106.079"
+       height="57.469601"
+       x="285.25201"
+       y="1"
+       rx="14.665257"
+       ry="28.7348"
+       style="fill:#d3f5d6;stroke:#5e5e5e;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="b_developer_public" />
+    <text
+       id="1957_text"
+       x="284.92096"
+       y="-1.6894522"
+       style="font-size:12px;font-family:Helvetica;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_developer_public"><tspan
+         id="1957_line1"
+         text-anchor="middle"
+         x="337.96045"
+         y="27.045349"
+         text-align="center"
+         font-family="LucidaGrande"
+         font-size="12px"
+         fill="#000000"
+         stroke="#000000">developer</tspan><tspan
+         id="1957_line2"
+         text-anchor="middle"
+         x="337.96045"
+         y="39.045345"
+         text-align="center"
+         font-family="LucidaGrande"
+         font-size="12px"
+         fill="#000000"
+         stroke="#000000">public</tspan></text>
+  </g>
+  <g
+     id="g12750"
+     inkscape:label="g_developer_public">
+    <rect
+       id="1972"
+       width="106.079"
+       height="57.469601"
+       x="162.252"
+       y="1"
+       rx="12.824134"
+       ry="28.7348"
+       style="fill:#d3f5d6;stroke:#5e5e5e;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="b_developer_public" />
+    <text
+       id="1972_text"
+       x="161.92094"
+       y="-1.6894522"
+       style="font-size:12px;font-family:Helvetica;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_developer_public"><tspan
+         id="1972_line1"
+         text-anchor="middle"
+         x="214.96045"
+         y="27.045349"
+         text-align="center"
+         font-family="LucidaGrande"
+         font-size="12px"
+         fill="#000000"
+         stroke="#000000">developer</tspan><tspan
+         id="1972_line2"
+         text-anchor="middle"
+         x="214.96045"
+         y="39.045345"
+         text-align="center"
+         font-family="LucidaGrande"
+         font-size="12px"
+         fill="#000000"
+         stroke="#000000">public</tspan></text>
+  </g>
+  <g
+     id="g12824"
+     inkscape:label="g_integration_manager">
+    <rect
+       id="1973"
+       width="106.079"
+       height="57.469601"
+       x="17.126001"
+       y="148"
+       rx="13.858974"
+       ry="28.7348"
+       style="fill:#ffada5;stroke:#5e5e5e;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="b_integration_manager" />
+    <text
+       id="1973_text"
+       x="50.75779"
+       y="150"
+       style="font-size:12px;line-height:1;font-family:Helvetica;text-align:center;text-anchor:middle;white-space:pre;inline-size:81.347;display:inline;fill:#000000;stroke:#000000;stroke-width:0"
+       transform="translate(19.352025,23.860754)"
+       xml:space="preserve"
+       inkscape:label="t_integration_manager"><tspan
+         x="50.75779"
+         y="150"
+         id="tspan14812"><tspan
+   style="font-family:LucidaGrande"
+   id="tspan14810">integration</tspan>
+</tspan><tspan
+         x="50.75779"
+         y="162.36919"
+         id="tspan14816"><tspan
+           style="font-family:LucidaGrande"
+           id="tspan14814">manager</tspan></tspan></text>
+  </g>
+  <g
+     id="g12878"
+     inkscape:label="g_developer_public">
+    <rect
+       id="1974"
+       width="106.079"
+       height="57.469601"
+       x="408.25302"
+       y="1"
+       rx="13.443372"
+       ry="28.7348"
+       style="fill:#d3f5d6;stroke:#5e5e5e;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="b_developer_public" />
+    <text
+       id="1974_text"
+       x="407.92197"
+       y="-1.6894522"
+       style="font-size:12px;font-family:Helvetica;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_developer_public"><tspan
+         id="1974_line1"
+         text-anchor="middle"
+         x="460.96146"
+         y="27.045349"
+         text-align="center"
+         font-family="LucidaGrande"
+         font-size="12px"
+         fill="#000000"
+         stroke="#000000">developer</tspan><tspan
+         id="1974_line2"
+         text-anchor="middle"
+         x="460.96146"
+         y="39.045345"
+         text-align="center"
+         font-family="LucidaGrande"
+         font-size="12px"
+         fill="#000000"
+         stroke="#000000">public</tspan></text>
+  </g>
+  <g
+     id="g12768"
+     inkscape:label="g_blessed_repository">
+    <rect
+       id="1987"
+       width="138.33099"
+       height="81"
+       x="1"
+       y="1"
+       rx="22.773148"
+       ry="40.5"
+       style="fill:#8ab5eb;stroke:#5e5e5e;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="b_blessed_repository" />
+    <text
+       id="1987_text"
+       x="0.63378787"
+       y="-1.6894531"
+       style="font-size:12px;font-family:Helvetica;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_blessed_repository"><tspan
+         id="1987_line1"
+         text-anchor="middle"
+         x="69.799286"
+         y="38.810547"
+         text-align="center"
+         font-family="LucidaGrande"
+         font-size="12px"
+         fill="#000000"
+         stroke="#000000">blessed</tspan><tspan
+         id="1987_line2"
+         text-anchor="middle"
+         x="69.799286"
+         y="50.810547"
+         text-align="center"
+         font-family="LucidaGrande"
+         font-size="12px"
+         fill="#000000"
+         stroke="#000000">repository</tspan></text>
+  </g>
+  <g
+     id="g12842"
+     inkscape:label="g_developer_private">
+    <rect
+       id="1991"
+       width="106.079"
+       height="57.469601"
+       x="285.25201"
+       y="148"
+       rx="14.037136"
+       ry="28.7348"
+       style="fill:#8ab891;stroke:#5e5e5e;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="b_developer_private" />
+    <text
+       id="1991_text"
+       x="284.92096"
+       y="145.31055"
+       style="font-size:12px;font-family:Helvetica;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_developer_private"><tspan
+         id="1991_line1"
+         text-anchor="middle"
+         x="337.96045"
+         y="174.04535"
+         text-align="center"
+         font-family="LucidaGrande"
+         font-size="12px"
+         fill="#000000"
+         stroke="#000000">developer</tspan><tspan
+         id="1991_line2"
+         text-anchor="middle"
+         x="337.96045"
+         y="186.04535"
+         text-align="center"
+         font-family="LucidaGrande"
+         font-size="12px"
+         fill="#000000"
+         stroke="#000000">private</tspan></text>
+  </g>
+  <g
+     id="g12804"
+     inkscape:label="g_developer_private">
+    <rect
+       id="1993"
+       width="106.079"
+       height="57.469601"
+       x="162.252"
+       y="148"
+       rx="13.920272"
+       ry="28.7348"
+       style="fill:#8ab891;stroke:#5e5e5e;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="b_developer_private" />
+    <text
+       id="1993_text"
+       x="161.92094"
+       y="145.31055"
+       style="font-size:12px;font-family:Helvetica;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_developer_private"><tspan
+         id="1993_line1"
+         text-anchor="middle"
+         x="214.96045"
+         y="174.04535"
+         text-align="center"
+         font-family="LucidaGrande"
+         font-size="12px"
+         fill="#000000"
+         stroke="#000000">developer</tspan><tspan
+         id="1993_line2"
+         text-anchor="middle"
+         x="214.96045"
+         y="186.04535"
+         text-align="center"
+         font-family="LucidaGrande"
+         font-size="12px"
+         fill="#000000"
+         stroke="#000000">private</tspan></text>
+  </g>
+  <g
+     id="g12860"
+     inkscape:label="g_developer_private">
+    <rect
+       id="1994"
+       width="106.079"
+       height="57.469601"
+       x="408.25302"
+       y="148"
+       rx="13.958593"
+       ry="28.7348"
+       style="fill:#8ab891;stroke:#5e5e5e;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="b_developer_private" />
+    <text
+       id="1994_text"
+       x="407.92197"
+       y="145.31055"
+       style="font-size:12px;font-family:Helvetica;fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:label="t_developer_private"><tspan
+         id="1994_line1"
+         text-anchor="middle"
+         x="460.96146"
+         y="174.04535"
+         text-align="center"
+         font-family="LucidaGrande"
+         font-size="12px"
+         fill="#000000"
+         stroke="#000000">developer</tspan><tspan
+         id="1994_line2"
+         text-anchor="middle"
+         x="460.96146"
+         y="186.04535"
+         text-align="center"
+         font-family="LucidaGrande"
+         font-size="12px"
+         fill="#000000"
+         stroke="#000000">private</tspan></text>
+  </g>
+  <metadata
+     id="metadata14733">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>
