@@ -22,9 +22,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.4567901"
-     inkscape:cx="228.92797"
-     inkscape:cy="121.15678"
+     inkscape:zoom="4.1204246"
+     inkscape:cx="118.67709"
+     inkscape:cy="161.51248"
      inkscape:window-width="1918"
      inkscape:window-height="1078"
      inkscape:window-x="0"
@@ -229,7 +229,7 @@
      inkscape:connection-start="#g3594"
      inkscape:connection-end="#g3577" /><text
      xml:space="preserve"
-     style="font-weight:bold;font-size:109.963px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     style="font-weight:bold;font-size:109.963px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
      x="95.204575"
      y="140.60632"
      id="text4998"
@@ -239,7 +239,7 @@
        id="tspan4996"
        x="95.204575"
        y="140.60632"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:109.963px;font-family:FreeSerif;-inkscape-font-specification:'FreeSerif Bold';stroke-width:0.3;stroke-dasharray:none">}</tspan></text><g
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:109.963px;font-family:FreeSerif;-inkscape-font-specification:'FreeSerif Bold';stroke-width:0;stroke-dasharray:none">}</tspan></text><g
      id="g3611"
      inkscape:label="g_commit"
      transform="translate(-233.81169,0.75000004)"><rect
@@ -255,7 +255,7 @@
        id="1215_text"
        x="240.582"
        y="89.209999"
-       style="font-size:10px;font-family:Inconsolata;fill:#cccccc;stroke:#cccccc;stroke-width:0"
+       style="font-size:10px;font-family:Inconsolata;fill:#cccccc;stroke:#cccccc;stroke-width:0;stroke-dasharray:none"
        inkscape:label="t_commit"><tspan
          id="1215_line1"
          text-anchor="middle"
@@ -265,7 +265,8 @@
          font-family="Inconsolata"
          font-size="10px"
          fill="#000000"
-         stroke="#000000">commit</tspan></text></g><g
+         stroke="#000000"
+         style="stroke-width:0;stroke-dasharray:none">commit</tspan></text></g><g
      id="g3611-8"
      inkscape:label="g_commit"
      transform="translate(-116.30595,47.75)"><rect
@@ -281,7 +282,7 @@
        id="1215_text-2"
        x="240.582"
        y="89.209999"
-       style="font-size:10px;font-family:Inconsolata;fill:#cccccc;stroke:#cccccc;stroke-width:0"
+       style="font-size:10px;font-family:Inconsolata;fill:#cccccc;stroke:#cccccc;stroke-width:0;stroke-dasharray:none"
        inkscape:label="t_commit"><tspan
          id="1215_line1-0"
          text-anchor="middle"
@@ -291,7 +292,8 @@
          font-family="Inconsolata"
          font-size="10px"
          fill="#000000"
-         stroke="#000000">C1</tspan></text></g><g
+         stroke="#000000"
+         style="stroke-width:0;stroke-dasharray:none">C1</tspan></text></g><g
      id="g3594"
      inkscape:label="g_tree"
      transform="translate(-233.81169,0.75000004)"><rect
@@ -307,7 +309,7 @@
        id="1216_text"
        x="246.76855"
        y="135.905"
-       style="font-size:10px;font-family:Inconsolata;fill:#cccccc;stroke:#cccccc;stroke-width:0"
+       style="font-size:10px;font-family:Inconsolata;fill:#cccccc;stroke:#cccccc;stroke-width:0;stroke-dasharray:none"
        inkscape:label="t_tree"><tspan
          id="1216_line1"
          text-anchor="middle"
@@ -317,7 +319,8 @@
          font-family="Inconsolata"
          font-size="10px"
          fill="#000000"
-         stroke="#000000">tree</tspan></text></g><g
+         stroke="#000000"
+         style="stroke-width:0;stroke-dasharray:none">tree</tspan></text></g><g
      id="g3577"
      inkscape:label="g_blob"
      transform="translate(-233.81169,0.75000004)"><rect
@@ -333,7 +336,7 @@
        id="1219_text"
        x="246.75197"
        y="183.25999"
-       style="font-size:10px;font-family:Inconsolata;fill:#cccccc;stroke:#cccccc;stroke-width:0"
+       style="font-size:10px;font-family:Inconsolata;fill:#cccccc;stroke:#cccccc;stroke-width:0;stroke-dasharray:none"
        inkscape:label="t_blob"><tspan
          id="1219_line1"
          text-anchor="middle"
@@ -343,7 +346,8 @@
          font-family="Inconsolata"
          font-size="10px"
          fill="#000000"
-         stroke="#000000">blob</tspan></text></g><g
+         stroke="#000000"
+         style="stroke-width:0;stroke-dasharray:none">blob</tspan></text></g><g
      id="g3628"
      inkscape:label="g_branch"
      transform="translate(-233.81169,0.75000004)"><rect
@@ -359,7 +363,7 @@
        id="1227_text"
        x="246.87199"
        y="42.264999"
-       style="font-size:10px;font-family:Inconsolata;fill:#cccccc;stroke:#cccccc;stroke-width:0"
+       style="font-size:10px;font-family:Inconsolata;fill:#cccccc;stroke:#cccccc;stroke-width:0;stroke-dasharray:none"
        inkscape:label="t_branch"><tspan
          id="1227_line1"
          text-anchor="middle"
@@ -369,7 +373,8 @@
          font-family="Inconsolata"
          font-size="10px"
          fill="#777777"
-         stroke="#777777">branch</tspan></text></g><g
+         stroke="#777777"
+         style="stroke-width:0;stroke-dasharray:none">branch</tspan></text></g><g
      id="g3628-6"
      inkscape:label="g_branch"
      transform="translate(-116.30595,0.75000304)"><rect
@@ -385,7 +390,7 @@
        id="1227_text-6"
        x="246.87199"
        y="42.264999"
-       style="font-size:10px;font-family:Inconsolata;fill:#cccccc;stroke:#cccccc;stroke-width:0"
+       style="font-size:10px;font-family:Inconsolata;fill:#cccccc;stroke:#cccccc;stroke-width:0;stroke-dasharray:none"
        inkscape:label="t_branch"><tspan
          id="1227_line1-1"
          text-anchor="middle"
@@ -395,7 +400,8 @@
          font-family="Inconsolata"
          font-size="10px"
          fill="#777777"
-         stroke="#777777">branch</tspan></text></g><g
+         stroke="#777777"
+         style="stroke-width:0;stroke-dasharray:none">branch</tspan></text></g><g
      id="g3645"
      inkscape:label="g_head"
      transform="translate(-233.81169,0.75000004)"><rect
@@ -411,7 +417,7 @@
        id="1228_text"
        x="251.76199"
        y="1.165"
-       style="font-size:10px;font-family:Inconsolata;fill:#cccccc;stroke:#cccccc;stroke-width:0"
+       style="font-size:10px;font-family:Inconsolata;fill:#cccccc;stroke:#cccccc;stroke-width:0;stroke-dasharray:none"
        inkscape:label="t_head"><tspan
          id="1228_line1"
          text-anchor="middle"
@@ -421,13 +427,8 @@
          font-family="Inconsolata"
          font-size="10px"
          fill="#777777"
-         stroke="#777777">HEAD</tspan></text></g><path
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m 148.04067,61.338212 -0.58696,-2.588209"
-     id="path5411"
-     inkscape:connector-type="polyline"
-     inkscape:connector-curvature="0"
-     inkscape:connection-end="#g3628-6" /><metadata
+         stroke="#777777"
+         style="stroke-width:0;stroke-dasharray:none">HEAD</tspan></text></g><metadata
      id="metadata5657"><rdf:RDF><cc:Work
          rdf:about=""><cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" /></cc:Work></rdf:RDF></metadata></svg>

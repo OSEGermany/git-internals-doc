@@ -23,8 +23,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.4047619"
-     inkscape:cx="95.0339"
-     inkscape:cy="117.1017"
+     inkscape:cx="64.423729"
+     inkscape:cy="117.81356"
      inkscape:window-width="1918"
      inkscape:window-height="1078"
      inkscape:window-x="0"
@@ -60,7 +60,7 @@
        id="800_text"
        x="269.04202"
        y="134.77174"
-       style="font-size:12px;font-family:Inconsolata;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+       style="font-size:12px;font-family:Inconsolata;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        inkscape:label="t_blob_simplegit_rb"><tspan
          id="800_line1"
          text-anchor="middle"
@@ -71,7 +71,7 @@
          font-size="12px"
          fill="#000000"
          stroke="#000000"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1">blob : a0a60a</tspan></text></g><g
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1">blob : a0a60a</tspan></text></g><g
      id="g32297-7"
      transform="translate(36.276434,9.1452907)"
      style="stroke:#7e7e7e;stroke-opacity:1"
@@ -88,7 +88,7 @@
        id="800_text-5"
        x="269.04202"
        y="134.77174"
-       style="font-size:12px;font-family:Inconsolata;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+       style="font-size:12px;font-family:Inconsolata;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        inkscape:label="t_blob_simplegit_rb"><tspan
          id="800_line1-2"
          text-anchor="middle"
@@ -99,7 +99,7 @@
          font-size="12px"
          fill="#000000"
          stroke="#000000"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1">blob : a906cb</tspan></text></g><g
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1">blob : a906cb</tspan></text></g><g
      id="g32297-5"
      transform="translate(36.276434,-43.302871)"
      style="stroke:#7e7e7e;stroke-opacity:1"
@@ -116,7 +116,7 @@
        id="800_text-4"
        x="269.04202"
        y="134.77174"
-       style="font-size:12px;font-family:Inconsolata;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+       style="font-size:12px;font-family:Inconsolata;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        inkscape:label="t_blob_simplegit_rb"><tspan
          id="800_line1-4"
          text-anchor="middle"
@@ -127,7 +127,7 @@
          font-size="12px"
          fill="#000000"
          stroke="#000000"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1">blob : a874b7</tspan></text></g><g
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1">blob : a874b7</tspan></text></g><g
      id="g32242"
      transform="translate(-5.7279656,25.120859)"
      inkscape:label="g_cwd"
@@ -144,7 +144,7 @@
        id="736_text"
        x="7.086359"
        y="13.805235"
-       style="font-size:12px;font-family:BryantPro-Medium;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+       style="font-size:12px;font-family:BryantPro-Medium;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        inkscape:label="t_cwd"><tspan
          id="736_line1"
          text-anchor="middle"
@@ -155,7 +155,7 @@
          font-size="12px"
          fill="#ffffff"
          stroke="#ffffff"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1">./</tspan></text></g><g
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1">./</tspan></text></g><g
      id="g32253"
      transform="translate(29.029854,39.187503)"
      inkscape:label="g_rakefile"><rect
@@ -171,7 +171,7 @@
        id="737_text"
        x="25.256758"
        y="52.842995"
-       style="font-size:12px;font-family:BryantPro-Medium;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+       style="font-size:12px;font-family:BryantPro-Medium;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        inkscape:label="t_rakefile"><tspan
          id="737_line1"
          text-anchor="middle"
@@ -182,7 +182,7 @@
          font-size="12px"
          fill="#ffffff"
          stroke="#ffffff"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1">Rakefile</tspan></text></g><g
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1">Rakefile</tspan></text></g><g
      id="g32264"
      transform="translate(140.69173,187.12738)"
      inkscape:label="g_readme"><rect
@@ -198,7 +198,7 @@
        id="740_text-6"
        x="-86.340668"
        y="-42.748329"
-       style="font-size:12px;font-family:BryantPro-Medium;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+       style="font-size:12px;font-family:BryantPro-Medium;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        inkscape:label="t_readme"><tspan
          id="740_line1-1"
          text-anchor="middle"
@@ -209,7 +209,7 @@
          font-size="12px"
          fill="#ffffff"
          stroke="#ffffff"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1">README</tspan></text></g><g
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1">README</tspan></text></g><g
      id="g32275"
      transform="translate(16.056144,127.59702)"
      inkscape:label="g_lib"
@@ -226,7 +226,7 @@
        id="739_text"
        x="37.934578"
        y="68.858124"
-       style="font-size:12px;font-family:BryantPro-Medium;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+       style="font-size:12px;font-family:BryantPro-Medium;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        inkscape:label="t_lib"><tspan
          id="739_line1"
          text-anchor="middle"
@@ -237,7 +237,7 @@
          font-size="12px"
          fill="#ffffff"
          stroke="#ffffff"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1">lib/</tspan></text></g><g
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1">lib/</tspan></text></g><g
      id="g32286"
      transform="translate(35.112294,113.54698)"
      inkscape:label="g_simplegit_rb"><rect
@@ -253,7 +253,7 @@
        id="740_text"
        x="72.00293"
        y="139.16672"
-       style="font-size:12px;font-family:BryantPro-Medium;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+       style="font-size:12px;font-family:BryantPro-Medium;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        inkscape:label="t_simplegit_rb"><tspan
          id="740_line1"
          text-anchor="middle"
@@ -264,7 +264,7 @@
          font-size="12px"
          fill="#ffffff"
          stroke="#ffffff"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1">simplegit.rb</tspan></text></g><text
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1">simplegit.rb</tspan></text></g><text
      id="713_text"
      x="47.462387"
      y="-5.34375"
