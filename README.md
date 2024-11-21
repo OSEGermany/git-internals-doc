@@ -17,8 +17,8 @@ SPDX-License-Identifier: CC-BY-SA-3.0
 [![In cooperation with Open Source Ecology Germany](
     https://raw.githubusercontent.com/osegermany/tiny-files/master/res/media/img/badge-oseg.svg)][OSEG]
 
-This PDF explains the internal workings
-of the Git source code control system.
+A document that explains the internal workings
+of the [Git source code control system][git].
 
 - [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/195px-PDF_file_icon.svg.png" alt="PDF file icon" height="32">
   PDF][pdf]
@@ -52,6 +52,7 @@ of the Git source code control system.
 [Creative Commons Attribution-ShareAlike 3.0][CC-BY-SA-3.0]
 
 [CC-BY-SA-3.0]: https://creativecommons.org/licenses/by-sa/3.0/
+[git]: https://git-scm.com/
 [epub]: https://osegermany.github.io/git-internals-doc/ebook/doc.epub
 [html]: https://osegermany.github.io/git-internals-doc/html/text/s0-c00-title.html
 [OSEG]: https://www.ose-germany.de/die-bewegung/
