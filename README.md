@@ -17,6 +17,8 @@ SPDX-License-Identifier: CC-BY-SA-3.0
 [![In cooperation with Open Source Ecology Germany](
     https://raw.githubusercontent.com/osegermany/tiny-files/master/res/media/img/badge-oseg.svg)][OSEG]
 
+<img src="artwork/title.svg" alt="Git Internals cover image" width="100%">
+
 A document that explains the internal workings
 of the [Git source code control system][git].
 
