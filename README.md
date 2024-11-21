@@ -49,6 +49,12 @@ of the [Git source code control system][git].
     alt="Open Source Ecology Germany logo"
     height="128">][OSEG]
 
+## Related
+
+- [Git Book - Git Internals (chapter 10)](
+  https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain);
+  the official documentation about Git internals.
+
 [CC-BY-SA-3.0]: https://creativecommons.org/licenses/by-sa/3.0/
 [git]: https://git-scm.com/
 [epub]: https://osegermany.github.io/git-internals-doc/ebook/doc.epub
