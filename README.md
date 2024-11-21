@@ -49,10 +49,6 @@ of the [Git source code control system][git].
     alt="Open Source Ecology Germany logo"
     height="128">][OSEG]
 
-## License
-
-[Creative Commons Attribution-ShareAlike 3.0][CC-BY-SA-3.0]
-
 [CC-BY-SA-3.0]: https://creativecommons.org/licenses/by-sa/3.0/
 [git]: https://git-scm.com/
 [epub]: https://osegermany.github.io/git-internals-doc/ebook/doc.epub
