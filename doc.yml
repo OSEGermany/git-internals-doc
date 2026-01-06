@@ -3,16 +3,11 @@
 # SPDX-License-Identifier: CC-BY-SA-3.0
 
 ---
-# See    Metadata variables
+# See `man pandoc | grep "Metadata variables"`
 title: |
   ![Git Internals book cover](artwork/title.svg){width=100%}
-#
-#  Git Internals
 # The `${KEY}` placeholders are supplied their final value by MoVeDo
-subtitle: |
-  *version:* [${PROJECT_VERSION}](${PROJECT_VERSION_URL})
-#  **Source code control and beyond**
-#
+subtitle: "*version:* [${PROJECT_VERSION}](${PROJECT_VERSION_URL})"
 version: "${PROJECT_VERSION}"
 date: "${PROJECT_VERSION_DATE}"
 #author: Scott Chacon & **the community**
@@ -40,4 +35,3 @@ description: >
   This document explains the internal workings
   of the Git source code control system.
 ---
-
