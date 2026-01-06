@@ -56,8 +56,10 @@ jobs:
 
       - name: "Build with MoVeDo"
         run: |
-          mvd install_pdsite
-          export PATH="$PATH:$HOME/.pdsite/bin"
+          # pdsite is not required, because we use mdbook here,
+          # which is already installed on the MoVeDo docker image.
+          #mvd install_pdsite
+          #export PATH="$PATH:$HOME/.pdsite/bin"
           mvd build
 
       - name: Upload artifact
