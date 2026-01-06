@@ -1,6 +1,6 @@
 <!--
 SPDX-FileCopyrightText: 2013 Geoffrey Grosenbach <boss@topfunky.com>
-SPDX-FileCopyrightText: 2023-2024 Robin Vobruba <hoijui.quaero@gmail.com>
+SPDX-FileCopyrightText: 2023-2026 Robin Vobruba <hoijui.quaero@gmail.com>
 
 SPDX-License-Identifier: CC-BY-SA-3.0
 -->
@@ -10,6 +10,9 @@ SPDX-License-Identifier: CC-BY-SA-3.0
 [![License: CC-BY-SA-3.0](
     https://img.shields.io/badge/License-CC--BY--SA--3.0-blue.svg)](
     LICENSE.txt)
+[![generate documents - status badge](
+    https://github.com/OSEGermany/git-internals-doc/actions/workflows/generate_documents.yml/badge.svg)](
+    https://github.com/OSEGermany/git-internals-doc/actions/workflows/generate_documents.yml)
 [![REUSE status](
     https://api.reuse.software/badge/github.com/osegermany/git-internals-pdf)](
     https://api.reuse.software/info/github.com/osegermany/git-internals-pdf)
