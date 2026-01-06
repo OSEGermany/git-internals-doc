@@ -1,11 +1,11 @@
+# Git Internals PDF
+
 <!--
 SPDX-FileCopyrightText: 2013 Geoffrey Grosenbach <boss@topfunky.com>
 SPDX-FileCopyrightText: 2023-2026 Robin Vobruba <hoijui.quaero@gmail.com>
 
 SPDX-License-Identifier: CC-BY-SA-3.0
 -->
-
-# Git Internals PDF
 
 [![License: CC-BY-SA-3.0](
     https://img.shields.io/badge/License-CC--BY--SA--3.0-blue.svg)](
