@@ -40,8 +40,11 @@ jobs:
           # https://github.com/actions/checkout/issues/701
           fetch-depth: 0
 
+      - name: "Extract repos name"
+        run: echo "REPO_NAME=${{ github.event.repository.name }}" >> $GITHUB_ENV
+
       - name: "Fix git repo rights"
-        run: git config --global --add safe.directory /__w/git-internals-doc/git-internals-doc
+        run: git config --global --add safe.directory "/__w/$REPO_NAME/$REPO_NAME"
 
       - name: Fix checkout ownership
         run: |
