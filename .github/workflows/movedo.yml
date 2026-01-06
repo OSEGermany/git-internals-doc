@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: Unlicense
 
-name: movedo
+name: generate documents
 
 on:
   push:
