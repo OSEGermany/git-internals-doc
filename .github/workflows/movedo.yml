@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+# SPDX-FileCopyrightText: 2023 - 2026 Robin Vobruba <hoijui.quaero@gmail.com>
 #
 # SPDX-License-Identifier: Unlicense
 
@@ -30,7 +30,7 @@ jobs:
     container: hoijui/movedo:latest
     steps:
       - name: "Check out the repo"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: true
           # This makes sure we also get tags,
@@ -56,7 +56,7 @@ jobs:
           mvd build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "build/"
 
@@ -70,4 +70,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
