@@ -8,8 +8,7 @@ SPDX-License-Identifier: CC-BY-SA-3.0
 -->
 
 [![License: CC-BY-SA-3.0](
-    https://img.shields.io/badge/License-CC--BY--SA--3.0-blue.svg)](
-    LICENSE.txt)
+    https://img.shields.io/badge/License-CC--BY--SA--3.0-blue.svg)][CC-BY-SA-3.0]
 [![generate documents - status badge](
     https://github.com/OSEGermany/git-internals-doc/actions/workflows/generate_documents.yml/badge.svg)](
     https://github.com/OSEGermany/git-internals-doc/actions/workflows/generate_documents.yml)
