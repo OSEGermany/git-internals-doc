@@ -54,6 +54,8 @@ We create a new branch called `experiment` off of our main branch,
 which is by convention called `master`.
 We then switch to the new branch and create a few commits.
 
+Note: it is common nowadays to use `main` as the initial branch name instead of `master`.
+
 ![](../artwork/diagrams/branch-story1.svg)
 
 Then,
